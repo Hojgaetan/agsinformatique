@@ -13,7 +13,7 @@ export function Header() {
           <div className="flex items-center space-x-6">
             <div className="flex items-center space-x-2">
               <Phone className="h-4 w-4 text-blue-600" />
-              <span className="text-sm text-gray-600">+225 XX XX XX XX XX</span>
+              <span className="text-sm text-gray-600">+221 77 387 00 30</span>
             </div>
             <div className="flex items-center space-x-2">
               <Mail className="h-4 w-4 text-blue-600" />
