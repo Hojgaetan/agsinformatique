@@ -9,13 +9,12 @@ export function Hero() {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           <div>
             <h1 className="text-4xl md:text-5xl text-gray-900 mb-6">
-              Votre partenaire de confiance en{" "}
-              <span className="text-blue-600">solutions informatiques</span>
+              L'Excellence Informatique <br />{" "}
+              <span className="text-blue-600">Au Service de Votre Réussite</span>
             </h1>
             <p className="text-xl text-gray-600 mb-8 leading-relaxed">
               Africa's Global Services vous accompagne dans tous vos besoins informatiques : 
               vente d'équipements, maintenance, réparation, réseaux et câblage. 
-              Une expertise africaine au service de votre réussite technologique.
             </p>
             
             <div className="flex flex-col sm:flex-row gap-4 mb-12">
@@ -56,7 +55,7 @@ export function Hero() {
           <div className="relative">
             <div className="relative z-10">
               <ImageWithFallback
-                src="https://images.unsplash.com/photo-1531482984755-b51a25295306?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxvZmZpY2UlMjB0ZWNobm9sb2d5JTIwYWZyaWNhfGVufDF8fHx8MTc1OTI0NjgyN3ww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral"
+                src="/images/imagebanniere.png" // Chemin depuis le dossier public
                 alt="Équipe Africa's Global Services"
                 className="w-full h-[500px] object-cover rounded-2xl shadow-2xl"
               />
