@@ -8,14 +8,14 @@ export function Services() {
       icon: <ShoppingCart className="h-8 w-8 text-blue-600" />,
       title: "Vente de Matériel Informatique",
       description: "Large gamme d'ordinateurs, serveurs, périphériques et accessoires informatiques de marques reconnues.",
-      image: "https://images.unsplash.com/photo-1645385890999-43dcd4f4a703?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxsYXB0b3AlMjBjb21wdXRlcnMlMjBzdG9yZXxlbnwxfHx8fDE3NTkyNDY4Mjd8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
+      image: "/images/materiels.png",
       features: ["Ordinateurs portables et de bureau", "Serveurs d'entreprise", "Périphériques et accessoires", "Garantie constructeur"]
     },
     {
       icon: <Wrench className="h-8 w-8 text-green-600" />,
       title: "Maintenance & Réparation",
       description: "Services de maintenance préventive et curative pour tous types d'équipements informatiques.",
-      image: "https://images.unsplash.com/photo-1738262039504-54d6b4a542ab?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxjb21wdXRlciUyMHJlcGFpciUyMG1haW50ZW5hbmNlfGVufDF8fHx8MTc1OTI0NjgyNnww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
+      image: "/images/image-maintenance.png",
       features: ["Diagnostic complet", "Réparation sur site", "Maintenance préventive", "Remplacement de pièces"]
     },
     {
@@ -29,21 +29,21 @@ export function Services() {
       icon: <Settings className="h-8 w-8 text-orange-600" />,
       title: "Installation & Configuration",
       description: "Installation et configuration de systèmes d'exploitation, logiciels et applications métier.",
-      image: "https://images.unsplash.com/photo-1642736670762-dd634932a212?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxjb21wdXRlciUyMGhhcmR3YXJlJTIwdGVjaG5vbG9neXxlbnwxfHx8fDE3NTkyNDY4MjV8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
+      image: "/images/install.png",
       features: ["Systèmes d'exploitation", "Logiciels métier", "Configuration sécurisée", "Migration de données"]
     },
     {
       icon: <Headphones className="h-8 w-8 text-red-600" />,
       title: "Support Technique",
       description: "Assistance technique à distance et sur site pour résoudre tous vos problèmes informatiques.",
-      image: "https://images.unsplash.com/photo-1683770997177-0603bd44d070?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxwcm9mZXNzaW9uYWwlMjB0ZWFtJTIwb2ZmaWNlfGVufDF8fHx8MTc1OTIxNjIxNXww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
+      image: "/images/assitance.png",
       features: ["Support 24h/7j", "Assistance à distance", "Formation utilisateurs", "Documentation technique"]
     },
     {
       icon: <Laptop className="h-8 w-8 text-teal-600" />,
       title: "Consulting IT",
       description: "Conseil en stratégie informatique pour optimiser votre infrastructure et vos processus.",
-      image: "https://images.unsplash.com/photo-1531482984755-b51a25295306?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxvZmZpY2UlMjB0ZWNobm9sb2d5JTIwYWZyaWNhfGVufDF8fHx8MTc1OTI0NjgyN3ww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
+      image: "/images/assistance.png",
       features: ["Audit informatique", "Stratégie IT", "Optimisation des coûts", "Modernisation"]
     }
   ];
@@ -68,7 +68,7 @@ export function Services() {
                 <ImageWithFallback
                   src={service.image}
                   alt={service.title}
-                  className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
+                  className="w-full h-full object-contain group-hover:scale-110 transition-transform duration-300"
                 />
                 <div className="absolute top-4 left-4 bg-white p-3 rounded-full shadow-lg">
                   {service.icon}
