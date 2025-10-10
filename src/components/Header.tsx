@@ -1,5 +1,6 @@
 import { Button } from "./ui/button";
 import { Menu, Phone, Mail } from "lucide-react";
+import { FaWhatsapp } from "react-icons/fa";
 import { useState } from "react";
 
 export function Header() {
@@ -17,7 +18,7 @@ export function Header() {
             </div>
             <div className="flex items-center space-x-2">
               <Mail className="h-4 w-4 text-blue-600" />
-              <span className="text-sm text-gray-600">contact@africasglobalservices.com</span>
+              <span className="text-sm text-gray-600">contact@agsinformatique.sn</span>
             </div>
           </div>
         </div>
@@ -36,23 +37,27 @@ export function Header() {
 
           {/* Desktop Navigation */}
           <nav className="hidden md:flex items-center space-x-8">
-            <a href="#accueil" className="text-gray-700 hover:text-blue-600 transition-colors">
-              Accueil
-            </a>
-            <a href="#services" className="text-gray-700 hover:text-blue-600 transition-colors">
-              Services
-            </a>
-            <a href="#produits" className="text-gray-700 hover:text-blue-600 transition-colors">
-              Produits
-            </a>
-            <a href="#apropos" className="text-gray-700 hover:text-blue-600 transition-colors">
-              À propos
-            </a>
-            <a href="#contact" className="text-gray-700 hover:text-blue-600 transition-colors">
-              Contact
-            </a>
-            <Button className="bg-blue-600 hover:bg-blue-700">
-              Devis gratuit
+            <Button asChild>
+              <a
+                href="https://wa.me/221773870030"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Contactez-nous sur WhatsApp"
+                // Fallback inline styles to guarantee visible green background
+                style={{
+                  backgroundColor: "#25D366",
+                  color: "#fff",
+                  display: "inline-flex",
+                  alignItems: "center",
+                  gap: "0.5rem",
+                  padding: "0.5rem 1rem",
+                  borderRadius: "0.375rem",
+                }}
+                className="text-white"
+              >
+                <FaWhatsapp size={16} />
+                <span>WhatsApp</span>
+              </a>
             </Button>
           </nav>
 
@@ -69,23 +74,26 @@ export function Header() {
         {isMenuOpen && (
           <nav className="md:hidden pb-4 border-t border-gray-100">
             <div className="flex flex-col space-y-4 pt-4">
-              <a href="#accueil" className="text-gray-700 hover:text-blue-600">
-                Accueil
-              </a>
-              <a href="#services" className="text-gray-700 hover:text-blue-600">
-                Services
-              </a>
-              <a href="#produits" className="text-gray-700 hover:text-blue-600">
-                Produits
-              </a>
-              <a href="#apropos" className="text-gray-700 hover:text-blue-600">
-                À propos
-              </a>
-              <a href="#contact" className="text-gray-700 hover:text-blue-600">
-                Contact
-              </a>
-              <Button className="bg-blue-600 hover:bg-blue-700 w-fit">
-                Devis gratuit
+              <Button asChild>
+                <a
+                  href="https://wa.me/221773870030"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="Contactez-nous sur WhatsApp"
+                  style={{
+                    backgroundColor: "#25D366",
+                    color: "#fff",
+                    display: "inline-flex",
+                    alignItems: "center",
+                    gap: "0.5rem",
+                    padding: "0.5rem 1rem",
+                    borderRadius: "0.375rem",
+                  }}
+                  className="text-white w-fit"
+                >
+                  <FaWhatsapp size={16} />
+                  <span>WhatsApp</span>
+                </a>
               </Button>
             </div>
           </nav>
