@@ -78,22 +78,22 @@ export function Footer() {
               </div>
             </div>
             <p className="text-gray-300 mb-6 leading-relaxed">
-              Votre partenaire de confiance pour tous vos besoins informatiques en Afrique. 
-              Plus de 10 ans d'expertise au service de votre réussite technologique.
+              Votre partenaire de confiance pour tous vos besoins informatiques à Dakar.
+              Plus de 20 ans d'expertises au service des entreprises.
             </p>
             
             <div className="space-y-3">
               <div className="flex items-center space-x-3">
                 <MapPin className="h-5 w-5 text-blue-400" />
-                <span className="text-gray-300">Abidjan, Côte d'Ivoire</span>
+                <span className="text-gray-300">Dakar, Sénégal</span>
               </div>
               <div className="flex items-center space-x-3">
                 <Phone className="h-5 w-5 text-green-400" />
-                <span className="text-gray-300">+225 XX XX XX XX XX</span>
+                <span className="text-gray-300">221 77 387 00 30</span>
               </div>
               <div className="flex items-center space-x-3">
                 <Mail className="h-5 w-5 text-purple-400" />
-                <span className="text-gray-300">contact@africasglobalservices.com</span>
+                <span className="text-gray-300">contact@agsinformatique.sn</span>
               </div>
             </div>
           </div>
