@@ -2,6 +2,7 @@ import { Button } from "./ui/button";
 import { Menu, Phone, Mail } from "lucide-react";
 import { FaWhatsapp } from "react-icons/fa";
 import { useState } from "react";
+import { Link } from "react-router-dom";
 
 export function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -25,7 +26,7 @@ export function Header() {
 
         {/* Main navigation */}
         <div className="flex items-center justify-between py-4">
-          <div className="flex items-center">
+          <Link to="/" className="flex items-center" aria-label="Accueil">
             <div className="bg-blue-600 text-white p-2 rounded-lg mr-3">
               <span className="font-bold text-xl">AGS</span>
             </div>
@@ -33,10 +34,11 @@ export function Header() {
               <h1 className="text-xl text-gray-800">Africa's Global Services</h1>
               <p className="text-sm text-gray-600">Solutions Informatiques</p>
             </div>
-          </div>
+          </Link>
 
           {/* Desktop Navigation */}
-          <nav className="hidden md:flex items-center space-x-8">
+          <nav className="hidden md:flex items-center space-x-6">
+            <Link to="/produits" className="text-gray-700 hover:text-blue-700 text-sm">Produits</Link>
             <Button asChild>
               <a
                 href="https://wa.me/221773870030"
@@ -74,6 +76,7 @@ export function Header() {
         {isMenuOpen && (
           <nav className="md:hidden pb-4 border-t border-gray-100">
             <div className="flex flex-col space-y-4 pt-4">
+              <Link to="/produits" className="text-gray-700" onClick={() => setIsMenuOpen(false)}>Produits</Link>
               <Button asChild>
                 <a
                   href="https://wa.me/221773870030"
