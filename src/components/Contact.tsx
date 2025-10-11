@@ -11,26 +11,26 @@ export function Contact() {
     {
       icon: <MapPin className="h-6 w-6 text-blue-600" />,
       title: "Adresse",
-      content: "Abidjan, Côte d'Ivoire\nPlateau - Zone 4",
+      content: "54x65 Geule Tapée Résidence Cheikh Bamba NDIONGUE ",
       description: "Siège social"
     },
     {
       icon: <Phone className="h-6 w-6 text-green-600" />,
       title: "Téléphone",
-      content: "+225 XX XX XX XX XX\n+225 XX XX XX XX XX",
-      description: "Support 24h/7j"
+      content: "+221 387 00 30\n 33 822 63 67",
+      description: "Support 24h/6j"
     },
     {
       icon: <Mail className="h-6 w-6 text-purple-600" />,
       title: "Email",
-      content: "contact@africasglobalservices.com\nsupport@africasglobalservices.com",
+      content: "contact@africasglobalservices.sn",
       description: "Réponse sous 24h"
     },
     {
       icon: <Clock className="h-6 w-6 text-orange-600" />,
       title: "Horaires",
       content: "Lun - Ven: 8h00 - 18h00\nSam: 8h00 - 13h00",
-      description: "Support d'urgence 24h/7j"
+      description: "Fermé les dimanches"
     }
   ];
 
