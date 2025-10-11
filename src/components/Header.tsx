@@ -26,8 +26,8 @@ export function Header() {
         {/* Main navigation */}
         <div className="flex items-center justify-between py-4">
           <div className="flex items-center">
-            <div className="bg-blue-600 text-white p-2 rounded-lg mr-3">
-              <span className="font-bold text-xl">AGS</span>
+            <div className="bg-blue-600 text-white rounded-lg mr-3">
+                <img src="/images/logo-ags.jpg" alt="AGS Logo" className="h-12 w-12"/>
             </div>
             <div>
               <h1 className="text-xl text-gray-800">Africa's Global Services</h1>

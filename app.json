@@ -1,0 +1,202 @@
+{
+  "name": "Africa's Global Services",
+  "brand": "AGS Informatique",
+  "slogan": "Solutions Informatiques",
+  "version": "0.1.0",
+  "locale": "fr-SN",
+  "title": "Prototype for Africa's Global Services",
+  "description": "Votre partenaire de confiance pour tous vos besoins informatiques à Dakar. Vente de matériel, maintenance, réseaux & câblage, installation, support technique et consulting.",
+  "contact": {
+    "phone": "+221 77 387 00 30",
+    "email": "contact@agsinformatique.sn",
+    "whatsapp": "https://wa.me/221773870030",
+    "address": {
+      "city": "Dakar",
+      "country": "Sénégal"
+    }
+  },
+  "assets": {
+    "logo": "/images/logo-ags.jpg",
+    "hero": "/images/imagebanniere.png",
+    "favicon": {
+      "ico": "/favicon.ico",
+      "png16": "/favicon-16x16.png",
+      "png32": "/favicon-32x32.png",
+      "svg": "/favicon.svg",
+      "appleTouch": "/apple-touch-icon.png",
+      "manifest": "/site.webmanifest",
+      "maskIcon": "/safari-pinned-tab.svg",
+      "themeColor": "#2563EB",
+      "backgroundColor": "#FFFFFF",
+      "fallback": "/images/logo-ags.jpg"
+    }
+  },
+  "navigation": [
+    { "id": "accueil", "label": "Accueil", "href": "#accueil" },
+    { "id": "services", "label": "Services", "href": "#services" },
+    { "id": "produits", "label": "Produits", "href": "#produits" },
+    { "id": "apropos", "label": "À Propos", "href": "#apropos" },
+    { "id": "contact", "label": "Contact", "href": "#contact" }
+  ],
+  "services": [
+    {
+      "title": "Vente de Matériel Informatique",
+      "description": "Large gamme d'ordinateurs, serveurs, périphériques et accessoires informatiques de marques reconnues.",
+      "image": "/images/materiels.png",
+      "features": [
+        "Ordinateurs portables et de bureau",
+        "Serveurs d'entreprise",
+        "Périphériques et accessoires",
+        "Garantie constructeur"
+      ]
+    },
+    {
+      "title": "Maintenance & Réparation",
+      "description": "Services de maintenance préventive et curative pour tous types d'équipements informatiques.",
+      "image": "/images/image-maintenance.png",
+      "features": [
+        "Diagnostic complet",
+        "Réparation sur site",
+        "Maintenance préventive",
+        "Remplacement de pièces"
+      ]
+    },
+    {
+      "title": "Réseaux & Câblage",
+      "description": "Conception, installation et maintenance de réseaux informatiques et infrastructure de câblage.",
+      "image": "https://images.unsplash.com/photo-1629837093109-11325d6e7afd?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxuZXR3b3JrJTIwY2FibGVzJTIwc2VydmVyJTIwcm9vbXxlbnwxfHx8fDE3NTkyNDY4MjZ8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
+      "features": [
+        "Câblage structuré",
+        "Configuration de routeurs",
+        "Réseaux Wi-Fi",
+        "Sécurité réseau"
+      ]
+    },
+    {
+      "title": "Installation & Configuration",
+      "description": "Installation et configuration de systèmes d'exploitation, logiciels et applications métier.",
+      "image": "/images/install.png",
+      "features": [
+        "Systèmes d'exploitation",
+        "Logiciels métier",
+        "Configuration sécurisée",
+        "Migration de données"
+      ]
+    },
+    {
+      "title": "Support Technique",
+      "description": "Assistance technique à distance et sur site pour résoudre tous vos problèmes informatiques.",
+      "image": "/images/assitance.png",
+      "features": [
+        "Support 24h/7j",
+        "Assistance à distance",
+        "Formation utilisateurs",
+        "Documentation technique"
+      ]
+    },
+    {
+      "title": "Consulting IT",
+      "description": "Conseil en stratégie informatique pour optimiser votre infrastructure et vos processus.",
+      "image": "/images/assistance.png",
+      "features": [
+        "Audit informatique",
+        "Stratégie IT",
+        "Optimisation des coûts",
+        "Modernisation"
+      ]
+    }
+  ],
+  "productCategories": [
+    {
+      "title": "Ordinateurs & Laptops",
+      "description": "Gamme complète d'ordinateurs de bureau et portables pour tous usages",
+      "items": [
+        "Ordinateurs de bureau",
+        "Laptops professionnels",
+        "Stations de travail",
+        "Mini PC"
+      ]
+    },
+    {
+      "title": "Serveurs & Infrastructure",
+      "description": "Solutions serveurs et équipements réseau pour entreprises",
+      "items": [
+        "Serveurs tour",
+        "Serveurs rack",
+        "Switches réseau",
+        "Routeurs"
+      ]
+    },
+    {
+      "title": "Périphériques",
+      "description": "Accessoires et périphériques informatiques essentiels",
+      "items": [
+        "Imprimantes laser",
+        "Scanners",
+        "Écrans",
+        "Projecteurs"
+      ]
+    },
+    {
+      "title": "Stockage & Mémoire",
+      "description": "Solutions de stockage et composants mémoire",
+      "items": [
+        "Disques SSD",
+        "Disques durs externes",
+        "Mémoire RAM",
+        "NAS"
+      ]
+    },
+    {
+      "title": "Réseaux & Sécurité",
+      "description": "Équipements réseau et solutions de sécurité informatique",
+      "items": [
+        "Points d'accès Wi-Fi",
+        "Firewalls",
+        "Caméras IP",
+        "UPS"
+      ]
+    },
+    {
+      "title": "Mobiles & Tablettes",
+      "description": "Smartphones et tablettes pour usage professionnel",
+      "items": [
+        "Smartphones pro",
+        "Tablettes",
+        "Accessoires mobiles",
+        "Solutions MDM"
+      ]
+    }
+  ],
+  "social": {
+    "facebook": null,
+    "twitter": null,
+    "linkedin": null,
+    "instagram": null
+  },
+  "legal": {
+    "privacyPolicy": "#",
+    "termsOfUse": "#",
+    "mentionsLegales": "#",
+    "copyright": "© 2024 Africa's Global Services. Tous droits réservés."
+  },
+  "seo": {
+    "metaTitle": "Africa's Global Services - Solutions Informatiques à Dakar",
+    "metaDescription": "Vente de matériel, maintenance & réparation, réseaux & câblage, installation, support technique et consulting. Intervention rapide, solutions fiables, équipe experte.",
+    "keywords": [
+      "AGS",
+      "Africa's Global Services",
+      "informatique",
+      "vente matériel",
+      "maintenance",
+      "réseaux",
+      "câblage",
+      "installation",
+      "support technique",
+      "consulting",
+      "Dakar",
+      "Sénégal"
+    ]
+  }
+}
+
