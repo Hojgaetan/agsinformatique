@@ -29,19 +29,19 @@ export function About() {
   const values = [
     {
       title: "Excellence",
-      description: "Nous nous engageons à fournir des solutions de la plus haute qualité, en respectant les standards internationaux."
+      description: "Nous plaçons l’excellence au cœur de chaque solution, en garantissant une qualité supérieure et une fiabilité irréprochable."
     },
     {
       title: "Innovation",
-      description: "Nous restons à la pointe de la technologie pour offrir les solutions les plus modernes et efficaces."
+      description: "Allier créativité et technologie pour offrir des solutions toujours plus efficaces et avant-gardistes"
     },
     {
       title: "Proximité",
-      description: "Une approche personnalisée et un accompagnement sur mesure pour chaque client et chaque projet."
+      description: "Nous plaçons chaque client au cœur de notre démarche, avec un accompagnement personnalisé et adapté à chaque projet."
     },
     {
       title: "Fiabilité",
-      description: "Des partenariats durables basés sur la confiance, la transparence et le respect des engagements."
+      description: "Nous construisons des partenariats solides, en tenant toujours nos promesses et en garantissant la transparence."
     }
   ];
 

@@ -19,7 +19,7 @@ export function Footer() {
     "Périphériques",
     "Stockage & Mémoire",
     "Réseaux & Sécurité",
-    "Mobiles & Tablettes"
+    "Application avec licence et Antivirus"
   ];
 
   const company = [
@@ -78,8 +78,7 @@ export function Footer() {
               </div>
             </div>
             <p className="text-gray-300 mb-6 leading-relaxed">
-              Votre partenaire de confiance pour tous vos besoins informatiques à Dakar.
-              Plus de 20 ans d'expertises au service des entreprises.
+             Avec +20 ans d’expertise pour accompagner la transformation numérique de nos Clients.
             </p>
             
             <div className="space-y-3">
@@ -160,7 +159,8 @@ export function Footer() {
         {/* Bottom Footer */}
         <div className="flex flex-col md:flex-row justify-between items-center gap-6">
           <div className="text-gray-400 text-sm">
-            © 2024 Africa's Global Services. Tous droits réservés.
+         © 2024 Africa’s Global Services (AGS Informatique).<br></br> Tous droits réservés.
+        Propulsons l’Afrique vers le numérique.
           </div>
 
           {/* Social Links */}
