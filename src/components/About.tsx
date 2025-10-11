@@ -11,12 +11,12 @@ export function About() {
     },
     {
       icon: <Award className="h-8 w-8 text-green-600" />,
-      number: "10+",
+      number: "20+",
       label: "Années d'expérience"
     },
     {
       icon: <Clock className="h-8 w-8 text-purple-600" />,
-      number: "24h/7j",
+      number: "24h/6j",
       label: "Support technique"
     },
     {
@@ -29,19 +29,19 @@ export function About() {
   const values = [
     {
       title: "Excellence",
-      description: "Nous nous engageons à fournir des solutions de la plus haute qualité, en respectant les standards internationaux."
+      description: "Nous plaçons l’excellence au cœur de chaque solution, en garantissant une qualité supérieure et une fiabilité irréprochable."
     },
     {
       title: "Innovation",
-      description: "Nous restons à la pointe de la technologie pour offrir les solutions les plus modernes et efficaces."
+      description: "Allier créativité et technologie pour offrir des solutions toujours plus efficaces et avant-gardistes"
     },
     {
       title: "Proximité",
-      description: "Une approche personnalisée et un accompagnement sur mesure pour chaque client et chaque projet."
+      description: "Nous plaçons chaque client au cœur de notre démarche, avec un accompagnement personnalisé et adapté à chaque projet."
     },
     {
       title: "Fiabilité",
-      description: "Des partenariats durables basés sur la confiance, la transparence et le respect des engagements."
+      description: "Nous construisons des partenariats solides, en tenant toujours nos promesses et en garantissant la transparence."
     }
   ];
 
@@ -53,8 +53,9 @@ export function About() {
             À Propos d'Africa's Global Services
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            Votre partenaire de confiance pour tous vos besoins informatiques en Afrique
-            et dans le monde.
+           Chez Africa’s Global Services, nous connectons l’Afrique au monde grâce
+            à des solutions informatiques sur mesure, performantes et accessibles. 
+            Notre ambition : faire du numérique un levier de compétitivité et d’excellence pour chaque entreprise.
           </p>
         </div>
 
@@ -63,30 +64,31 @@ export function About() {
             <h3 className="text-2xl text-gray-900 mb-6">Notre Histoire</h3>
             <div className="space-y-4 text-gray-600">
               <p>
-                Fondée avec la vision de démocratiser l'accès aux technologies informatiques 
-                en Afrique, Africa's Global Services s'est imposée comme un acteur incontournable 
-                du secteur informatique sur le continent.
+               Fondée avec la vision de rendre les technologies informatiques accessibles à tous, 
+               Africa’s Global Services (AGS Informatique) s’est progressivement imposée comme
+                un acteur majeur du secteur numérique en Afrique.
+            
               </p>
               <p>
-                Depuis plus de 10 ans, nous accompagnons les entreprises, les institutions 
-                et les particuliers dans leur transformation numérique, en proposant des solutions 
-                adaptées aux réalités et aux besoins spécifiques du marché africain.
+                Depuis plus de vingt ans, nous accompagnons entreprises, institutions et
+                particuliers dans leur transformation digitale en leur offrant des solutions
+                 sur mesure, pensées pour répondre aux réalités du marché africain.
               </p>
               <p>
-                Notre expertise couvre l'ensemble de la chaîne de valeur informatique : 
-                de la fourniture d'équipements à la maintenance, en passant par l'installation, 
-                la configuration et le support technique.
+                
+                Notre expertise s’étend sur l’ensemble de la chaîne de valeur informatique : 
+                fourniture d’équipements, installation, configuration, maintenance et support technique.
               </p>
             </div>
           </div>
 
-          <div className="relative">
-            <ImageWithFallback
-              src="https://images.unsplash.com/photo-1683770997177-0603bd44d070?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxwcm9mZXNzaW9uYWwlMjB0ZWFtJTIwb2ZmaWNlfGVufDF8fHx8MTc1OTIxNjIxNXww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral"
-              alt="Équipe Africa's Global Services"
-              className="w-full h-[400px] object-cover rounded-2xl shadow-lg"
-            />
-          </div>
+         <div className="relative">
+  <ImageWithFallback
+    src="/images/img.png"
+    alt="Équipe Africa's Global Services"
+    className="w-full h-[400px] object-contain rounded-2xl shadow-lg bg-gray-100"
+  />
+</div>
         </div>
 
         {/* Statistics */}
@@ -125,9 +127,11 @@ export function About() {
         <div className="bg-blue-600 rounded-2xl p-8 md:p-12 text-center text-white mt-20">
           <h3 className="text-2xl md:text-3xl mb-6">Notre Mission</h3>
           <p className="text-lg md:text-xl leading-relaxed max-w-4xl mx-auto">
-            Accompagner la transformation numérique de l'Afrique en fournissant des solutions 
-            informatiques fiables, innovantes et accessibles, tout en contribuant au développement 
-            des compétences locales et à la croissance économique du continent.
+           Chez AGS Informatique, notre mission est d’accompagner la transformation numérique 
+          de l’Afrique en proposant des solutions technologiques fiables, innovantes et accessibles à tous.
+          Nous plaçons l’excellence, la confiance et le développement des compétences locales au cœur de 
+          notre démarche afin de bâtir un écosystème numérique solide, créateur d’opportunités et moteur
+           de croissance durable pour le continent africain.
           </p>
         </div>
       </div>
