@@ -125,9 +125,11 @@ export function About() {
         <div className="bg-blue-600 rounded-2xl p-8 md:p-12 text-center text-white mt-20">
           <h3 className="text-2xl md:text-3xl mb-6">Notre Mission</h3>
           <p className="text-lg md:text-xl leading-relaxed max-w-4xl mx-auto">
-            Accompagner la transformation numérique de l'Afrique en fournissant des solutions 
-            informatiques fiables, innovantes et accessibles, tout en contribuant au développement 
-            des compétences locales et à la croissance économique du continent.
+           Chez AGS Informatique, notre mission est d’accompagner la transformation numérique 
+          de l’Afrique en proposant des solutions technologiques fiables, innovantes et accessibles à tous.
+          Nous plaçons l’excellence, la confiance et le développement des compétences locales au cœur de 
+          notre démarche afin de bâtir un écosystème numérique solide, créateur d’opportunités et moteur
+           de croissance durable pour le continent africain.
           </p>
         </div>
       </div>
