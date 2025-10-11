@@ -2,8 +2,10 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "./ui/
 import { Badge } from "./ui/badge";
 import { Button } from "./ui/button";
 import { ImageWithFallback } from "./figma/ImageWithFallback";
-import { Monitor, Server, Printer, Smartphone, HardDrive, Wifi, X, Mail, Phone, User, Building, Package, Calendar, ArrowRight } from "lucide-react";
-import { useState } from "react";
+import { Monitor, Server, Printer, Smartphone, HardDrive, Wifi } from "lucide-react";
+import { Link } from "react-router-dom";
+
+type CatKey = "computers" | "infrastructure" | "peripherals" | "storage" | "network" | "mobile";
 
 export function Products() {
   const [isFormOpen, setIsFormOpen] = useState(false);
@@ -21,6 +23,7 @@ export function Products() {
   });
 const productCategories = [
     {
+      key: "computers" as CatKey,
       icon: <Monitor className="h-8 w-8 text-blue-600" />,
       title: "Ordinateurs & Laptops",
       description: "Gamme complète d'ordinateurs de bureau et portables pour tous usages",
@@ -33,6 +36,7 @@ const productCategories = [
       image: "https://images.unsplash.com/photo-1645385890999-43dcd4f4a703?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxsYXB0b3AlMjBjb21wdXRlcnMlMjBzdG9yZXxlbnwxfHx8fDE3NTkyNDY4Mjd8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral"
     },
     {
+      key: "infrastructure" as CatKey,
       icon: <Server className="h-8 w-8 text-green-600" />,
       title: "Serveurs & Infrastructure",
       description: "Solutions serveurs et équipements réseau pour entreprises",
@@ -45,6 +49,7 @@ const productCategories = [
       image: "https://images.unsplash.com/photo-1629837093109-11325d6e7afd?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxuZXR3b3JrJTIwY2FibGVzJTIwc2VydmVyJTIwcm9vbXxlbnwxfHx8fDE3NTkyNDY4MjZ8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral"
     },
     {
+      key: "peripherals" as CatKey,
       icon: <Printer className="h-8 w-8 text-purple-600" />,
       title: "Périphériques",
       description: "Accessoires et périphériques informatiques essentiels",
@@ -57,6 +62,7 @@ const productCategories = [
       image: "https://images.unsplash.com/photo-1642736670762-dd634932a212?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxjb21wdXRlciUyMGhhcmR3YXJlJTIwdGVjaG5vbG9neXxlbnwxfHx8fDE3NTkyNDY4MjV8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral"
     },
     {
+      key: "storage" as CatKey,
       icon: <HardDrive className="h-8 w-8 text-orange-600" />,
       title: "Stockage & Mémoire",
       description: "Solutions de stockage et composants mémoire",
@@ -69,6 +75,7 @@ const productCategories = [
       image: "https://images.unsplash.com/photo-1738262039504-54d6b4a542ab?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxjb21wdXRlciUyMHJlcGFpciUyMG1haW50ZW5hbmNlfGVufDF8fHx8MTc1OTI0NjgyNnww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral"
     },
     {
+      key: "network" as CatKey,
       icon: <Wifi className="h-8 w-8 text-teal-600" />,
       title: "Réseaux & Sécurité",
       description: "Équipements réseau et solutions de sécurité informatique",
@@ -82,9 +89,10 @@ const productCategories = [
     },
  
     {
-      icon: <Monitor className="h-8 w-8 text-blue-600" />,
-      title: "Application avec licence et Antivirus",
-      description: "Gamme complète d'ordinateurs de bureau et portables pour tous usages",
+      key: "mobile" as CatKey,
+      icon: <Smartphone className="h-8 w-8 text-red-600" />,
+      title: "Mobiles & Tablettes",
+      description: "Smartphones et tablettes pour usage professionnel",
       products: [
         { name: "Ordinateurs de bureau", price: "À partir de 250,000 FCFA", stock: "En stock" },
         { name: "Laptops professionnels", price: "À partir de 400,000 FCFA", stock: "En stock" },
@@ -190,8 +198,10 @@ const productCategories = [
                   </div>
                 ))}
                 
-                <Button variant="outline" className="w-full mt-4">
-                  Voir tous les produits
+                <Button asChild variant="outline" className="w-full mt-4">
+                  <Link to={`/produits?cat=${category.key}`} aria-label={`Voir tous les produits de ${category.title}`}>
+                    Voir tous les produits
+                  </Link>
                 </Button>
               </CardContent>
             </Card>
@@ -201,13 +211,8 @@ const productCategories = [
           <p className="text-gray-600 mb-6">
             Vous ne trouvez pas ce que vous cherchez ? Nous pouvons commander tout matériel spécifique.
           </p>
-          <Button 
-            size="lg" 
-            className="bg-blue-600 hover:bg-blue-700 shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-105"
-            onClick={() => setIsFormOpen(true)}
-          >
-            <Mail className="w-5 h-5 mr-2" />
-            Demander un devis personnalisé
+          <Button asChild size="lg" className="bg-blue-600 hover:bg-blue-700">
+            <a href="mailto:contact@agsinformatique.sn?subject=Demande%20de%20devis%20personnalis%C3%A9&body=Bonjour,%20je%20souhaite%20obtenir%20un%20devis%20personnalis%C3%A9%20pour%20du%20mat%C3%A9riel.%20Merci.">Demander un devis personnalisé</a>
           </Button>
         </div>
       </div>
