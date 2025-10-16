@@ -150,43 +150,35 @@ export function Footer() {
         {/* Bottom Footer */}
         <div className="flex flex-col md:flex-row justify-between items-center gap-6">
           <div className="text-gray-400 text-sm">
-         © 2024 Africa’s Global Services (AGS Informatique).<br></br> Tous droits réservés.
-        Propulsons l’Afrique vers le numérique.
+         © 2025 Africa’s Global Services.<br></br> Tous droits réservés.
+        Fournusseur de solutions numériques.
           </div>
 
-          {/* Social Links */}
+          {/* Légal Links */}
           <div className="flex space-x-4">
-            <a href="#" className="bg-gray-800 p-2 rounded-lg hover:bg-blue-600 transition-colors"
-               style={{
-                   backgroundColor: "#0866FF",
-               }}>
-                <img src="/public/images/facebook.svg" alt="Facebook" className="h-5 w-5" />
-            </a>
-            <a href="#" className="bg-gray-800 p-2 rounded-lg hover:bg-blue-400 transition-colors"
-               style={{
-                   backgroundColor: "#FF0069",
-               }}>
-                <img src="/public/images/instagram.svg" alt="Instagram" className="h-5 w-5" />
-            </a>
-            <a href="#" className="bg-gray-800 p-2 rounded-lg hover:bg-blue-700 transition-colors"
-               style={{
-                   backgroundColor: "#fff",
-               }}>
-                <img src="/public/images/tiktok.svg" alt="Tiktok" className="h-5 w-5" />
-            </a>
+
           </div>
 
-          {/* Legal Links */}
+          {/* Socials Links */}
           <div className="flex gap-6 text-sm text-gray-400">
-            <a href="#" className="hover:text-white transition-colors">
-              Politique de confidentialité
-            </a>
-            <a href="#" className="hover:text-white transition-colors">
-              Conditions d'utilisation
-            </a>
-            <a href="#" className="hover:text-white transition-colors">
-              Mentions légales
-            </a>
+              <a href="#" className="bg-gray-800 p-2 rounded-lg hover:bg-blue-600 transition-colors"
+                 style={{
+                     backgroundColor: "#0866FF",
+                 }}>
+                  <img src="/public/images/facebook.svg" alt="Facebook" className="h-5 w-5" />
+              </a>
+              <a href="#" className="bg-gray-800 p-2 rounded-lg hover:bg-blue-400 transition-colors"
+                 style={{
+                     backgroundColor: "#FF0069",
+                 }}>
+                  <img src="/public/images/instagram.svg" alt="Instagram" className="h-5 w-5" />
+              </a>
+              <a href="#" className="bg-gray-800 p-2 rounded-lg hover:bg-blue-700 transition-colors"
+                 style={{
+                     backgroundColor: "#fff",
+                 }}>
+                  <img src="/public/images/tiktok.svg" alt="Tiktok" className="h-5 w-5" />
+              </a>
           </div>
         </div>
       </div>
