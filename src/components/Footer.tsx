@@ -1,7 +1,6 @@
 import { Button } from "./ui/button";
 import { Input } from "./ui/input";
 import { Separator } from "./ui/separator";
-import { MapPin, Phone, Mail, Facebook, Twitter, Linkedin, Instagram } from "lucide-react";
 
 export function Footer() {
   const services = [
@@ -157,17 +156,23 @@ export function Footer() {
 
           {/* Social Links */}
           <div className="flex space-x-4">
-            <a href="#" className="bg-gray-800 p-2 rounded-lg hover:bg-blue-600 transition-colors">
-              <Facebook className="h-5 w-5" />
+            <a href="#" className="bg-gray-800 p-2 rounded-lg hover:bg-blue-600 transition-colors"
+               style={{
+                   backgroundColor: "#0866FF",
+               }}>
+                <img src="/public/images/facebook.svg" alt="Facebook" className="h-5 w-5" />
             </a>
-            <a href="#" className="bg-gray-800 p-2 rounded-lg hover:bg-blue-400 transition-colors">
-              <Twitter className="h-5 w-5" />
+            <a href="#" className="bg-gray-800 p-2 rounded-lg hover:bg-blue-400 transition-colors"
+               style={{
+                   backgroundColor: "#FF0069",
+               }}>
+                <img src="/public/images/instagram.svg" alt="Instagram" className="h-5 w-5" />
             </a>
-            <a href="#" className="bg-gray-800 p-2 rounded-lg hover:bg-blue-700 transition-colors">
-              <Linkedin className="h-5 w-5" />
-            </a>
-            <a href="#" className="bg-gray-800 p-2 rounded-lg hover:bg-pink-600 transition-colors">
-              <Instagram className="h-5 w-5" />
+            <a href="#" className="bg-gray-800 p-2 rounded-lg hover:bg-blue-700 transition-colors"
+               style={{
+                   backgroundColor: "#fff",
+               }}>
+                <img src="/public/images/tiktok.svg" alt="Tiktok" className="h-5 w-5" />
             </a>
           </div>
 
