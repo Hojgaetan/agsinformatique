@@ -16,16 +16,7 @@ export function Hero() {
               Africa's Global Services vous accompagne dans tous vos besoins informatiques : 
               vente d'équipements, maintenance, réparation, réseaux et câblage. 
             </p>
-            
-            <div className="flex flex-col sm:flex-row gap-4 mb-12">
-              <Button size="lg" className="bg-blue-600 hover:bg-blue-700">
-                Découvrir nos services
-                <ArrowRight className="ml-2 h-5 w-5" />
-              </Button>
-              <Button size="lg" variant="outline">
-                Demander un devis
-              </Button>
-            </div>
+
 
             <div className="grid grid-cols-3 gap-6">
               <div className="text-center">
