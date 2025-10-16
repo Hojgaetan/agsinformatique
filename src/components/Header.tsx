@@ -53,7 +53,7 @@ export function Header() {
                   gap: "0.5rem",
                   padding: "0.5rem 1rem",
                   borderRadius: "0.375rem",
-                }}
+              }}
                 className="text-white"
               >
                 <FaWhatsapp size={16} />
