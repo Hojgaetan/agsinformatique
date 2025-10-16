@@ -27,8 +27,8 @@ export function Header() {
         {/* Main navigation */}
         <div className="flex items-center justify-between py-4">
           <Link to="/" className="flex items-center" aria-label="Accueil">
-            <div className="bg-blue-600 text-white p-2 rounded-lg mr-3">
-              <span className="font-bold text-xl">AGS</span>
+            <div className="bg-blue-600 rounded-lg mr-3">
+                <img src="/public/icon-192x192.png" alt="Logo AGS"/>
             </div>
             <div>
               <h1 className="text-xl text-gray-800">Africa's Global Services</h1>
@@ -38,7 +38,6 @@ export function Header() {
 
           {/* Desktop Navigation */}
           <nav className="hidden md:flex items-center space-x-6">
-            <Link to="/produits" className="text-gray-700 hover:text-blue-700 text-sm">Produits</Link>
             <Button asChild>
               <a
                 href="https://wa.me/221773870030"
