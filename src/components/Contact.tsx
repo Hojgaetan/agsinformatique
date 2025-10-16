@@ -13,7 +13,7 @@ export function Contact() {
     {
       icon: <Phone className="h-6 w-6 text-green-600" />,
       title: "Téléphone",
-      content: "+221 387 00 30\n 33 822 63 67",
+      content: "+221 77 387 00 30\n 33 822 63 67",
       description: "Support 24h/6j"
     },
     {

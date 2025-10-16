@@ -21,8 +21,8 @@ export function About() {
     },
     {
       icon: <Globe className="h-8 w-8 text-orange-600" />,
-      number: "15+",
-      label: "Pays couverts"
+      number: "05+",
+      label: "Partenaires de marques"
     }
   ];
 
