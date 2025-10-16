@@ -1,5 +1,6 @@
 @custom-variant dark (&:is(.dark *));
 
+
 :root {
   --font-size: 16px;
   --background: #ffffff;
@@ -184,6 +185,28 @@
   }
 }
 
+
+
+/* Ajoutez ceci dans votre fichier CSS global */
+@keyframes gradient {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+.animate-gradient {
+  background-size: 200% 200%;
+  animation: gradient 6s ease infinite;
+}
+
+@keyframes countup {
+  from { transform: translateY(20px); opacity: 0; }
+  to { transform: translateY(0); opacity: 1; }
+}
+
+.animate-countup {
+  animation: countup 1s ease-out;
+}
 html {
   font-size: var(--font-size);
 }
