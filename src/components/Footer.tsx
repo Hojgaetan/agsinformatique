@@ -65,12 +65,12 @@ export function Footer() {
         </div>
 
         {/* Main Footer Content */}
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-6 gap-8 mb-12">
+          {/* <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-6 gap-8 mb-12">
           {/* Company Info */}
-          <div className="lg:col-span-2">
+          {/*   <div className="lg:col-span-2">
             <div className="flex items-center mb-6">
-              <div className="bg-blue-600 text-white p-2 rounded-lg mr-3">
-                <span className="font-bold text-xl">AGS</span>
+              <div className="bg-blue-600 rounded-lg mr-3">
+                  <img src="/public/favicon-32x32.png" alt="Logo AGS"/>
               </div>
               <div>
                 <h3 className="text-xl">Africa's Global Services</h3>
@@ -80,7 +80,7 @@ export function Footer() {
             <p className="text-gray-300 mb-6 leading-relaxed">
              Avec +20 ans d’expertise pour accompagner la transformation numérique de nos Clients.
             </p>
-            
+
             <div className="space-y-3">
               <div className="flex items-center space-x-3">
                 <MapPin className="h-5 w-5 text-blue-400" />
@@ -98,7 +98,7 @@ export function Footer() {
           </div>
 
           {/* Services */}
-          <div>
+          {/*  <div>
             <h4 className="text-lg mb-6">Services</h4>
             <ul className="space-y-3">
               {services.map((service, index) => (
@@ -112,7 +112,7 @@ export function Footer() {
           </div>
 
           {/* Products */}
-          <div>
+          {/*     <div>
             <h4 className="text-lg mb-6">Produits</h4>
             <ul className="space-y-3">
               {products.map((product, index) => (
@@ -126,7 +126,7 @@ export function Footer() {
           </div>
 
           {/* Company */}
-          <div>
+          {/*  <div>
             <h4 className="text-lg mb-6">Entreprise</h4>
             <ul className="space-y-3">
               {company.map((item, index) => (
@@ -140,20 +140,12 @@ export function Footer() {
           </div>
 
           {/* Support */}
-          <div>
-            <h4 className="text-lg mb-6">Support</h4>
-            <ul className="space-y-3">
-              {support.map((item, index) => (
-                <li key={index}>
-                  <a href="#" className="text-gray-300 hover:text-white transition-colors text-sm">
-                    {item}
-                  </a>
-                </li>
-              ))}
-            </ul>
+          {/* <div>
+
+
           </div>
         </div>
-
+*/}
         <Separator className="bg-gray-700 mb-8" />
 
         {/* Bottom Footer */}
