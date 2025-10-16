@@ -121,11 +121,9 @@ export function Contact() {
     Notre équipe d'intervention rapide est disponible pour tous vos problèmes critiques.
   </p>
   <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
-    <Button size="lg" variant="secondary" className="bg-white text-lg text-blue-600 hover:bg-gray-100 w-[20px]">
+    <Button size="lg" variant="secondary" className="bg-white text-lg text-blue-600 hover:bg-gray-100 w-[20px]"
+            onClick={() => window.open('tel:+221772684188', '_self')}>
       Assistance d'urgence
-    </Button>
-    <Button size="lg" variant="outline" className="border-white text-blue-600 hover:bg-gray-100 w-[20px]">
-      Contrat de maintenance
     </Button>
   </div>
 </div>
