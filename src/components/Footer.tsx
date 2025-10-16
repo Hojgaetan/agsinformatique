@@ -3,7 +3,7 @@ import { Input } from "./ui/input";
 import { Separator } from "./ui/separator";
 
 export function Footer() {
-  const services = [
+    {/*const services = [
     "Vente de matériel informatique",
     "Maintenance & Réparation",
     "Réseaux & Câblage",
@@ -37,7 +37,7 @@ export function Footer() {
     "Garanties",
     "Retours",
     "FAQ"
-  ];
+  ];*/}
 
   return (
     <footer className="bg-gray-900 text-white">
