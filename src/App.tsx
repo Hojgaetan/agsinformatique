@@ -3,6 +3,7 @@ import { Footer } from "./components/Footer";
 import { Routes, Route } from "react-router-dom";
 import HomePage from "./pages/HomePage";
 import ProductsPage from "./pages/ProductsPage";
+import { ProductsAll } from "./components/productsAll";
 
 export default function App() {
   return (
@@ -13,6 +14,7 @@ export default function App() {
           <Route path="/" element={<HomePage />} />
           <Route path="/produits" element={<ProductsPage />} />
           <Route path="/products" element={<ProductsPage />} />
+          <Route path="/products-all" element={<ProductsAll />} />
           <Route path="/productspage" element={<ProductsPage />} />
           <Route path="/produitspage" element={<ProductsPage />} />
           <Route path="/produtspage" element={<ProductsPage />} />
