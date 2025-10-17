@@ -82,17 +82,7 @@ export const CATEGORIES: CategoryMeta[] = [
 
 export const PRODUCTS: Product[] = [
   // Computers - 8 produits
-  {
-    id: "p-1",
-    name: "PC Bureau Pro i5/16Go/512Go",
-    price: 50000,
-    stock: "En stock",
-    category: "computers",
-    subcategory: "Ordinateurs de bureau",
-    brand: "Hp",
-    tags: ["desktop", "bureau", "windows"],
-    image: "./images/ordinateur.png",
-  },
+ 
   {
     id: "p-2",
     name: "DELL X360  TACTILE",
@@ -108,19 +98,6 @@ export const PRODUCTS: Product[] = [
     "Disque dur 128 giga ssd\n"+ "Mémoire Ram 4giga\n"+ "Ecran 11.6 Pouces convertible x360\n"+ "Dell 3190 disponible avec 8go 256 ssd\n"+ "Port type C,2usb, Rj45, support carte mémoire,hdmi,2port usb...\n"+ "Tablette avec écran tactile en même temps\n"+ "très léger pour étudiants et professionnels"
   },
   {
-    id: "p-3",
-    name: "Station de travail Ryzen 9/64Go/RTX",
-    price: 1850000,
-    stock: "Sur commande",
-    category: "computers",
-    subcategory: "Stations de travail",
-    brand: "Lenovo",
-    tags: ["workstation", "cad", "3d"],
-    image: "./images/ordinateur.png",
-    details: ["Ryzen 9", "64Go RAM", "RTX 3060", "1To SSD"],
-    desc: ""
-  },
-  {
     id: "p-4",
     name: "LENOVO T14.Core I7 11 ou 12 éme gen.14 pouces FHD ou TACTILE",
     price: 325000,
@@ -133,17 +110,6 @@ export const PRODUCTS: Product[] = [
     desc: "ORDINATEUR PORTABLE LENOVO T14\n"+ "PROCESSEUR: CORE I7 11éme à 12-ème génération\n"+
     "RAM: 16 GO EXTENSIBLE A 32 GO\n"+ "DISQUE: SSD512 EXTENSIBLE 1TERA\n"+ "ECRAN 14 POUCES FHD OU TACTILE\n"+ "A PARTIR DU PRIX INDIQUE",
     details: ["512 SSD","16GO","CORE I7","NOIR","Lenovo","Réconditionné"]
-  },
-  {
-    id: "p-14",
-    name: "PC Gamer RTX 4060/i5/16Go",
-    price: 1200000,
-    stock: "En stock",
-    category: "computers",
-    subcategory: "Ordinateurs de bureau",
-    brand: "MSI",
-    tags: ["gaming", "rtx", "gamer"],
-    image: "./images/ordinateur.png",
   },
   {
     id: "p-6",
@@ -167,17 +133,6 @@ export const PRODUCTS: Product[] = [
       "PORTS : type A USB 3.2 Gen 1 (3.1 Gen 1) type C USB 3.2 Gen 1 (3.1 Gen 1 Sortie HDMI: 1 x HDMI 1.4 Adaptateur secteur USB-C® 65 W\n"+ 
       "Poids (en kg): 1,\n"+ "Système d'exploitation: Windows 10 OU 11 PROFESSIONNEL\n"+"OFFICE 2019.\n"+
       "TOUS LES UTILITAIRES INSTALLES\n"+ "A PARTIR DU PRIX INDIQUE"
-  },
-  {
-    id: "p-16",
-    name: "Laptop Ultrabook 13\" i5/8Go/512Go",
-    price: 650000,
-    stock: "En stock",
-    category: "computers",
-    subcategory: "Laptops",
-    brand: "Asus",
-    tags: ["ultrabook", "léger", "portable"],
-    image: "./images/ordinateur.png",
   },
   {
     id: "p-8",
