@@ -299,6 +299,412 @@ export const PRODUCTS: Product[] = [
             "ÉCRAN 19 à 22POUCES " +
             "A PARTIR DU PRIX INDIQUE",
     },
+    {
+        id: "p-11",
+        name: "HP ELITEBOOK 830 840 G6 I7 16Go/512SSD",
+        price: 200000,
+        stock: "En stock",
+        category: "computers",
+        subcategory: "laptops",
+        brand: "HP",
+        tags: ["laptop", "hp", "windows"],
+        image: "https://i.roamcdn.net/hz/ed/listing-gallery-full-1920w/505a9d8949a4cb52125afde0e0f72232/-/horizon-files-prod/ed/picture/q9m8455v/499cf4efb1d688c4d6f433de81e28ac61af72609.jpg",
+        details: [
+            "Processeur Intel i7",
+            "RAM 16 Go",
+            "Stockage 512 Go",
+            "Marque HP",
+            "Etat Reconditionné",
+            "Couleur : Gris Noir"
+        ],
+        desc: "Ordinateur Portable EliteBook 830 OU 840 G6.I7\n" +
+            "CORE I7 8 éme GENERATION\n" +
+            "RAM 16 GO extensible à 32 Go\n" +
+            "DISQUE :256SSD EXTENSIBLE A 512 GO" +
+            "ECRAN 13.3 ou 14 POUCES FHD ou TACTILE",
+    },
+    {
+        id: "p-13",
+        name: "HP X360 DELL TACTILE",
+        price: 75000,
+        stock: "En stock",
+        category: "computers",
+        subcategory: "laptops",
+        brand: "HP",
+        tags: ["laptop", "hp", "windows"],
+        image: "https://i.roamcdn.net/hz/ed/listing-gallery-full-1920w/81c80e4a8b22f0f96c8749929553a8c0/-/horizon-files-prod/ed/picture/q44dvvq4/75d658816d72e39637333271203956f0effe8be2.jpg",
+        details: [
+            "Processeur Intel",
+            "RAM 4 Go",
+            "Stockage 128 SSD",
+            "Marque HP",
+            "Etat Reconditionné",
+            "Couleur : Rouge, NOir, Jaune, Grise, Bleu....."
+        ],
+        desc: "Hp Probook x36011.6pouces G3 et Dell 3190. Disque dur 128 giga ssd.\n" +
+            "Mémoire Ram 4giga. Ecran 11.6 Pouces convertible x360. Dell 3190 disponible avec 8go 256 ssd\n" +
+            "Port type C,2usb, Rj45, support carte mémoire,hdmi,2port usb...\n" +
+            "Tablette avec écran tactile en même temps très léger pour étudiants et professionnels",
+    },
+    {
+        id: "p-15",
+        name: "HP ELITEBOOK 840G6 I7",
+        price: 200000,
+        stock: "En stock",
+        category: "computers",
+        subcategory: "laptops",
+        brand: "HP",
+        tags: ["laptop", "hp", "windows"],
+        image: "https://i.roamcdn.net/hz/ed/listing-gallery-full-1920w/43bd6f9ba58fd46a3a32867063be1160/-/horizon-files-prod/ed/picture/qm5r86vr/845ac8c12ecf1da1182de6fc2e25f0af5bf002c1.jpg",
+        details: [
+            "Processeur Intel i7",
+            "RAM 16 Go",
+            "Stockage 512 SSD",
+            "Marque HP",
+            "Etat Reconditionné",
+            "Couleur : Gris, Noir"
+        ],
+        desc: "Ordinateur Portable EliteBook 840 G6 I7\n" +
+            "CORE I7 8émE GENERATION\n" +
+            "RAM 16GO\n" +
+            "DISQUE 512GO SSD\n" +
+            "ECRAN 14 POUCES\n" +
+            "CLAVIER RETRO ECLAIRE",
+    },
+    {
+        id: "p-17",
+        name: "CORE I3 AVEC ECRAN 19 à 22 POUCES",
+        price: 45000,
+        stock: "En stock",
+        category: "computers",
+        subcategory: "laptops",
+        brand: "HP",
+        tags: ["laptop", "hp", "windows"],
+        image: "https://i.roamcdn.net/hz/ed/listing-gallery-full-1920w/7da1ecf3347aae6842fcd41571473a9c/-/horizon-files-prod/ed/picture/q2jr75w2/0e723cec34f13e3785ea841d18f0a2941a1be91e.jpg",
+        details: [
+            "Processeur Intel i3",
+            "RAM 4 Go",
+            "Stockage 250GO SATA ou 128 GO SSD",
+            "Marque HP",
+            "Etat d'occasion",
+            "Couleur : Gris, Noir"
+        ],
+        desc: "NOUS VENDONS DES CORE I3 HP EN TOUR OU DESKTOPS\n" +
+            "SELON STOCK DISPONIBLES + ÉCRAN 19 POUCES.\n" +
+            "RAM 4GO\n" +
+            "DISQUE DUR 250 GO SATA OU 128 GO SSD\n" +
+            "ÉCRANS 19 à 22 POUCES.\n" +
+            "A PARTIR DU PRIX INDIQUE",
+    },
+    {
+        id: "p-19",
+        name: "Ordinateur Core i5 ou I7 Ecran 19 à 22 pouces",
+        price: 50000,
+        stock: "En stock",
+        category: "computers",
+        subcategory: "laptops",
+        brand: "HP",
+        tags: ["laptop", "hp", "windows"],
+        image: "https://i.roamcdn.net/hz/ed/listing-gallery-full-1920w/8513c616804ebfea8b45439559dcbb95/-/horizon-files-prod/ed/picture/q745n7g/c6ccb6921ad21de78452845dbbb4903040306ddf.jpg",
+        details: [
+            "Processeur Intel Core i5 ou I7 de 2 ème à la 8 ème génération",
+            "RAM 4 Go",
+            "Stockage 250GO",
+            "Marque HP",
+            "Etat d'occasion",
+            "Couleur : Noir"
+        ],
+        desc: "Ordinateur Core i5 ou I7 Ecran 19 à 22 pouces\n" +
+            "DISPONIBLES EN HP DELL LENOVO ACER\n" +
+            "PROCESSEUR Core i5 ou I7 de 2 ème à la 8 ème génération\n" +
+            "Mémoire Ram 4 extensible à 8 ou 16go\n" +
+            "Disque dur de 250 à 500 go ou SSD128 à 256 go. Wifi en option .\n" +
+            "Windows 10 ou 11 Pro, Office, Antivirus etc... prêt à l'emploi.\n" +
+            "Machines puissantes idéales pour transfert d'argent, multiservices et tous travaux de bureau et d'internet.\n" +
+            "Tout nos produits sont garantis\n" +
+            "A PARTIR DU PRIX INDIQUE",
+    },
+    {
+        id: "p-21",
+        name: "ALL IN ONE HP NEUF 23.8\" I3 12éme",
+        price: 450000,
+        stock: "En stock",
+        category: "computers",
+        subcategory: "desktops",
+        brand: "HP",
+        tags: ["desktop", "hp", "windows"],
+        image: "https://i.roamcdn.net/hz/ed/listing-gallery-full-1920w/a440c598a20131fd22a59c2ed938e163/-/horizon-files-prod/ed/picture/q0g72jj6/6b32c58cd5893a4da603eebf0397fe2865db6dd3.jpg",
+        details: [
+            "Processeur Intel Core i3",
+            "RAM 8 Go",
+            "Stockage 256GO",
+            "Marque HP",
+            "Etat Neuf",
+            "Couleur : Noir"
+        ],
+        desc: "Hp proOne ProOne 240 23.8 pouces G9 All in one\n" +
+            "core i3 12éme gen /RAM 8Go extensible à 16 go, DISQUE DUR 256Go\n" +
+            "SSD extensible à 512 go ECRAN 23.8POUCES",
+    },
+    {
+        id: "p-23",
+        name: "Hp Probook 650 G3.i5 .8go.SSD 256go.Ecran 15.6 \"TACTILE.",
+        price: 125000,
+        stock: "En stock",
+        category: "computers",
+        subcategory: "laptops",
+        brand: "HP",
+        tags: ["laptop", "hp", "windows"],
+        image: "https://i.roamcdn.net/hz/ed/listing-gallery-full-1920w/5bc26f3758aa4f7cc8d19a9829a48583/-/horizon-files-prod/ed/picture/qwerwm9d/f59170106831d82e2219abaa5a8696bb4370035e.jpg",
+        details: [
+            "Processeur Intel Core i5",
+            "RAM 8Go",
+            "Stockage 256GO",
+            "Marque HP",
+            "Etat Réconditionné",
+            "Couleur : Noir"
+        ],
+        desc: "HP Probook 650 G3 Core i5 7 eme.8go.SSD 256go..Ecran 15.6 \"TACTILE.\n" +
+            "Pavé numérique\n" +
+            "Processeur : Intel Core i5 7 -ème Génération. .Vitesse de 2.5 à 3.5 GHz\n" +
+            "Mémoire Vive : 8Go - DDR4/ A 16GO\n" +
+            "Disque stockage : 256Go SSD A 512SSD\n" +
+            "Carte graphique : Intel Graphics HD 520\n" +
+            "Carte son : Oui - Enceintes + microphone\n" +
+            "Réseau et Wifi : Intel Ethernet Connection I219-V (10/100/1000/2500/5000MBit/s), Intel Dual Band Wireless-AC 7265 (a/b/g/h/n = Wi-Fi 4/ac = Wi-Fi 5), Bluetooth 4.2\n" +
+            "Webcam : Oui\n" +
+            "Pavé numérique : Oui\n" +
+            "Clavier avec pavé numérique\n" +
+            "Ecran : 15.6poucesTACTILE 16:9, 1920 x 1080 pixel\n" +
+            "Ports de connexion\n" +
+            "3 USB 3.0 / 3.1 Gen1, 1 VGA, 1 DisplayPort, 1 Encoche de Sécurité Kensington, 1 Port Série, 1 Port pour Station d'accueil, Connectique audio: combo audio, Lecteur de cartes mémoires: SD, 1 Lecteur de cartes à puce, 1 Lecteur d'empreintes digitales, TPM 2.0\n" +
+            "A PARTIR DU PRIX INDIQUE",
+    },
+    {
+        id: "p-25",
+        name: "HP ELITEBOOK 840 G3 I7 TACTILE",
+        price: 160000,
+        stock: "En stock",
+        category: "computers",
+        subcategory: "laptops",
+        brand: "HP",
+        tags: ["laptop", "hp", "windows"],
+        image: "https://i.roamcdn.net/hz/ed/listing-gallery-full-1920w/f8ff8f31511c4361091070c5a47b69c9/-/horizon-files-prod/ed/picture/qkr80vqw/2c6abad035fe7ffd0f34d5935b9bdc6eb6b88a7c.jpg",
+        details: [
+            "Processeur Intel i7",
+            "RAM 08 Go",
+            "Stockage 256 SSD",
+            "Marque HP",
+            "Etat Reconditionné",
+            "Couleur : Gris"
+        ],
+        desc: "ORDINATEUR PORTABLE HP ELITEBOOK 840 G3 CORE I7\n" +
+            "6éme GENERATION\n" +
+            "RAM 8GO EXTENSIBLE A 16 GO\n" +
+            "DISQUE DUR 256 SSD EXTENSIBLE A 512 GO\n" +
+            "ECRAN TACTILE 14 POUCES\n" +
+            "Windows 10 Pro 64Bit; Comprend 2 ports USB 3.1, USB Type-C, Display\n" +
+            "A PARTIR DU PRIX INDIQUE",
+    },
+    {
+        id: "p-27",
+        name: "ORDINATEURS PORTABLE HP ELITEBOOK 840 G3 (PROMO🔥🔥🔥)",
+        price: 125000,
+        stock: "En stock",
+        category: "computers",
+        subcategory: "laptops",
+        brand: "HP",
+        tags: ["laptop", "hp", "windows"],
+        image: "https://i.roamcdn.net/hz/ed/listing-thumb-543w/00a050b93f5b793aeb2b54623bf4b5fc/-/horizon-files-prod/ed/picture/qzvpxpmv/fc7d705825f57b32da1e882eb497fb9fb0e2ea3c.jpg",
+        details: [
+            "Processeur Intel i5-6th Gen",
+            "RAM 08 Go",
+            "Stockage 256 SSD",
+            "Marque HP",
+            "Etat Reconditionné",
+            "Couleur : Gris"
+        ],
+        desc: "SPÉCIAL PROMO ORDINATEURS PORTABLE 🔥🔥🔥🔥🔥\n" +
+            "ORDINATEUR PORTABLE HP ELITEBOOK 840 G3\n\n" +
+            "CORE I5 6éme Génération\n" +
+            "RAM 8GO à 16GO\n" +
+            "DISQUE DUR SSD 256go à 512GO OU PLUS\n" +
+            "ÉCRAN 14 POUCES\n" +
+            "CLAVIER RETRO ÉCLAIRE\n" +
+            "A PARTIR DU PRIX INDIQUE",
+    },
+    {
+        id: "p-29",
+        name: "HP ELITEBOOK.840G8.I5",
+        price: 270000,
+        stock: "En stock",
+        category: "computers",
+        subcategory: "laptops",
+        brand: "HP",
+        tags: ["laptop", "hp", "windows"],
+        image: "https://i.roamcdn.net/hz/ed/listing-gallery-main-844w/eb1be02a9515a4497f9ff3093ea7fbdd/-/horizon-files-prod/ed/picture/q56xrnp2/d32ee735812c8dc60327167f40fd76a451ba26ba.jpg",
+        details: [
+            "Processeur Intel i5",
+            "RAM 08 Go",
+            "Stockage 256 SSD",
+            "Marque HP",
+            "Etat Reconditionné",
+            "Couleur : Gris"
+        ],
+        desc: "HP ELITEBOOK 840 G8\n" +
+            "Processeur Intel Core i5-1135G7 (Quad-Core 0.9 GHz - 2.4 GHz / 4.2 GHz Turbo - 8 Threads - Cache 8 Mo)\n" +
+            "8 Go de mémoire DDR4 extensible à 16 Go\n" +
+            "Disque dur 256ssd extensible à 512 go. Ecran de 14\" avec résolution Full HD (1920 x 1080)\n" +
+            "CLAVIER RETRO ÉCLAIRE",
+    },
+    {
+        id: "p-31",
+        name: "GAMER HP ZBOOK 14U G6 I5",
+        price: 250000,
+        stock: "En stock",
+        category: "computers",
+        subcategory: "laptops",
+        brand: "HP",
+        tags: ["laptop", "hp", "windows"],
+        image: "https://i.roamcdn.net/hz/ed/listing-gallery-full-1920w/ca10402c5cec2ea39a40121cede1b750/-/horizon-files-prod/ed/picture/migrated/qp0jemw/3c6ac80e193fed84de3ef469b414684e53e0d534.jpg",
+        details: [
+            "Processeur Intel i5",
+            "RAM 16Go",
+            "Stockage 512 SSD",
+            "Marque HP",
+            "Etat Reconditionné",
+            "Couleur : Gris"
+        ],
+        desc: "Ordinateur Portable GAMER HP ZBOOK 14U G6\n" +
+            "CORE I5 8émE GENERATION\n" +
+            "RAM : 16 GO EXTENSIBLE A 32GO\n" +
+            "DISQUE : 512 GO SSD M2\n" +
+            "ECRAN 14 POUCES\n" +
+            "CARTE GRAPHIQUE DE 4 GO dédié GDDR5",
+    },
+    {
+        id: "p-33",
+        name: "HP Core I5+19 NEUF",
+        price: 250000,
+        stock: "En stock",
+        category: "computers",
+        subcategory: "laptops",
+        brand: "HP",
+        tags: ["laptop", "hp", "windows"],
+        image: "https://i.roamcdn.net/hz/ed/listing-gallery-full-1920w/57110fc716992296b5a1ca8f407df2ce/-/horizon-files-prod/ed/picture/migrated/qp0jemw/17dc65f1f17ba2a1d7262e53f32746d69d0cd4f8.jpg",
+        details: [
+            "Processeur Intel i5",
+            "RAM 8Go",
+            "Stockage 512 SSD",
+            "Marque HP",
+            "Etat Neuf",
+            "Couleur : Noir"
+        ],
+        desc: "Nous vendons Hp pro 6300 microtower coreI5 avec écran 19 pouces.\n" +
+            "Core i5 3570 ou 3470: 3.40ghz.à 3,8ghz. Mémoire 8 go extensible à 16go\n" +
+            "Disque dur 500 go. Disponible aussi avec 1000go\n" +
+            "Windows 10 professionnel 64 bits -office-antivirus et tous les utilitaires( acrobat reader etc,,,)\n" +
+            "Prêt à l'emploi et garanti\n" +
+            "Pour toutes autres informations contactez moi si vous le souhaitez",
+    },
+    {
+        id: "p-35",
+        name: "HP Core I7+19 NEUF",
+        price: 300000,
+        stock: "En stock",
+        category: "computers",
+        subcategory: "laptops",
+        brand: "HP",
+        tags: ["laptop", "hp", "windows"],
+        image: "https://i.roamcdn.net/hz/ed/listing-gallery-full-1920w/a947fa97b12a5ed15a1f7b9e33c6d167/-/horizon-files-prod/ed/picture/migrated/qm6je9m/e5bf24c9b2eeaa701f760c5ed0bdcde20178b470.jpg",
+        details: [
+            "Processeur Intel i7",
+            "RAM 8Go",
+            "Stockage 1Téra",
+            "Marque HP",
+            "Etat Neuf",
+            "Couleur : Noir"
+        ],
+        desc: "Nous vendons Hp pro 6300 microtower coreI5 avec écran 19 pouces.\n" +
+            "Core i5 3570 ou 3470: 3.40ghz.à 3,8ghz. Mémoire 8 go extensible à 16go\n" +
+            "Disque dur 500 go. Disponible aussi avec 1000go\n" +
+            "Windows 10 professionnel 64 bits -office-antivirus et tous les utilitaires( acrobat reader etc,,,)\n" +
+            "Prêt à l'emploi et garanti\n" +
+            "Pour toutes autres informations contactez moi si vous le souhaitez",
+    },
+    {
+        id: "p-37",
+        name: "Core 2.dual.+19",
+        price: 40000,
+        stock: "En stock",
+        category: "computers",
+        subcategory: "laptops",
+        brand: "HP",
+        tags: ["laptop", "hp", "windows"],
+        image: "https://i.roamcdn.net/hz/ed/listing-gallery-full-1920w/7b89aca04aa1dc200bb59155fb96518d/-/horizon-files-prod/ed/picture/migrated/qe9jpx2/e2ceaa5287b5b7aad352af8f373c5d93a5ec3595.jpg",
+        details: [
+            "Processeur Core 2.dual.",
+            "RAM 4Go",
+            "Stockage 250Go",
+            "Marque HP",
+            "Etat d'Occasion",
+            "Couleur : Noir"
+        ],
+        desc: "Nous vendons des ordinateurs complets avec écran 19\" en HP.\n" +
+            "dual core et core 2 2.80 à 3.20 ghz, 4 go de mémoire Ram , disque dur 250 go\n" +
+            "Wifi en option . Windows 10 Pro, Office, Antivirus etc... prêt à l'emploi\n" +
+            "Windows 10 professionnel 64 bits -office-antivirus et tous les utilitaires( acrobat reader etc,,,)\n" +
+            "Machines puissantes idéales pour transfert d'argent, multi services et tous travaux de bureau et d'internet. \n" +
+            "Tous nos produits sont garantis.",
+    },
+    {
+        id: "p-39",
+        name: "Ordinateur Core I5",
+        price: 50000,
+        stock: "En stock",
+        category: "computers",
+        subcategory: "laptops",
+        brand: "HP",
+        tags: ["laptop", "hp", "windows"],
+        image: "https://i.roamcdn.net/hz/ed/listing-gallery-main-844w/fa54844407e35d7e4d1deb76ea146f7d/-/horizon-files-prod/ed/picture/migrated/qzzj9pr/8f406733e244d177eccd75ae98618291d6b9c9b9.jpg",
+        details: [
+            "Processeur Core i5",
+            "RAM 4Go",
+            "Stockage 500Go",
+            "Marque HP",
+            "Etat d'Occasion",
+            "Couleur : Noir"
+        ],
+        desc: "Nous vendons des ordinateurs complets avec écran 19\" en Lenovo et Acer selon stock\n" +
+            "Core i5 3.20 ghz, 4 go de mémoire Ram extensible à 8go , disque dur 500 go\n" +
+            "Wifi en option . Windows 10 Pro, Office, Antivirus etc... prêt à l'emploi\n" +
+            "Wifi en option . Windows 10 Pro, Office, Antivirus etc... prêt à l'emploi.\n" +
+            "Machines puissantes idéales pour transfère d'argent, multiservices et tous travaux de bureau et d'internet\n" +
+            "Tous nos produits sont garantis.",
+    },
+    {
+        id: "p-41",
+        name: "HP Core I3 ordinateur complet",
+        price: 40000,
+        stock: "En stock",
+        category: "computers",
+        subcategory: "laptops",
+        brand: "HP",
+        tags: ["laptop", "hp", "windows"],
+        image: "https://i.roamcdn.net/hz/ed/listing-gallery-full-1920w/790a15b7c8e6a683487422769e724c7c/-/horizon-files-prod/ed/picture/migrated/qp026mm/eba266304bd5db95647d9b133d59049427fd8fd7.jpg",
+        details: [
+            "Processeur Core i3",
+            "RAM 4Go",
+            "Stockage 250Go",
+            "Marque HP",
+            "Etat d'Occasion",
+            "Couleur : Noir"
+        ],
+        desc: "Ensembles complets HP en desktop.Core i3 -/Mémoire RAM 4go/\n" +
+            "Disque 250Go/Écran (19\") . DVDRW - Option Wifi\n" +
+            "Prêt a l'emploi: Windows 10 pro, office, antivirus, adobe etc.\n" +
+            "Tous nos produits sont garantis.",
+    },
 
   // Infrastructure - 6 produits
   {
