@@ -20,7 +20,6 @@ export type Product = {
   brand?: string;
   desc?: string;
   details?: string[];
-
 };
 
 export type CategoryMeta = {
@@ -108,17 +107,6 @@ export const PRODUCTS: Product[] = [
             "DISQUE DUR 500 GO ET/OU SSD 256 GO. ECRAN 22 à 24 POUCES\n\"" +
             "A PARTIR DU PRIX INDIQUE",
     },
-  {
-    id: "p-2",
-    name: "Laptop Pro 14\" i7/16Go/1To",
-    price: 790000,
-    stock: "En stock",
-    category: "computers",
-    subcategory: "Laptops",
-    brand: "HP",
-    tags: ["portable", "pro", "windows"],
-    image: "./images/ordinateur.png",
-  },
     {
         id: "p-3",
         name: "Core I5 et I7.Ram 8GO\" Ecran 19 à 24\"+wifi",
@@ -146,17 +134,6 @@ export const PRODUCTS: Product[] = [
             "prêt à l'emploi. Machines idéales pour tous travaux de bureau et d'internet ou de montage videos\n\"" +
             "Tous nos produits sont garantis",
     },
-  {
-    id: "p-13",
-    name: "MacBook Air M2 13\" 8Go/256Go",
-    price: 950000,
-    stock: "En stock",
-    category: "computers",
-    subcategory: "Laptops",
-    brand: "Apple",
-    tags: ["macbook", "apple", "portable"],
-    image: "./images/ordinateur.png",
-  },
     {
         id: "p-5",
         name: "CORE I3 ,I5,I7 \" AVEC ECRAN 19 à 22 pouces",
@@ -183,17 +160,6 @@ export const PRODUCTS: Product[] = [
             "ÉCRANS 19 POUCES à 24 POUCES\n" +
             "A PARTIR DU PRIX INDIQUE",
     },
-  {
-    id: "p-15",
-    name: "Mini PC Intel NUC i3/8Go/256Go",
-    price: 280000,
-    stock: "Sur commande",
-    category: "computers",
-    subcategory: "Mini PC",
-    brand: "Intel",
-    tags: ["mini", "compact", "nuc"],
-    image: "./images/ordinateur.png",
-  },
     {
         id: "p-7",
         name: "ALL IN ONE 27 POUCES TACTILE CORE I7 13EME.32 GO.1TERA SSD",
@@ -219,17 +185,6 @@ export const PRODUCTS: Product[] = [
             "Ports\n" +
             "Arrière 1 port USB Type-C, vitesse de transfert 5 Gbit/s ; 2 ports USB Type-A, vitesse de transfert 5 Gbit/s ; 2 ports USB 2.0 Type-A; 1 prise combinée casque/microphone; 1 port RJ-45",
     },
-  {
-    id: "p-17",
-    name: "PC All-in-One 24\" i3/8Go/1To",
-    price: 520000,
-    stock: "En stock",
-    category: "computers",
-    subcategory: "Ordinateurs de bureau",
-    brand: "Lenovo",
-    tags: ["all-in-one", "écran", "bureau"],
-    image: "./images/ordinateur.png",
-  },
     {
         id: "p-9",
         name: "CORE I5 AVEC 19 à 22 POUCES",
