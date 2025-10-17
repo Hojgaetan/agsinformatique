@@ -18,6 +18,8 @@ export type Product = {
   image: string;
   tags?: string[];
   brand?: string;
+  desc?: string;
+  details?: string[];
 };
 
 export type CategoryMeta = {
@@ -87,20 +89,22 @@ export const PRODUCTS: Product[] = [
     stock: "En stock",
     category: "computers",
     subcategory: "Ordinateurs de bureau",
-    brand: "Dell",
+    brand: "Hp",
     tags: ["desktop", "bureau", "windows"],
     image: "./images/ordinateur.png",
   },
   {
     id: "p-2",
-    name: "Laptop Pro 14\" i7/16Go/1To",
-    price: 790000,
+    name: "DELL X360  TACTILE",
+    price: 75000,
     stock: "En stock",
     category: "computers",
     subcategory: "Laptops",
-    brand: "HP",
+    brand: "Dell",
+    details: ["128GO", "4GO", "Intel", "ROUGE, NOIR, JAUNE, GRISE, BLEU,.......", "Dell", "Réconditionné"],
     tags: ["portable", "pro", "windows"],
-    image: "./images/ordinateur.png",
+    image: "/images/ordinateurDELL/X360 DELL TACTILE.png",
+    desc: " Dell 3190. Disque dur 128 giga ssd. Mémoire Ram 4giga. Ecran 11.6. Pouces convertible x360. Dell 3190 disponible avec 8go 256 ssd.Port type C,2usb, Rj45, support carte mémoire,hdmi,2port usb...Tablette avec écran tactile en même temps très léger pour étudiants et professionnels"
   },
   {
     id: "p-3",
@@ -112,17 +116,21 @@ export const PRODUCTS: Product[] = [
     brand: "Lenovo",
     tags: ["workstation", "cad", "3d"],
     image: "./images/ordinateur.png",
+    details: ["Ryzen 9", "64Go RAM", "RTX 3060", "1To SSD"],
+    desc: ""
   },
   {
-    id: "p-13",
-    name: "MacBook Air M2 13\" 8Go/256Go",
-    price: 950000,
+    id: "p-4",
+    name: "LENOVO T14.Core I7 11 ou 12 éme gen.14 pouces FHD ou TACTILE",
+    price: 325000,
     stock: "En stock",
     category: "computers",
     subcategory: "Laptops",
-    brand: "Apple",
-    tags: ["macbook", "apple", "portable"],
-    image: "./images/ordinateur.png",
+    brand: "Lenovo",
+    tags: ["desktop", "bureau"],
+    image: "./images/lenovo/LENOVOT14TACTILE.jpg",
+    desc: "ORDINATEUR PORTABLE LENOVO T14 PROCESSEUR: CORE I7 11éme à 12-ème génération RAM: 16 GO EXTENSIBLE A 32 GO DISQUE: SSD512 EXTENSIBLE 1TERA ECRAN 14 POUCES FHD OU TACTILE A PARTIR DU PRIX INDIQUE",
+    details: ["512 SSD","16GO","CORE I7","NOIR","Lenovo","Réconditionné"]
   },
   {
     id: "p-14",
@@ -136,14 +144,14 @@ export const PRODUCTS: Product[] = [
     image: "./images/ordinateur.png",
   },
   {
-    id: "p-15",
-    name: "Mini PC Intel NUC i3/8Go/256Go",
+    id: "p-6",
+    name: "",
     price: 280000,
-    stock: "Sur commande",
+    stock: "En stock",
     category: "computers",
     subcategory: "Mini PC",
     brand: "Intel",
-    tags: ["mini", "compact", "nuc"],
+    tags: ["", "", ""],
     image: "./images/ordinateur.png",
   },
   {
