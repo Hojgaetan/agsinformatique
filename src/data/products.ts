@@ -82,6 +82,96 @@ export const CATEGORIES: CategoryMeta[] = [
 
 export const PRODUCTS: Product[] = [
   // Computers - 8 produits
+ 
+  {
+    id: "p-2",
+    name: "DELL X360  TACTILE",
+    price: 75000,
+    stock: "En stock",
+    category: "computers",
+    subcategory: "Laptops",
+    brand: "Dell",
+    details: ["128GO", "4GO", "Intel", "ROUGE, NOIR, JAUNE, GRISE, BLEU,.......", "Dell", "Réconditionné"],
+    tags: ["bureau","portable","tactile"],
+    image: "/images/ordinateurDELL/X360 DELL TACTILE.png",
+    desc: " Dell 3190\n"+
+    "Disque dur 128 giga ssd\n"+ "Mémoire Ram 4giga\n"+ "Ecran 11.6 Pouces convertible x360\n"+ "Dell 3190 disponible avec 8go 256 ssd\n"+ "Port type C,2usb, Rj45, support carte mémoire,hdmi,2port usb...\n"+ "Tablette avec écran tactile en même temps\n"+ "très léger pour étudiants et professionnels"
+  },
+  {
+    id: "p-4",
+    name: "LENOVO T14.Core I7 11 ou 12 éme gen.14 pouces FHD ou TACTILE",
+    price: 325000,
+    stock: "En stock",
+    category: "computers",
+    subcategory: "Laptops",
+    brand: "Lenovo",
+    tags: ["portable", "bureau"],
+    image: "./images/lenovo/LENOVOT14TACTILE.jpg",
+    desc: "ORDINATEUR PORTABLE LENOVO T14\n"+ "PROCESSEUR: CORE I7 11éme à 12-ème génération\n"+
+    "RAM: 16 GO EXTENSIBLE A 32 GO\n"+ "DISQUE: SSD512 EXTENSIBLE 1TERA\n"+ "ECRAN 14 POUCES FHD OU TACTILE\n"+ "A PARTIR DU PRIX INDIQUE",
+    details: ["512 SSD","16GO","CORE I7","NOIR","Lenovo","Réconditionné"]
+  },
+  {
+    id: "p-6",
+    name: "Lenovo L380 YOGA X360. i5. 8GO. 256GOSSD. 13.3. tactile+Stylet",
+    price: 150000,
+    stock: "En stock",
+    category: "computers",
+    subcategory: "laptops",
+    brand: "Lenovo",
+    tags: ["portable", "bureau", "tactile"],
+    image: "./images/lenovo/lonovoYOGA.webp",
+    details:["256SSD","8GO","i5","NOIR","Lenovo","Réconditionné"],
+    desc: "Lenovo Thinkpad L380 YOGA X360\n"+ "Core i5 (8e gén) - 8GO\n"+ "256GO SSD\n"+ 
+    "Ecran 13.3 pouces tactile pliable\n"+ "Lenovo Thinkpad L380 (mince et très leger)\n"+ 
+    "Processeur: Core i5-8250 U de 8 -ème generation\n"+ "Fréquence de base du processeur: 1.6GHz\n"+
+     "Fréquence maximum du processeur: 3,4GHz\n"+ "Mémoire vive (RAM): 8Go DDR4 extensible à 16 ou même 32Go\n"+ 
+     "Type de stockage: SSD 256Go extensible à 512Go ou+\n"+ "Modèle du chipset graphique: HD Graphics 620\n"+
+      "Taille d'écran: 13,3 pouces (33,8cm) tactile\n"+ "Résolution d'écran: 1920 x 1080 pixels (Full HD)\n"+ 
+      "IPS Wi-Fi : 802.11ac (Wi-Fi 5)\n"+ "Bluetooth 4.1 Webcam: 720p / 1280 x 720 pixel\n"+ 
+      "Connectique audio: 1 x Combo Casque/Micro/ Dolby Advanced Audio\n"+ 
+      "PORTS : type A USB 3.2 Gen 1 (3.1 Gen 1) type C USB 3.2 Gen 1 (3.1 Gen 1 Sortie HDMI: 1 x HDMI 1.4 Adaptateur secteur USB-C® 65 W\n"+ 
+      "Poids (en kg): 1,\n"+ "Système d'exploitation: Windows 10 OU 11 PROFESSIONNEL\n"+"OFFICE 2019.\n"+
+      "TOUS LES UTILITAIRES INSTALLES\n"+ "A PARTIR DU PRIX INDIQUE"
+  },
+  {
+    id: "p-8",
+    name: "ORDINATEUR CORE I5 I7 AVEC ECRAN DE 19 à 24 POUCES",
+    price: 50000,
+    stock: "En stock",
+    category: "computers",
+    subcategory: "Ordinateurs de bureau",
+    brand: "Lenovo",
+    tags: ["all-in-one", "écran", "bureau", "portable", "Laptops"],
+    image: "./images/lenovo/ORDINATEURfixe.webp",
+    details:["250 à 500go ou SSD 128 à 256 Go","4GO","i5 ou I7 de 2ème à la 8ème génération","NOIR","Lenovo","D'occasion"],
+    desc:"Ordinateurs complets avec écran 19 à 24\n"+ "disponibles Lenovo, HP,ACER et DELL selon stock\n" +
+"Core i5 ou i7(de la 2 -ème à la 8 -ème génération)\n" +
+"Mémoire Ram de 4 à 8 go extensible à 16 go\n" +
+"Disque dur:250 à 500go ou SSD 128 à 256 Go.\n"+
+"En Option :Wifi, Carte Graphique de 2 à 4 go\n"+
+"Windows 10 ou 11 Professionnel 64 bits, Office 2019 , Antivirus etc...\n"+
+"prêt à l'emploi. Machines idéales pour tous travaux de bureau et d'internet ou de montage videos.\n"+
+"Tous nos produits sont garantis \n"+
+"A PARTIR DU PRIX INDIQUE"
+  },
+  {
+    id: "p-10",
+    name: "ALL IN ONE TACTILE 24",
+    price: 225000,
+    stock: "En stock",
+    category: "computers",
+    subcategory: "Ordinateurs de bureau",
+    brand: "Lenovo",
+    tags: ["all-in-one", "écran", "bureau"],
+    image: "./images/lenovo/allinon.webp",
+    details:["256 GO SSD","8GO","CORE I5 6ème","NOIR","Lenovo","reconditionné"],
+    desc:"ThinkCentre M900z All-in-One\n"+ "Ecran tactile 60,45 cm (23,8)\n" +
+"Core™ i5 6 ème génération\n" +
+"Mémoire 8go extensible à 16 go\n" +
+"Disque ssd 256 go extensible à 512 ou plus\n"+
+"Windows 10 Professionnel 64 bits, Office 2019"
+  },
     {
         id: "p-1",
         name: "Laptop Pro 14\" i7/16Go/1To",
