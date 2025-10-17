@@ -18,6 +18,9 @@ export type Product = {
   image: string;
   tags?: string[];
   brand?: string;
+  details?: string[];
+  desc?: string;
+
 };
 
 export type CategoryMeta = {
@@ -80,17 +83,31 @@ export const CATEGORIES: CategoryMeta[] = [
 
 export const PRODUCTS: Product[] = [
   // Computers - 8 produits
-  {
-    id: "p-1",
-    name: "PC Bureau Pro i5/16Go/512Go",
-    price: 50000,
-    stock: "En stock",
-    category: "computers",
-    subcategory: "Ordinateurs de bureau",
-    brand: "Dell",
-    tags: ["desktop", "bureau", "windows"],
-    image: "./images/ordinateur.png",
-  },
+    {
+        id: "p-1",
+        name: "Laptop Pro 14\" i7/16Go/1To",
+        price: 790000,
+        stock: "En stock",
+        category: "computers",
+        subcategory: "Laptops",
+        brand: "HP",
+        tags: ["desktop", "lenovo", "windows"],
+        image: "https://i.roamcdn.net/hz/ed/listing-thumb-543w/a25e0963c61102f4192557d7d059b5e7/-/horizon-files-prod/ed/picture/qgq9e76k/4237975ee73dce7b337b90775aedff3dbea61564.jpg",
+        details: [
+            "Processeur Intel Core i7 de 7e génération",
+            "08 Go de RAM",
+            "Stockage 500 Go ET/OU 256 SSD",
+            "Écran 22 à 24",
+            "Batterie longue durée jusqu'à 10 heures",
+            "Etat reconditionné",
+            "Couleur : Noir"
+        ],
+        desc: "ENSEMBLE ORDINATEUR COMPLET CORE I7 7 ème génération\" " +
+            "DISPONIBLE EN HP PRODESK 400 G4 SSF.\"" +
+            " AVEC UNE MÉMOIRE DE 8GO EXTENSIBLE à 16GO, \"" +
+            "DISQUE DUR 500 GO ET/OU SSD 256 GO. ECRAN 22 à 24 POUCES\n\"" +
+            "A PARTIR DU PRIX INDIQUE",
+    },
   {
     id: "p-2",
     name: "Laptop Pro 14\" i7/16Go/1To",
@@ -102,17 +119,33 @@ export const PRODUCTS: Product[] = [
     tags: ["portable", "pro", "windows"],
     image: "./images/ordinateur.png",
   },
-  {
-    id: "p-3",
-    name: "Station de travail Ryzen 9/64Go/RTX",
-    price: 1850000,
-    stock: "Sur commande",
-    category: "computers",
-    subcategory: "Stations de travail",
-    brand: "Lenovo",
-    tags: ["workstation", "cad", "3d"],
-    image: "./images/ordinateur.png",
-  },
+    {
+        id: "p-3",
+        name: "Core I5 et I7.Ram 8GO\" Ecran 19 à 24\"+wifi",
+        price: 50000,
+        stock: "En stock",
+        category: "computers",
+        subcategory: "ordinateurs de bureau",
+        brand: "HP",
+        tags: ["desktop", "hp", "windows"],
+        image: "https://i.roamcdn.net/hz/ed/listing-gallery-full-1920w/c3fd5eaba47405be638e37ac669cc44f/-/horizon-files-prod/ed/picture/qrxv9wx/cb6e8d57928bb08ceb36ee2a1b1120b0f229dcd1.jpg",
+        details: [
+            "Processeur Intel i5 ou i7(de la 2 -ème à la 8 -ème génération)",
+            "04 Go de RAM",
+            "Stockage 250 à 500 Go SATA OU 128 à 256 SSD",
+            "Marque HP",
+            "Etat reconditionné",
+            "Couleur : Noir"
+        ],
+        desc: "Ordinateurs complets avec écran 19 à 24\" disponibles Lenovo, HP et DELL selon stock\n" +
+            "Core i5 ou i7(de la 2 -ème à la 8 -ème génération)\" " +
+            "Mémoire Ram de 4 go extensible à 8 ou 16 go\n" +
+            "Disque dur 250 go SATA extensible à 500go ou SSD 128 à 256 Go.\"" +
+            "En Option :Wifi, Carte Graphique de 2 à 4 go\n" +
+            "Windows 10 ou 11 Professionnel 64 bits, Office 2019 , Antivirus etc...  \"" +
+            "prêt à l'emploi. Machines idéales pour tous travaux de bureau et d'internet ou de montage videos\n\"" +
+            "Tous nos produits sont garantis",
+    },
   {
     id: "p-13",
     name: "MacBook Air M2 13\" 8Go/256Go",
@@ -124,17 +157,33 @@ export const PRODUCTS: Product[] = [
     tags: ["macbook", "apple", "portable"],
     image: "./images/ordinateur.png",
   },
-  {
-    id: "p-14",
-    name: "PC Gamer RTX 4060/i5/16Go",
-    price: 1200000,
-    stock: "En stock",
-    category: "computers",
-    subcategory: "Ordinateurs de bureau",
-    brand: "MSI",
-    tags: ["gaming", "rtx", "gamer"],
-    image: "./images/ordinateur.png",
-  },
+    {
+        id: "p-3",
+        name: "Core I5 et I7.Ram 8GO\" Ecran 19 à 24\"+wifi",
+        price: 50000,
+        stock: "En stock",
+        category: "computers",
+        subcategory: "ordinateurs de bureau",
+        brand: "HP",
+        tags: ["desktop", "hp", "windows"],
+        image: "https://i.roamcdn.net/hz/ed/listing-gallery-full-1920w/c3fd5eaba47405be638e37ac669cc44f/-/horizon-files-prod/ed/picture/qrxv9wx/cb6e8d57928bb08ceb36ee2a1b1120b0f229dcd1.jpg",
+        details: [
+            "Processeur Intel i5 ou i7(de la 2 -ème à la 8 -ème génération)",
+            "04 Go de RAM",
+            "Stockage 250 à 500 Go SATA OU 128 à 256 SSD",
+            "Marque HP",
+            "Etat reconditionné",
+            "Couleur : Noir"
+        ],
+        desc: "Ordinateurs complets avec écran 19 à 24\" disponibles Lenovo, HP et DELL selon stock\n" +
+            "Core i5 ou i7(de la 2 -ème à la 8 -ème génération)\" " +
+            "Mémoire Ram de 4 go extensible à 8 ou 16 go\n" +
+            "Disque dur 250 go SATA extensible à 500go ou SSD 128 à 256 Go.\"" +
+            "En Option :Wifi, Carte Graphique de 2 à 4 go\n" +
+            "Windows 10 ou 11 Professionnel 64 bits, Office 2019 , Antivirus etc...  \"" +
+            "prêt à l'emploi. Machines idéales pour tous travaux de bureau et d'internet ou de montage videos\n\"" +
+            "Tous nos produits sont garantis",
+    },
   {
     id: "p-15",
     name: "Mini PC Intel NUC i3/8Go/256Go",

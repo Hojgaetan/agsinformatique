@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import { PRODUCTS, CATEGORIES, Product, CategoryMeta } from "../data/products";
 import { Button } from "./ui/button";
 
@@ -159,11 +159,11 @@ export const ProductsAll: React.FC = () => {
                 </p>
 
                 {/* Description */}
-                {product.description && (
+                {product.desc && (
                   <div className="mb-2">
                     <strong>Description:</strong>
                     <p className="text-sm text-gray-600 whitespace-pre-line">
-                      {product.description}
+                      {product.desc}
                     </p>
                   </div>
                 )}
