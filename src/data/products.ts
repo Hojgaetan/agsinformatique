@@ -18,8 +18,8 @@ export type Product = {
   image: string;
   tags?: string[];
   brand?: string;
-  details?: string[];
   desc?: string;
+  details?: string[];
 
 };
 
