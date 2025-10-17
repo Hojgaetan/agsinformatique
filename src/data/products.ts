@@ -172,6 +172,133 @@ export const PRODUCTS: Product[] = [
 "Disque ssd 256 go extensible à 512 ou plus\n"+
 "Windows 10 Professionnel 64 bits, Office 2019"
   },
+    {
+        id: "p-1",
+        name: "Laptop Pro 14\" i7/16Go/1To",
+        price: 790000,
+        stock: "En stock",
+        category: "computers",
+        subcategory: "Laptops",
+        brand: "HP",
+        tags: ["desktop", "lenovo", "windows"],
+        image: "https://i.roamcdn.net/hz/ed/listing-thumb-543w/a25e0963c61102f4192557d7d059b5e7/-/horizon-files-prod/ed/picture/qgq9e76k/4237975ee73dce7b337b90775aedff3dbea61564.jpg",
+        details: [
+            "Processeur Intel Core i7 de 7e génération",
+            "08 Go de RAM",
+            "Stockage 500 Go ET/OU 256 SSD",
+            "Écran 22 à 24",
+            "Batterie longue durée jusqu'à 10 heures",
+            "Etat reconditionné",
+            "Couleur : Noir"
+        ],
+        desc: "ENSEMBLE ORDINATEUR COMPLET CORE I7 7 ème génération\" " +
+            "DISPONIBLE EN HP PRODESK 400 G4 SSF.\"" +
+            " AVEC UNE MÉMOIRE DE 8GO EXTENSIBLE à 16GO, \"" +
+            "DISQUE DUR 500 GO ET/OU SSD 256 GO. ECRAN 22 à 24 POUCES\n\"" +
+            "A PARTIR DU PRIX INDIQUE",
+    },
+    {
+        id: "p-3",
+        name: "Core I5 et I7.Ram 8GO\" Ecran 19 à 24\"+wifi",
+        price: 50000,
+        stock: "En stock",
+        category: "computers",
+        subcategory: "ordinateurs de bureau",
+        brand: "HP",
+        tags: ["desktop", "hp", "windows"],
+        image: "https://i.roamcdn.net/hz/ed/listing-gallery-full-1920w/c3fd5eaba47405be638e37ac669cc44f/-/horizon-files-prod/ed/picture/qrxv9wx/cb6e8d57928bb08ceb36ee2a1b1120b0f229dcd1.jpg",
+        details: [
+            "Processeur Intel i5 ou i7(de la 2 -ème à la 8 -ème génération)",
+            "04 Go de RAM",
+            "Stockage 250 à 500 Go SATA OU 128 à 256 SSD",
+            "Marque HP",
+            "Etat reconditionné",
+            "Couleur : Noir"
+        ],
+        desc: "Ordinateurs complets avec écran 19 à 24\" disponibles Lenovo, HP et DELL selon stock\n" +
+            "Core i5 ou i7(de la 2 -ème à la 8 -ème génération)\" " +
+            "Mémoire Ram de 4 go extensible à 8 ou 16 go\n" +
+            "Disque dur 250 go SATA extensible à 500go ou SSD 128 à 256 Go.\"" +
+            "En Option :Wifi, Carte Graphique de 2 à 4 go\n" +
+            "Windows 10 ou 11 Professionnel 64 bits, Office 2019 , Antivirus etc...  \"" +
+            "prêt à l'emploi. Machines idéales pour tous travaux de bureau et d'internet ou de montage videos\n\"" +
+            "Tous nos produits sont garantis",
+    },
+    {
+        id: "p-5",
+        name: "CORE I3 ,I5,I7 \" AVEC ECRAN 19 à 22 pouces",
+        price: 45000,
+        stock: "En stock",
+        category: "computers",
+        subcategory: "ordinateurs de bureau",
+        brand: "HP",
+        tags: ["desktop", "hp", "windows"],
+        image: "https://i.roamcdn.net/hz/ed/listing-gallery-main-844w/06c4ccfebc3b4e45155a40f82820210f/-/horizon-files-prod/ed/picture/q9m8nrv8/943f4ca4de3939073649839db923a11ccd08c472.jpg",
+        details: [
+            "Processeur Intel i3",
+            "RAM 04 Go de RAM EXTENSIBLE à 16 GO",
+            "Stockage 250 à 500 Go SATA OU 128 à 256 SSD",
+            "Marque HP",
+            "Etat d'Occasion",
+            "Couleur : Gris Noir"
+        ],
+        desc: "NOUS VENDONS DES ORDINATEURS COMPLETS\n" +
+            "HP/DELL/LENOVO/ACER\n" +
+            "PROCESSEUR: CORE I3 I5 I7\n" +
+            "RAM: 4 EXTENSIBLE à 16 GO\n" +
+            "DISQUE DUR: 250 à 500 GO SATA OU 128 à 256 SSD\n" +
+            "ÉCRANS 19 POUCES à 24 POUCES\n" +
+            "A PARTIR DU PRIX INDIQUE",
+    },
+    {
+        id: "p-7",
+        name: "ALL IN ONE 27 POUCES TACTILE CORE I7 13EME.32 GO.1TERA SSD",
+        price: 900000,
+        stock: "En stock",
+        category: "computers",
+        subcategory: "ordinateurs de bureau",
+        brand: "HP",
+        tags: ["desktop", "hp", "windows"],
+        image: "https://i.roamcdn.net/hz/ed/listing-gallery-full-1920w/47387edf75afce8bab67bcc5a6401fa3/-/horizon-files-prod/ed/picture/qgqw8jzn/2a49ac87d9c4fa1559408c4682e3fce9eda2e6aa.jpg",
+        details: [
+            "Processeur Intel Core i7-13-ème",
+            "RAM 32 Go",
+            "Stockage 1Téra SSD",
+            "Marque HP",
+            "Etat Neuve",
+            "Couleur : Noir"
+        ],
+        desc: "ALL IN ONE HP 27 POUCES TACTILE\n" +
+            "CORE I7 13éme GENERATION\n" +
+            "RAM A 32 GO\n" +
+            "DISQUE DUR SSD 1 TERA\n" +
+            "Ports\n" +
+            "Arrière 1 port USB Type-C, vitesse de transfert 5 Gbit/s ; 2 ports USB Type-A, vitesse de transfert 5 Gbit/s ; 2 ports USB 2.0 Type-A; 1 prise combinée casque/microphone; 1 port RJ-45",
+    },
+    {
+        id: "p-9",
+        name: "CORE I5 AVEC 19 à 22 POUCES",
+        price: 50000,
+        stock: "En stock",
+        category: "computers",
+        subcategory: "ordinateurs de bureau",
+        brand: "HP",
+        tags: ["desktop", "hp", "windows"],
+        image: "https://i.roamcdn.net/hz/ed/listing-gallery-full-1920w/02e25a7d5f8747a4a05f23fddcbbdea4/-/horizon-files-prod/ed/picture/q788256m/ff826b2a965bc7f26a102c6aedb2d392a9b8df66.jpg",
+        details: [
+            "Processeur Intel i5",
+            "RAM 04 Go de RAM EXTENSIBLE à 08 GO",
+            "Stockage 250 à 500 Go SATA OU 128 à 256 SSD",
+            "Marque HP",
+            "Etat d'Occasion",
+            "Couleur : Gris Noir"
+        ],
+        desc: "CORE I5 HP ACER LENOVO DELL EN DESKTOPS OU TOURS SELON STOCK\n" +
+            "RAM 4GO EXTENSIBLE A 8GO\n" +
+            "DISQUES DURS DE 250 à 500 Go SATA OU 128 à 256 SSD\n" +
+            "ÉCRAN 19 à 22POUCES " +
+            "A PARTIR DU PRIX INDIQUE",
+    },
 
   // Infrastructure - 6 produits
   {

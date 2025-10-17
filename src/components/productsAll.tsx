@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import { PRODUCTS, CATEGORIES, Product, CategoryMeta } from "../data/products";
 import { Button } from "./ui/button";
 
