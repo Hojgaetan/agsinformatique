@@ -83,7 +83,7 @@ export const PRODUCTS: Product[] = [
   {
     id: "p-1",
     name: "PC Bureau Pro i5/16Go/512Go",
-    price: 350000,
+    price: 50000,
     stock: "En stock",
     category: "computers",
     subcategory: "Ordinateurs de bureau",

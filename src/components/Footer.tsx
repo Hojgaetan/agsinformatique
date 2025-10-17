@@ -165,19 +165,19 @@ export function Footer() {
                  style={{
                      backgroundColor: "#0866FF",
                  }}>
-                  <img src="/public/images/facebook.svg" alt="Facebook" className="h-5 w-5" />
+                  <img src="/images/facebook.svg" alt="Facebook" className="h-5 w-5" />
               </a>
               <a href="#" className="bg-gray-800 p-2 rounded-lg hover:bg-blue-400 transition-colors"
                  style={{
                      backgroundColor: "#FF0069",
                  }}>
-                  <img src="/public/images/instagram.svg" alt="Instagram" className="h-5 w-5" />
+                  <img src="/images/instagram.svg" alt="Instagram" className="h-5 w-5" />
               </a>
               <a href="#" className="bg-gray-800 p-2 rounded-lg hover:bg-blue-700 transition-colors"
                  style={{
                      backgroundColor: "#fff",
                  }}>
-                  <img src="/public/images/tiktok.svg" alt="Tiktok" className="h-5 w-5" />
+                  <img src="/images/tiktok.svg" alt="Tiktok" className="h-5 w-5" />
               </a>
           </div>
         </div>
