@@ -51,6 +51,7 @@ export const ProductsAll: React.FC = () => {
       {/* -------------------- CATEGORIES -------------------- */}
       {view === "categories" && (
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+         
           {CATEGORIES.map((cat) => {
             const productsInCat = PRODUCTS.filter((p) => p.category === cat.key);
             return (
@@ -58,6 +59,10 @@ export const ProductsAll: React.FC = () => {
                 key={cat.key}
                 className="relative border rounded-lg overflow-hidden shadow-lg hover:shadow-2xl transition-shadow duration-300"
               >
+                <sup className="absolute top-3 left-3 bg-white text-base sm:text-lg px-4 py-2 rounded-full z-20 shadow-md backdrop-blur-md text-black font-bold tracking-wide">
+                      {cat.label}  
+                      
+                  </sup>
                 {/* Image + overlay */}
                 <div className="relative h-48">
                   <img
