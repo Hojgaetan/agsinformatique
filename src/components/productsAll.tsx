@@ -95,7 +95,15 @@ export const ProductsAll: React.FC = () => {
 
   // --- Contenu principal ---
   return (
-    <div className="p-6 max-w-full overflow-x-hidden">
+    <div className="p-6 max-w-full overflow-x-hidden py-20 bg-gray-50">
+        <div className="text-center mb-16">
+            <h2 className="text-3xl md:text-4xl text-gray-900 mb-4">
+                Nos Produits
+            </h2>
+            <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+                Découvrez une sélection de produits fiables et performants pour moderniser votre infrastructure et accélérer votre croissance.
+            </p>
+        </div>
       {/* ✅ Masquer tout le reste si un produit est sélectionné */}
       {!selectedProduct && (
         <>
