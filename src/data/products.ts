@@ -76,7 +76,7 @@ export const CATEGORIES: CategoryMeta[] = [
     label: "Application avec licences et antivirus",
     icon: Smartphone,
     colorClass: "text-red-600",
-    subcategories: ["Smartphones", "Tablettes", "Accessoires", "MDM"],
+    subcategories: ["Windows 10 pro", "Windows 11 pro", "Office 19 actif"],
   },
 ];
 
@@ -144,7 +144,7 @@ export const PRODUCTS: Product[] = [
     brand: "Lenovo",
     tags: ["all-in-one", "écran", "bureau", "portable", "Laptops"],
     image: "./images/lenovo/ORDINATEURfixe.webp",
-    details:["D'occasion","NOIR","Lenovo","250 à 500go ou SSD 128 à 256 Go","4GO","i5 ou I7 de 2ème à la 8ème génération" ],
+    details:["D'occasion","NOIR","Lenovo","250 à 500go ou SSD 128 à 256 Go","4GO","i5 ou I7 de 2ème à la 8ème génération"],
     desc:"Ordinateurs complets avec écran 19 à 24\n"+ "disponibles Lenovo, HP,ACER et DELL selon stock\n" +
 "Core i5 ou i7(de la 2 -ème à la 8 -ème génération)\n" +
 "Mémoire Ram de 4 à 8 go extensible à 16 go\n" +
@@ -463,7 +463,7 @@ export const PRODUCTS: Product[] = [
   },
     {
         id: "p-1",
-        name: "Laptop Pro 14\" i7/16Go/1To",
+        name: "Desktop Pro 14\" i7/16Go/1To",
         price: 790000,
         stock: "En stock",
         category: "computers",
@@ -599,7 +599,7 @@ export const PRODUCTS: Product[] = [
         price: 200000,
         stock: "En stock",
         category: "computers",
-        subcategory: "laptops",
+        subcategory: "Laptops",
         brand: "HP",
         tags: ["laptop", "hp", "windows"],
         image: "https://i.roamcdn.net/hz/ed/listing-gallery-full-1920w/505a9d8949a4cb52125afde0e0f72232/-/horizon-files-prod/ed/picture/q9m8455v/499cf4efb1d688c4d6f433de81e28ac61af72609.jpg",
@@ -623,7 +623,7 @@ export const PRODUCTS: Product[] = [
         price: 75000,
         stock: "En stock",
         category: "computers",
-        subcategory: "laptops",
+        subcategory: "Laptops",
         brand: "HP",
         tags: ["laptop", "hp", "windows"],
         image: "https://i.roamcdn.net/hz/ed/listing-gallery-full-1920w/81c80e4a8b22f0f96c8749929553a8c0/-/horizon-files-prod/ed/picture/q44dvvq4/75d658816d72e39637333271203956f0effe8be2.jpg",
@@ -646,7 +646,7 @@ export const PRODUCTS: Product[] = [
         price: 200000,
         stock: "En stock",
         category: "computers",
-        subcategory: "laptops",
+        subcategory: "Laptops",
         brand: "HP",
         tags: ["laptop", "hp", "windows"],
         image: "https://i.roamcdn.net/hz/ed/listing-gallery-full-1920w/43bd6f9ba58fd46a3a32867063be1160/-/horizon-files-prod/ed/picture/qm5r86vr/845ac8c12ecf1da1182de6fc2e25f0af5bf002c1.jpg",
@@ -671,7 +671,7 @@ export const PRODUCTS: Product[] = [
         price: 45000,
         stock: "En stock",
         category: "computers",
-        subcategory: "laptops",
+        subcategory: "Laptops",
         brand: "HP",
         tags: ["laptop", "hp", "windows"],
         image: "https://i.roamcdn.net/hz/ed/listing-gallery-full-1920w/7da1ecf3347aae6842fcd41571473a9c/-/horizon-files-prod/ed/picture/q2jr75w2/0e723cec34f13e3785ea841d18f0a2941a1be91e.jpg",
@@ -696,7 +696,7 @@ export const PRODUCTS: Product[] = [
         price: 50000,
         stock: "En stock",
         category: "computers",
-        subcategory: "laptops",
+        subcategory: "Laptops",
         brand: "HP",
         tags: ["laptop", "hp", "windows"],
         image: "https://i.roamcdn.net/hz/ed/listing-gallery-full-1920w/8513c616804ebfea8b45439559dcbb95/-/horizon-files-prod/ed/picture/q745n7g/c6ccb6921ad21de78452845dbbb4903040306ddf.jpg",
@@ -724,7 +724,7 @@ export const PRODUCTS: Product[] = [
         price: 450000,
         stock: "En stock",
         category: "computers",
-        subcategory: "desktops",
+        subcategory: "Ordinateurs de bureau",
         brand: "HP",
         tags: ["desktop", "hp", "windows"],
         image: "https://i.roamcdn.net/hz/ed/listing-gallery-full-1920w/a440c598a20131fd22a59c2ed938e163/-/horizon-files-prod/ed/picture/q0g72jj6/6b32c58cd5893a4da603eebf0397fe2865db6dd3.jpg",
@@ -746,7 +746,7 @@ export const PRODUCTS: Product[] = [
         price: 125000,
         stock: "En stock",
         category: "computers",
-        subcategory: "laptops",
+        subcategory: "Laptops",
         brand: "HP",
         tags: ["laptop", "hp", "windows"],
         image: "https://i.roamcdn.net/hz/ed/listing-gallery-full-1920w/5bc26f3758aa4f7cc8d19a9829a48583/-/horizon-files-prod/ed/picture/qwerwm9d/f59170106831d82e2219abaa5a8696bb4370035e.jpg",
@@ -780,7 +780,7 @@ export const PRODUCTS: Product[] = [
         price: 160000,
         stock: "En stock",
         category: "computers",
-        subcategory: "laptops",
+        subcategory: "Laptops",
         brand: "HP",
         tags: ["laptop", "hp", "windows"],
         image: "https://i.roamcdn.net/hz/ed/listing-gallery-full-1920w/f8ff8f31511c4361091070c5a47b69c9/-/horizon-files-prod/ed/picture/qkr80vqw/2c6abad035fe7ffd0f34d5935b9bdc6eb6b88a7c.jpg",
@@ -806,7 +806,7 @@ export const PRODUCTS: Product[] = [
         price: 125000,
         stock: "En stock",
         category: "computers",
-        subcategory: "laptops",
+        subcategory: "Laptops",
         brand: "HP",
         tags: ["laptop", "hp", "windows"],
         image: "https://i.roamcdn.net/hz/ed/listing-thumb-543w/00a050b93f5b793aeb2b54623bf4b5fc/-/horizon-files-prod/ed/picture/qzvpxpmv/fc7d705825f57b32da1e882eb497fb9fb0e2ea3c.jpg",
@@ -833,7 +833,7 @@ export const PRODUCTS: Product[] = [
         price: 270000,
         stock: "En stock",
         category: "computers",
-        subcategory: "laptops",
+        subcategory: "Laptops",
         brand: "HP",
         tags: ["laptop", "hp", "windows"],
         image: "https://i.roamcdn.net/hz/ed/listing-gallery-main-844w/eb1be02a9515a4497f9ff3093ea7fbdd/-/horizon-files-prod/ed/picture/q56xrnp2/d32ee735812c8dc60327167f40fd76a451ba26ba.jpg",
@@ -857,7 +857,7 @@ export const PRODUCTS: Product[] = [
         price: 250000,
         stock: "En stock",
         category: "computers",
-        subcategory: "laptops",
+        subcategory: "Laptops",
         brand: "HP",
         tags: ["laptop", "hp", "windows"],
         image: "https://i.roamcdn.net/hz/ed/listing-gallery-full-1920w/ca10402c5cec2ea39a40121cede1b750/-/horizon-files-prod/ed/picture/migrated/qp0jemw/3c6ac80e193fed84de3ef469b414684e53e0d534.jpg",
@@ -882,7 +882,7 @@ export const PRODUCTS: Product[] = [
         price: 250000,
         stock: "En stock",
         category: "computers",
-        subcategory: "laptops",
+        subcategory: "Laptops",
         brand: "HP",
         tags: ["laptop", "hp", "windows"],
         image: "https://i.roamcdn.net/hz/ed/listing-gallery-full-1920w/57110fc716992296b5a1ca8f407df2ce/-/horizon-files-prod/ed/picture/migrated/qp0jemw/17dc65f1f17ba2a1d7262e53f32746d69d0cd4f8.jpg",
@@ -907,7 +907,7 @@ export const PRODUCTS: Product[] = [
         price: 300000,
         stock: "En stock",
         category: "computers",
-        subcategory: "laptops",
+        subcategory: "Laptops",
         brand: "HP",
         tags: ["laptop", "hp", "windows"],
         image: "https://i.roamcdn.net/hz/ed/listing-gallery-full-1920w/a947fa97b12a5ed15a1f7b9e33c6d167/-/horizon-files-prod/ed/picture/migrated/qm6je9m/e5bf24c9b2eeaa701f760c5ed0bdcde20178b470.jpg",
@@ -932,7 +932,7 @@ export const PRODUCTS: Product[] = [
         price: 40000,
         stock: "En stock",
         category: "computers",
-        subcategory: "laptops",
+        subcategory: "Laptops",
         brand: "HP",
         tags: ["laptop", "hp", "windows"],
         image: "https://i.roamcdn.net/hz/ed/listing-gallery-full-1920w/7b89aca04aa1dc200bb59155fb96518d/-/horizon-files-prod/ed/picture/migrated/qe9jpx2/e2ceaa5287b5b7aad352af8f373c5d93a5ec3595.jpg",
@@ -957,7 +957,7 @@ export const PRODUCTS: Product[] = [
         price: 50000,
         stock: "En stock",
         category: "computers",
-        subcategory: "laptops",
+        subcategory: "Laptops",
         brand: "HP",
         tags: ["laptop", "hp", "windows"],
         image: "https://i.roamcdn.net/hz/ed/listing-gallery-main-844w/fa54844407e35d7e4d1deb76ea146f7d/-/horizon-files-prod/ed/picture/migrated/qzzj9pr/8f406733e244d177eccd75ae98618291d6b9c9b9.jpg",
@@ -982,7 +982,7 @@ export const PRODUCTS: Product[] = [
         price: 40000,
         stock: "En stock",
         category: "computers",
-        subcategory: "laptops",
+        subcategory: "Laptops",
         brand: "HP",
         tags: ["laptop", "hp", "windows"],
         image: "https://i.roamcdn.net/hz/ed/listing-gallery-full-1920w/790a15b7c8e6a683487422769e724c7c/-/horizon-files-prod/ed/picture/migrated/qp026mm/eba266304bd5db95647d9b133d59049427fd8fd7.jpg",
@@ -1001,6 +1001,35 @@ export const PRODUCTS: Product[] = [
     },
 
 
+  // Infrastructure - 6 produits
+  {
+    id: "p-43",
+    name: "Modem Router TP-Link",
+    price: 18000,
+    stock: "En stock",
+    category: "infrastructure",
+    subcategory: "routeurs",
+    brand: "TP-Link",
+    tags: ["modem", "router", "access point"],
+    image: "https://i.roamcdn.net/hz/ed/listing-gallery-full-1920w/77f291f26954f173498ee697828ab132/-/horizon-files-prod/ed/picture/migrated/q59gr27/75187642cfcf97820551e6b1decfb4138d498837.png",
+      details:["Neuf", "Blanc", "TP-Link"],
+    desc: "TP LINK 150Mbps wireless N ADSL2+ Modem Router\n" +
+        "APARTIR DU PRIX INDIQUER CI DESSUS",
+  },
+    {
+        id: "p-45",
+        name: "Access Point TP-Link",
+        price: 18000,
+        stock: "En stock",
+        category: "infrastructure",
+        subcategory: "routeurs",
+        brand: "TP-Link",
+        tags: ["modem", "access point"],
+        image: "https://i.roamcdn.net/hz/ed/listing-gallery-full-1920w/bf25168d75fe82c11f40346ce2f956c5/-/horizon-files-prod/ed/picture/migrated/q59gr27/320fcbd5c72a9e4e4bd38b4220320056ac25ce54.png",
+        details:["Neuf", "Blanc", "TP-Link"],
+        desc: "TP LINK 300Mps wireless Access Point TL-WA801ND\n" +
+            "APARTIR DU PRIX INDIQUER CI DESSUS",
+    },
   // Peripherals - 7 produits
   {
     id: "p-36",
@@ -1631,6 +1660,53 @@ export const PRODUCTS: Product[] = [
 
 
 
+
+  // Applications avec licences et antivirus - 6 produits
+  {
+    id: "p-47",
+    name: "Windows 11 Pro Licence activation À Vie",
+    price: 20000,
+    stock: "En stock",
+    category: "applications avec licences et antivirus",
+    subcategory: "Windows 11 pro",
+    brand: "Microsoft",
+    tags: ["windows", "licence"],
+    image: "https://i.roamcdn.net/hz/ed/listing-thumb-543w/a38c8cde4c889449e9ecf11f39fc375d/-/horizon-files-prod/ed/picture/q0g2ndkk/2af2549c37b80b1d9a906a04094ad9b21666f7c9.jpg",
+      details: ["Neuf", "Gris, Noir", "Microsoft"],
+      desc: "Produit Windows 11 Pro officiel\n"
+         + "Microsoft Online Update.\n"
+         + "Prend en charge l'allemand, l'anglais, l'italien, le français, le japonais, l'espagnol, le russe, etc.\n"
+         + "Compatible avec les versions 32 et 64 bits\n"
+         + "1 clé pour un seul PC. 1 clé Windows 11 Pro pour un ordinateur."
+  },
+  {
+    id: "p-49",
+    name: "LICENCE MICROSOFT OFFICE 2019",
+    price: 45000,
+    stock: "En stock",
+    category: "applications avec licences et antivirus",
+      subcategory: "Office 19 actif",
+      brand: "Microsoft",
+      tags: ["windows", "licence", "office", "word", "excel", "powerpoint"],
+      image: "https://i.roamcdn.net/hz/ed/listing-gallery-main-844w/d00d0398999efd83c87135bebe12217e/-/horizon-files-prod/ed/picture/qdpz94w/3e8626492590c9bba6b93a5bdd14268294038f19.jpg",
+      details: ["Neuf", "Gris", "Microsoft"],
+      desc: "NOUS VENDONS DES LICENCES MICROSOFT OFFICE 2019 (1)POSTE\n"
+          + "AU DELÀ DE CINQ (5) RÉDUCTION POSSIBLE."
+  },
+    {
+        id: "p-51",
+        name: "LICENCE WINDOWS 10 PROFESSIONNEL",
+        price: 15000,
+        stock: "En stock",
+        category: "applications avec licences et antivirus",
+        subcategory: "Windows 10 pro",
+        brand: "Microsoft",
+        tags: ["windows", "licence"],
+        image: "https://i.roamcdn.net/hz/ed/listing-gallery-main-844w/e180913623b65827a113b64136eb2fdf/-/horizon-files-prod/ed/picture/qv60dk8/128cd373dde38ded49cb0e1d8b2c3815ff7359b0.jpg",
+        details: ["Neuf", "Gris", "Microsoft"],
+        desc: "NOUS VENDONS DES LICENCES WINDOWS 10 PROFESSIONNEL POUR UN (1) POSTE.\n"
+            + "AU DELÀ DE CINQ (5) RÉDUCTION POSSIBLE."
+    },
 ];
 
 export const PRICE_MIN = 5000;
