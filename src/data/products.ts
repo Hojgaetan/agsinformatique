@@ -62,14 +62,14 @@ export const CATEGORIES: CategoryMeta[] = [
     label: "Stockage & Mémoire",
     icon: HardDrive,
     colorClass: "text-orange-600",
-    subcategories: ["SSD", "Disques externes", "RAM", "NAS","Cartes graphiques", "Clé USB" ],
+    subcategories: ["SSD", "Disques externes", "RAM", "NAS","Cartes graphiques", "Clé USB","Adaptateur" ],
   },
   {
     key: "network",
     label: "Réseaux & Sécurité",
     icon: Wifi,
     colorClass: "text-teal-600",
-    subcategories: ["Wi‑Fi", "Firewalls", "Caméras IP", "UPS"],
+    subcategories: ["Wi‑Fi", "Firewalls", "Caméras IP", "UPS","Sécurite"],
   },
   {
     key: "applications avec licences et antivirus",
@@ -91,7 +91,7 @@ export const PRODUCTS: Product[] = [
     category: "computers",
     subcategory: "Laptops",
     brand: "Dell",
-    details: ["Réconditionné", "ROUGE, NOIR, JAUNE, GRISE, BLEU,.......", "Dell", "128GO", "4GO", "Intel"],
+    details: ["Réconditionné","ROUGE, NOIR, JAUNE, GRISE, BLEU,...", "Dell","128GO", "4GO", "Intel"],
     tags: ["bureau","portable","tactile"],
     image: "/images/ordinateurDELL/X360 DELL TACTILE.png",
     desc: " Dell 3190\n"+
@@ -117,11 +117,11 @@ export const PRODUCTS: Product[] = [
     price: 150000,
     stock: "En stock",
     category: "computers",
-    subcategory: "laptops",
+    subcategory: "Laptops",
     brand: "Lenovo",
     tags: ["portable", "bureau", "tactile"],
     image: "./images/lenovo/lonovoYOGA.webp",
-    details:["Réconditionné","NOIR","Lenovo","256SSD","8GO","i5"],
+    details:["Réconditionné","NOIR","Lenovo","256SSD","8GO","i5, 8250 U de 8ème generation"],
     desc: "Lenovo Thinkpad L380 YOGA X360\n"+ "Core i5 (8e gén) - 8GO\n"+ "256GO SSD\n"+ 
     "Ecran 13.3 pouces tactile pliable\n"+ "Lenovo Thinkpad L380 (mince et très leger)\n"+ 
     "Processeur: Core i5-8250 U de 8 -ème generation\n"+ "Fréquence de base du processeur: 1.6GHz\n"+
@@ -165,7 +165,8 @@ export const PRODUCTS: Product[] = [
     brand: "Lenovo",
     tags: ["all-in-one", "écran", "bureau"],
     image: "./images/lenovo/allinon.webp",
-    details:["256 GO SSD","8GO","CORE I5 6ème","NOIR","Lenovo","reconditionné"],
+    details:["reconditionné","NOIR","Lenovo","256 GO SSD","8GO","CORE I5 6ème"],
+
     desc:"ThinkCentre M900z All-in-One\n"+ "Ecran tactile 60,45 cm (23,8)\n" +
 "Core™ i5 6 ème génération\n" +
 "Mémoire 8go extensible à 16 go\n" +
@@ -182,7 +183,7 @@ export const PRODUCTS: Product[] = [
     brand: "Dell",
     tags: ["portable", "laptop"],
     image: "./images/ordinateurDELL/dell.webp",
-    details:["256SSD","8GO","CORE I7","NOIR","dell","reconditionné"],
+    details:["reconditionné","NOIR","dell","256SSD","8GO","CORE I7"],
     desc:"DELL LATITUDE 5470 Core I7 6 ème Gen .8Go.SSD 256 Go.14 POUCES Full HD.carte graphique Radeon R7 M360 2 Go\n" +
 "Webcam .HDMI\n" +
 "(RECONDITIONNE USINE AVEC CARTON D'ORIGINE)\n" +
@@ -213,7 +214,7 @@ export const PRODUCTS: Product[] = [
     brand: "Lenovo",
     tags: ["portable", "laptop"],
     image: "./images/lenovo/lonovo.webp",
-    details:["256 SSD","8GO","CORE I5","NOIR","Lenovo","Réconditionné"],
+    details:["Réconditionné","NOIR","Lenovo","256 SSD","8GO","CORE I5"],
     desc:"Lenovo Thinkpad T460 Ultrabook (mince et très léger) avec 2 batteries. Très bonne autonomie\n" +
 "Processeur : Intel Core i5-6300U (6e génération, jusqu'à 3,0 GHz)\n" +
 "RAM : 8 Go DDR4 extensible à 16 et 32GO\n" +
@@ -235,7 +236,7 @@ export const PRODUCTS: Product[] = [
     brand: "Lenovo",
     tags: ["portable", "laptop"],
     image: "./images/lenovo/lenovo.webp",
-    details:["256 SSD","8GO","CORE I5","NOIR","Lenovo","Réconditionné"],
+    details:["Réconditionné","NOIR","Lenovo","256 SSD","8GO","CORE I5"],
     desc:"Lenovo ThinkPad 13 Intel Core i5-7200U 8Go de RAM 256 Go SSD\n" +
 "Processeur : Intel Core i5 7 -ème\n" +
 "Mémoire : 8GO à 16 Go de RAM.\n" +
@@ -257,7 +258,7 @@ export const PRODUCTS: Product[] = [
     brand: "Dell",
     tags: ["portable", "laptop"],
     image: "./images/ordinateurDELL/dell1.webp",
-    details:["256 SSD","8GO","CORE I5","NOIR","dell","Réconditionné"],
+    details:["Réconditionné","NOIR","dell","256 SSD","8GO","CORE I5"],
     desc:"Ordinateur portable DELL LATITUDE 5550\n" +
 "ECRAN 15.6 POUCES TACTILE\n" +
 "CLAVIER +PAVE NUMERIQUE\n" +
@@ -295,7 +296,7 @@ export const PRODUCTS: Product[] = [
     brand: "Lenovo",
     tags: ["portable", "laptop"],
     image: "./images/lenovo/lenovoyoga.webp",
-    details:["128 SSD","4GO","intel","NOIR","Lenovo","Réconditionné"],
+    details:["Réconditionné","NOIR","Lenovo","128 SSD","4GO","intel"],
     desc:"Ordinateur portable Lenovo Thinkpad Yoga 11e 11.6 pouces\n" +
 "Processeur 1,6 GHz INTEL\n" +
 "RAM 4 à 8 Go DDR3E\n" +
@@ -315,7 +316,7 @@ export const PRODUCTS: Product[] = [
     brand: "Dell",
     tags: ["portable", "laptop"],
     image: "./images/ordinateurDELL/dell2.webp",
-    details:["256 SSD","16GO","CORE I7","NOIR","dell","D'occasion"],
+    details:["D'occasion","NOIR","dell","256 SSD","16GO","CORE I7",],
     desc:"DELL LATITUDE E5530 CORE I7 3éme GENERATION\n" +
 "Processeur Intel Core i7 3 eme generation\n" +
 "16 Go de mémoire DDR3 2x 8 Go\n" +
@@ -330,11 +331,11 @@ export const PRODUCTS: Product[] = [
     price: 60000,
     stock: "En stock",
     category: "computers",
-    subcategory: "ordinateurs de bureau",
+    subcategory: "Ordinateurs de bureau",
     brand: "Dell",
     tags: ["bureau", "desktop", "ordinateur fixe", "dell", "windows"],
     image: "./images/ordinateurDELL/dell2.webp",
-    details:["500GO","4GO","3.20Ghz","dell","Réconditionné"],
+    details:["Réconditionné","Gris","dell","500GO","4GO","3.20Ghz"],
     desc:"Ordinateurs Complets avec écran 22 pouces\n" +
 "Disponible en acer desktop selon stock : \n" +
 "Core I5 3.20ghz 4go de mémoire Ram , \n" +
@@ -354,7 +355,7 @@ export const PRODUCTS: Product[] = [
     brand: "Dell",
     tags: ["portable", "laptop", "dell", "windows"," core i7","16go","1to", "15.6"],
     image: "./images/ordinateurDELL/dell5.webp",
-    details:["1000Go","16GO","CORE I7","dell","D'occasion"],
+    details:["D'occasion","Noir","dell","1000Go (1To)","16GO","CORE I7"],
     desc:"Je vends mon Dell LATITUDE E6530 avec les caractéritiques principales: \n" +
 "Processeur Intel Core i7-3.à 3.7ghz\n" +
 " RAM 16 Go - Disque dur 1000Go\n" +
@@ -373,11 +374,11 @@ export const PRODUCTS: Product[] = [
     price: 45000,
     stock: "En stock",
     category: "computers",
-    subcategory: "ordinateurs de bureau",
+    subcategory: "Ordinateurs de bureau",
     brand: "Acer",
     tags: ["bureau", "desktop", "ordinateur fixe", "acer", "windows"],
     image: "./images/acer/acer.webp",
-    details:["250GO","4GO","3.10Ghz","acer","D'occasion"],
+    details:["D'occasion","Noir","acer","250GO","4GO","3.10Ghz"],
     desc:"Ensembles complets Lenovo, HP ou Acer en desktop\n" +
 ".Core i3\n" +
 "Processeur 3.10ghz\n" +
@@ -395,11 +396,11 @@ export const PRODUCTS: Product[] = [
     price: 35000,
     stock: "En stock",
     category: "computers",
-    subcategory: "ordinateurs de bureau",
+    subcategory: "Ordinateurs de bureau",
     brand: "Dell",
     tags: ["bureau", "desktop", "ordinateur fixe", "dell", "windows"],
     image: "./images/ordinateurDELL/dell4.webp",
-    details:["80GO","4GO","2.6Ghz","dell","Réconditionné"],
+    details:["Réconditionné","Noir","dell","80GO","4GO","2.6Ghz"],
     desc:"Ordinateurs complets en HP, Dell et LENOVO, selon stock\n" +
 "Pentium DUAL CORE 2,6ghz à 3ghz ,\n" +
 "4 go de mémoire ram , \n" +
@@ -407,9 +408,9 @@ export const PRODUCTS: Product[] = [
 "écran 17 pouces \n"+
 "Wifi en option\n"+
 "Machines idéales pour : \n"+
-"_transfert d'argent \n"+
-"_multiservices \n"+
-"_Tous travaux de bureau et d'internet \n"+
+"Transfert d'argent \n"+
+"Multiservices \n"+
+"Tous travaux de bureau et d'internet \n"+
 "Tous nos produits sont garantis"
   },
     {
@@ -422,7 +423,7 @@ export const PRODUCTS: Product[] = [
     brand: "Dell",
     tags: ["portable", "laptop", "dell", "windows"," core i7",],
     image: "./images/ordinateurDELL/dell6.webp",
-    details:["500Go","8GO","CORE I7","dell","D'occasion"],
+    details:["D'occasion","Noir","dell","500Go","8GO","CORE I7"],
     desc:"Je vends mon DELL E6510 avec les caractéritiques principales: \n" +
 " Processeur Intel Core i7-3.33ghz\n" +
 " RAM 8 Go extensible à 16 go \n" +
@@ -441,11 +442,11 @@ export const PRODUCTS: Product[] = [
     price: 35000,
     stock: "En stock",
     category: "computers",
-    subcategory: "ordinateurs de bureau",
+    subcategory: "Ordinateurs de bureau",
     brand: "Dell",
     tags: ["bureau", "desktop", "ordinateur fixe", "dell", "windows"],
     image: "./images/ordinateurDELL/dell7.webp",
-    details:["250GO","4GO","Core 2 duo","dell","D'occasion"],
+    details:["D'occasion","Noir","dell","250GO","4GO","Core 2 duo"],
     desc:"Nous vendons des ordinateurs complets avec \n" +
 "écran 19 en Dell, Lenovo et HP selon stock :\n" +
 "intel pentium ou Core 2 duo,\n" +
@@ -455,9 +456,9 @@ export const PRODUCTS: Product[] = [
 "Wifi en option\n"+
 "Windows , Office, Antivirus etc...prêt à l'emploi\n"+
 "Machines idéales pour : \n"+
-"_transfert d'argent \n"+
-"_multiservices \n"+
-"_Tous travaux de bureau et d'internet \n"+
+"Transfert d'argent \n"+
+"Multiservices \n"+
+"Tous travaux de bureau et d'internet \n"+
 "Tous nos produits sont garantis"
   },
     {
@@ -471,13 +472,14 @@ export const PRODUCTS: Product[] = [
         tags: ["desktop", "lenovo", "windows"],
         image: "https://i.roamcdn.net/hz/ed/listing-thumb-543w/a25e0963c61102f4192557d7d059b5e7/-/horizon-files-prod/ed/picture/qgq9e76k/4237975ee73dce7b337b90775aedff3dbea61564.jpg",
         details: [
-            "Processeur Intel Core i7 de 7e génération",
-            "08 Go de RAM",
-            "Stockage 500 Go ET/OU 256 SSD",
-            "Écran 22 à 24",
-            "Batterie longue durée jusqu'à 10 heures",
             "Etat reconditionné",
-            "Couleur : Noir"
+            "Couleur : Noir",
+            "HP",
+            "500 Go ET/OU 256 SSD",
+             "08 Go de RAM",
+            "Intel Core i7 de 7e génération",
+            " 22 à 24 Pouces",
+            "longue durée jusqu'à 10 heures",
         ],
         desc: "ENSEMBLE ORDINATEUR COMPLET CORE I7 7 ème génération\" " +
             "DISPONIBLE EN HP PRODESK 400 G4 SSF.\"" +
@@ -496,15 +498,15 @@ export const PRODUCTS: Product[] = [
         tags: ["desktop", "hp", "windows"],
         image: "https://i.roamcdn.net/hz/ed/listing-gallery-full-1920w/c3fd5eaba47405be638e37ac669cc44f/-/horizon-files-prod/ed/picture/qrxv9wx/cb6e8d57928bb08ceb36ee2a1b1120b0f229dcd1.jpg",
         details: [
-            "Processeur Intel i5 ou i7(de la 2 -ème à la 8 -ème génération)",
-            "04 Go de RAM",
-            "Stockage 250 à 500 Go SATA OU 128 à 256 SSD",
-            "Marque HP",
             "Etat reconditionné",
-            "Couleur : Noir"
+            "Couleur : Noir",
+            "Marque HP",
+            "Stockage 250 à 500 Go SATA OU 128 à 256 SSD",
+                 "04 Go de RAM",
+                 "Processeur Intel i5 ou i7(de la 2 -ème à la 8 -ème génération)",
         ],
         desc: "Ordinateurs complets avec écran 19 à 24\" disponibles Lenovo, HP et DELL selon stock\n" +
-            "Core i5 ou i7(de la 2 -ème à la 8 -ème génération)\" " +
+            "Core i5 ou i7(de la 2 -ème à la 8 -ème génération)\n " +
             "Mémoire Ram de 4 go extensible à 8 ou 16 go\n" +
             "Disque dur 250 go SATA extensible à 500go ou SSD 128 à 256 Go.\"" +
             "En Option :Wifi, Carte Graphique de 2 à 4 go\n" +
@@ -523,12 +525,12 @@ export const PRODUCTS: Product[] = [
         tags: ["desktop", "hp", "windows"],
         image: "https://i.roamcdn.net/hz/ed/listing-gallery-main-844w/06c4ccfebc3b4e45155a40f82820210f/-/horizon-files-prod/ed/picture/q9m8nrv8/943f4ca4de3939073649839db923a11ccd08c472.jpg",
         details: [
-            "Processeur Intel i3",
-            "RAM 04 Go de RAM EXTENSIBLE à 16 GO",
-            "Stockage 250 à 500 Go SATA OU 128 à 256 SSD",
-            "Marque HP",
-            "Etat d'Occasion",
-            "Couleur : Gris Noir"
+            "D'Occasion",
+            " Gris Noir",
+              " HP",
+                "250 à 500 Go SATA OU 128 à 256 SSD",
+                  " 04 Go de RAM EXTENSIBLE à 16 GO",
+                    "Processeur Intel i3",
         ],
         desc: "NOUS VENDONS DES ORDINATEURS COMPLETS\n" +
             "HP/DELL/LENOVO/ACER\n" +
@@ -549,12 +551,16 @@ export const PRODUCTS: Product[] = [
         tags: ["desktop", "hp", "windows"],
         image: "https://i.roamcdn.net/hz/ed/listing-gallery-full-1920w/47387edf75afce8bab67bcc5a6401fa3/-/horizon-files-prod/ed/picture/qgqw8jzn/2a49ac87d9c4fa1559408c4682e3fce9eda2e6aa.jpg",
         details: [
-            "Processeur Intel Core i7-13-ème",
-            "RAM 32 Go",
-            "Stockage 1Téra SSD",
-            "Marque HP",
-            "Etat Neuve",
-            "Couleur : Noir"
+        
+           
+        
+          
+            "Neuf",
+            "Noir",
+              "HP",
+                  "1Téra SSD",
+                   " 32 Go",
+                       "Intel Core i7-13-ème",
         ],
         desc: "ALL IN ONE HP 27 POUCES TACTILE\n" +
             "CORE I7 13éme GENERATION\n" +
@@ -574,12 +580,12 @@ export const PRODUCTS: Product[] = [
         tags: ["desktop", "hp", "windows"],
         image: "https://i.roamcdn.net/hz/ed/listing-gallery-full-1920w/02e25a7d5f8747a4a05f23fddcbbdea4/-/horizon-files-prod/ed/picture/q788256m/ff826b2a965bc7f26a102c6aedb2d392a9b8df66.jpg",
         details: [
-            "Processeur Intel i5",
-            "RAM 04 Go de RAM EXTENSIBLE à 08 GO",
-            "Stockage 250 à 500 Go SATA OU 128 à 256 SSD",
-            "Marque HP",
-            "Etat d'Occasion",
-            "Couleur : Gris Noir"
+            "D'Occasion",
+            "Gris Noir",
+             " HP",
+             "250 à 500 Go SATA OU 128 à 256 SSD",
+             "04 Go de RAM EXTENSIBLE à 08 GO",
+                  "Intel i5",
         ],
         desc: "CORE I5 HP ACER LENOVO DELL EN DESKTOPS OU TOURS SELON STOCK\n" +
             "RAM 4GO EXTENSIBLE A 8GO\n" +
@@ -994,6 +1000,7 @@ export const PRODUCTS: Product[] = [
             "Tous nos produits sont garantis.",
     },
 
+
   // Infrastructure - 6 produits
   {
     id: "p-43",
@@ -1035,14 +1042,15 @@ export const PRODUCTS: Product[] = [
     tags: ["laser", "HP", "multifonction", "couleur", "imprimante"],
     image: "./images/peripheriques/imprimante.webp",
     desc: "Nous vendons des imprimantes avec les spécifications suivantes :\n"
-         + "_Marque HP séries Laserjet PRO M 277  n,\n"
-         + "_dn ou dw Couleur Blanche\n"
-         + "_out-en-un Laser couleur selon stock\n"
-         + "_Impression, copie, scan et télécopie + réseau et recto-verso",
+         + "Marque HP séries Laserjet PRO M 277  n,\n"
+         + "dn ou dw Couleur Blanche\n"
+         + "out-en-un Laser couleur selon stock\n"
+         + "Impression, copie, scan et télécopie + réseau et recto-verso",
 
     details: [
-      "Blanc",
+    
       "Réconditionné", 
+        "Blanc",
     ]
   },
    {
@@ -1068,8 +1076,9 @@ export const PRODUCTS: Product[] = [
 
 
     details: [
-      "Noir/Blanc",
       "Réconditionné", 
+      "Noir/Blanc",
+      
     ]
   },
     {
@@ -1093,8 +1102,8 @@ export const PRODUCTS: Product[] = [
 
 
     details: [
-      "Blanc",
       "Réconditionné", 
+       "Blanc",
     ]
   },
   {
@@ -1114,8 +1123,9 @@ export const PRODUCTS: Product[] = [
          + "DVI HDMI POUR UN PETIT SUPPLÉMENT\n"
            + "A PARTIR DU PRIX INDIQUE",
     details: [
-      "Noir Gris",
+      
       "Réconditionné",
+      "Noir Gris",
       "Dell"
     ]
   },
@@ -1139,7 +1149,8 @@ export const PRODUCTS: Product[] = [
          
     details: [
       "Neuf",
-      "Pour HP, Dell, Lenovo"
+      "Noir",
+      "HP, Dell, Lenovo"
     ]
   },
 
@@ -1162,6 +1173,7 @@ export const PRODUCTS: Product[] = [
          + "USB 3.2 montant de génération 1\n"
            + "4 x USB 3.2 descendant de génération 1",
     details: [
+      "Neuf",
       "Noir",
       "Dell",
     
@@ -1199,8 +1211,8 @@ export const PRODUCTS: Product[] = [
          + "Protection de court-circuit: oui;\n"
          + "Protection de surcharge: oui;\n",
     details: [
-      "Noir",
       "Neuf",
+      "Noir",
    
     ]
   },
@@ -1242,9 +1254,10 @@ export const PRODUCTS: Product[] = [
          + "Angles de vision H/V\n"
          + "170° / 160°\n",
     details: [
+      "Réconditionné",
       "Noir",
       "Asus",
-      "Réconditionné"
+      
     ]
   },
    {
@@ -1259,9 +1272,10 @@ export const PRODUCTS: Product[] = [
     image: "./images/peripheriques/ecranhp.webp",
     desc: "NOUS VENDONS DES ÉCRANS HP 22 POUCES HDMI FULL HD.\n",
     details: [
+      "Neuf",
       "Noir",
       "HP",
-      "Neuf"
+      
     ]
   },
    {
@@ -1290,8 +1304,9 @@ export const PRODUCTS: Product[] = [
 
 
     details: [
-      "Blanc",
       "Réconditionné", 
+      "Blanc",
+      
     ]
   },
      {
@@ -1314,8 +1329,9 @@ export const PRODUCTS: Product[] = [
 
 
     details: [
-      "Blanc",
       "Venant", 
+      "Blanc",
+     
     ]
   },
      {
@@ -1452,8 +1468,9 @@ export const PRODUCTS: Product[] = [
          + "Voltage nominal en entrée 230V \n"
          + "Fréquence d'entrée 50/60 Hz +/- 3 Hz\n",
     details: [
-      "Noir",
       "Neuf",
+      "Noir",
+      
    
     ]
   },
@@ -1487,8 +1504,9 @@ export const PRODUCTS: Product[] = [
           + " inséré dans l'oreillette du casque \n"+
          + "Aucune partie grise sur la prise jack ne doit être visible une fois le câble branché\n",
     details: [
-      "Rouge Noir",
+    
       "Neuf",
+      "Rouge Noir",
    
     ]
   },
@@ -1551,7 +1569,7 @@ export const PRODUCTS: Product[] = [
     price: 20000,
     stock: "En stock",
     category: "storage",
-    subcategory: "RAM",
+    subcategory: "Adaptateur",
     brand: "Crucial",
     tags: ["ram", "8go", "16go", "32go", "ddr4", "memory", "storage",  "pc", "ordinateur", "fixe",  "portable",  "laptop", "windows",  "mac",  "linux",  "data", "backup", "save", "fast", "reliable", "high performance", "durable",  "efficient",  "storage solution", "ram module",  "ddr4 ram",  "computer memory", "data storage", "file storage",  "system memory",  "gaming ram",  "professional memory",  "workstation memory",  "enterprise memory"],
     image: "./images/stockage/adaptateur.jpg",
@@ -1619,6 +1637,29 @@ export const PRODUCTS: Product[] = [
   },
  
   // Network - 6 produits
+  {
+    id: "p-92",
+    name: "CABLE DE SECURITE POUR ORDINATEUR PORTABLE",
+    price: 15000,
+    stock: "En stock",
+    category: "network",
+    subcategory: "Sécurite",
+    brand: "cable",
+    tags: ["cable","Sécurité","ordinateur"],
+    image: "./images/network/cable.webp",
+    desc:"Câble de sécurité antivol pour ordinateur plusieurs types de portables\n"
+  +"Il existe désormais un câble antivol à combinaison qui fait tout. \n"+
+  " Le verrou universel pour ordinateur portable à combinaison 3 en 1 \n"+
+  "s'adapte à n'importe quel emplacement de sécurité pour ordinateur portable \n"+
+  " standard naro et en forma de coin \n"+
+  " aidant à \" protéger l'avenir\" de votre solution de verrouillage cadran\n"+
+  " rénitialisable à 4 chiffres avec 10 000 combinaisons possibles et câble en acier au carbone \n"+
+  " offrant une sécurité renforcée contre les tentatives de vol. Les fonctionnalités.",
+    details:["Neuf","Noir"]
+  },
+
+
+
 
   // Applications avec licences et antivirus - 6 produits
   {
