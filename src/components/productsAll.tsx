@@ -14,6 +14,7 @@ export const ProductsAll: React.FC = () => {
   const [selectedSubcategory, setSelectedSubcategory] = useState<string>("");
   const [searchTerm, setSearchTerm] = useState<string>("");
   const [selectedProduct, setSelectedProduct] = useState<Product | null>(null);
+  const [currentPage, setCurrentPage] = useState(1);
 
   // --- Fonctions utilitaires ---
   const handleCategoryClick = (category: CategoryMeta) => {
@@ -171,7 +172,7 @@ export const ProductsAll: React.FC = () => {
           )}
 
           {/* --- PRODUITS --- */}
-        {view === "products" && selectedCategory && (
+{view === "products" && selectedCategory && (
   <div>
     <div className="flex flex-col sm:flex-row justify-between items-start sm:items-center mb-6 gap-4">
       <h2 className="text-3xl font-bold flex items-center gap-2">
@@ -239,65 +240,135 @@ export const ProductsAll: React.FC = () => {
       </div>
     </div>
 
-    {/* --- Liste Produits --- */}
-    <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
-      {filteredProducts.map((product) => {
-        const desc = product.desc || "";
-        const showVoirPlus = desc.trim().split(/\s+/).length >= 10;
-        const truncatedDesc = truncateDescription(desc, 10);
+   {/* --- Liste Produits --- */}
+<div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+  {filteredProducts.slice((currentPage - 1) * 20, currentPage * 20).map((product) => {
+    const desc = product.desc || "";
+    const showVoirPlus = desc.trim().split(/\s+/).length >= 10;
+    const truncatedDesc = truncateDescription(desc, 10);
 
-        return (
-          <div
-            key={product.id}
-            className="border rounded-lg shadow hover:shadow-xl transition-shadow duration-300 p-4 flex flex-col"
+    return (
+      <div
+        key={product.id}
+        className="border rounded-lg shadow hover:shadow-xl transition-shadow duration-300 p-4 flex flex-col"
+      >
+        <img
+          src={product.image}
+          alt={product.name}
+          className="w-full h-48 object-contain mb-4 rounded bg-black"
+        />
+
+        <h3 className="text-lg font-bold mb-2">
+          {highlightMatch(product.name)}
+        </h3>
+        <p className="text-sm text-gray-700 mb-1">
+          Marque:{" "}
+          {highlightMatch(product.brand || "Non spécifiée")}
+        </p>
+        <p className="text-sm font-semibold text-blue-700 mb-1">
+          {product.price.toLocaleString("fr-FR")} FCFA
+        </p>
+
+        <p className="text-sm mb-2">
+          <strong>Description:</strong>{" "}
+          {highlightMatch(truncatedDesc)}
+        </p>
+        {showVoirPlus && (
+          <button
+            onClick={() => setSelectedProduct(product)}
+            className="text-blue-600 underline text-sm mt-1"
           >
-            <img
-              src={product.image}
-              alt={product.name}
-              className="w-full h-48 object-contain mb-4 rounded bg-black"
-            />
+            Voir plus
+          </button>
+        )}
+      </div>
+    );
+  })}
 
-            <h3 className="text-lg font-bold mb-2">
-              {highlightMatch(product.name)}
-            </h3>
-            <p className="text-sm text-gray-700 mb-1">
-              Marque:{" "}
-              {highlightMatch(product.brand || "Non spécifiée")}
-            </p>
-            <p className="text-sm font-semibold text-blue-700 mb-1">
-              {product.price.toLocaleString("fr-FR")} FCFA
-            </p>
-
-            <p className="text-sm mb-2">
-              <strong>Description:</strong>{" "}
-              {highlightMatch(truncatedDesc)}
-            </p>
-            {showVoirPlus && (
-              <button
-                onClick={() => setSelectedProduct(product)}
-                className="text-blue-600 underline text-sm mt-1"
-              >
-                Voir plus
-              </button>
-            )}
-          </div>
-        );
-      })}
-
-      {filteredProducts.length === 0 && (
-        <div className="text-center col-span-full py-8">
-          <p className="text-lg font-semibold mb-2">
-            Aucun produit trouvé pour cette recherche.
-          </p>
-          {searchTerm && (
-          <p className="text-gray-600 flex items-center justify-center gap-2">
-  <span className="text-red-500 text-xl font-bold">⚠️</span>
-  Videz la barre de recherche pour voir les autres produits des autres marques.
-</p>
-          )}
-        </div>
+  {filteredProducts.length === 0 && (
+    <div className="text-center col-span-full py-8">
+      <p className="text-lg font-semibold mb-2">
+        Aucun produit trouvé pour cette recherche.
+      </p>
+      {searchTerm && (
+        <p className="text-gray-600 flex items-center justify-center gap-2">
+          <span className="text-red-500 text-xl font-bold">⚠️</span>
+          Videz la barre de recherche pour voir les autres produits des autres marques.
+        </p>
       )}
     </div>
+  )}
+</div>
+
+   {/* --- Pagination --- */}
+{filteredProducts.length > 20 && (
+  <div className="flex flex-col sm:flex-row justify-center items-center gap-4 mt-8">
+    {/* Informations de pagination */}
+    <div className="text-sm text-gray-600 whitespace-nowrap">
+      Page {currentPage} sur {Math.ceil(filteredProducts.length / 20)}
+    </div>
+
+    {/* Contrôles de pagination */}
+    <div className="flex items-center gap-1 sm:gap-2">
+      {/* Bouton Précédent */}
+      <button
+        onClick={() => setCurrentPage(prev => Math.max(prev - 1, 1))}
+        disabled={currentPage === 1}
+        className="px-3 sm:px-4 py-2 border rounded-lg hover:bg-gray-50 disabled:opacity-50 disabled:cursor-not-allowed transition-colors text-sm sm:text-base"
+      >
+        <span className="hidden sm:inline">← Précédent</span>
+        <span className="sm:hidden">←</span>
+      </button>
+
+      {/* Numéros de page */}
+      <div className="flex gap-1">
+        {Array.from({ length: Math.ceil(filteredProducts.length / 20) }, (_, i) => i + 1)
+          .filter(page => 
+            page === 1 || 
+            page === Math.ceil(filteredProducts.length / 20) ||
+            Math.abs(page - currentPage) <= 1
+          )
+          .map((page, index, array) => {
+            if (index > 0 && page - array[index - 1] > 1) {
+              return (
+                <span key={`ellipsis-${page}`} className="px-2 sm:px-3 py-2 text-sm sm:text-base">
+                  ...
+                </span>
+              );
+            }
+            return (
+              <button
+                key={page}
+                onClick={() => setCurrentPage(page)}
+                className={`px-3 sm:px-4 py-2 border rounded-lg transition-colors text-sm sm:text-base ${
+                  currentPage === page
+                    ? 'bg-blue-600 text-white border-blue-600'
+                    : 'hover:bg-gray-50'
+                }`}
+              >
+                {page}
+              </button>
+            );
+          })}
+      </div>
+
+      {/* Bouton Suivant */}
+      <button
+        onClick={() => setCurrentPage(prev => Math.min(prev + 1, Math.ceil(filteredProducts.length / 20)))}
+        disabled={currentPage === Math.ceil(filteredProducts.length / 20)}
+        className="px-3 sm:px-4 py-2 border rounded-lg hover:bg-gray-50 disabled:opacity-50 disabled:cursor-not-allowed transition-colors text-sm sm:text-base"
+      >
+        <span className="hidden sm:inline">Suivant →</span>
+        <span className="sm:hidden">→</span>
+      </button>
+    </div>
+
+    {/* Informations des produits */}
+    <div className="text-sm text-gray-600 whitespace-nowrap">
+      Produits {(currentPage - 1) * 20 + 1}-{Math.min(currentPage * 20, filteredProducts.length)} sur {filteredProducts.length}
+    </div>
+  </div>
+)}
   </div>
 )}
         </>

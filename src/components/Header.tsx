@@ -75,7 +75,6 @@ export function Header() {
         {isMenuOpen && (
           <nav className="md:hidden pb-4 border-t border-gray-100">
             <div className="flex flex-col space-y-4 pt-4">
-              <Link to="/produits" className="text-gray-700" onClick={() => setIsMenuOpen(false)}>Produits</Link>
               <Button asChild>
                 <a
                   href="https://wa.me/221773870030"

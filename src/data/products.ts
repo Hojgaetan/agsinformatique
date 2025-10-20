@@ -546,7 +546,7 @@ export const PRODUCTS: Product[] = [
         subcategory: "Ordinateurs de bureau",
         brand: "HP",
         tags: ["hp", "windows", "core i5", "8go", "256ssd", "19 pouces", "desktop"],
-        image: "./images/HP/hp17.jpg",
+        image: "./images/HP/hp22.webp",
         details: [
             "Neuf",
             "Noir",
