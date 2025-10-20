@@ -28,7 +28,7 @@ export function Header() {
         <div className="flex items-center justify-between py-4">
           <Link to="/" className="flex items-center" aria-label="Accueil">
             <div className="bg-blue-600 rounded-lg mr-3">
-                <img src="/public/icon-192x192.png" alt="Logo AGS"/>
+                <img src="/images/icon-192x192.png" alt="Logo AGS"/>
             </div>
             <div>
               <h1 className="text-xl text-gray-800">Africa's Global Services</h1>
@@ -75,7 +75,6 @@ export function Header() {
         {isMenuOpen && (
           <nav className="md:hidden pb-4 border-t border-gray-100">
             <div className="flex flex-col space-y-4 pt-4">
-              <Link to="/produits" className="text-gray-700" onClick={() => setIsMenuOpen(false)}>Produits</Link>
               <Button asChild>
                 <a
                   href="https://wa.me/221773870030"
