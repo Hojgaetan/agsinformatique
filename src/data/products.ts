@@ -55,7 +55,7 @@ export const CATEGORIES: CategoryMeta[] = [
     label: "Périphériques",
     icon: Printer,
     colorClass: "text-purple-600",
-    subcategories: ["Imprimantes", "Unité centrale", "Écrans", "Projecteurs", "Accessoires", "onduleurs", "BOITE D'ALIMENTATION PC" ],
+    subcategories: ["Imprimantes", "Unité centrale", "Écrans", "Projecteurs", "Accessoires", "onduleurs", "BOITE D'ALIMENTATION PC", "Régulateurs", ],
   },
   {
     key: "storage",
@@ -157,7 +157,7 @@ export const PRODUCTS: Product[] = [
   },
   {
     id: "p-10",
-    name: "ALL IN ONE TACTILE 24",
+    name: "ALL IN ONE TACTILE 24\"",
     price: 225000,
     stock: "En stock",
     category: "computers",
@@ -250,7 +250,7 @@ export const PRODUCTS: Product[] = [
   },
    {
     id: "p-18",
-    name: "DELL LATITUDE E5550 I5 15.6",
+    name: "DELL LATITUDE E5550 I5 15.6 TACTILE +PAVE",
     price: 125000,
     stock: "En stock",
     category: "computers",
@@ -288,7 +288,7 @@ export const PRODUCTS: Product[] = [
   },
     {
     id: "p-20",
-    name: "Lenovo yoga 11e 4go 128go 11,6",
+    name: "Lenovo yoga 11e 4go 128go 11,6''\n",
     price: 60000,
     stock: "En stock",
     category: "computers",
@@ -439,7 +439,7 @@ export const PRODUCTS: Product[] = [
   {
     id: "p-34",
     name: "ORDINATEUR Dell Core2.250go.19.Ordinateur Complet",
-    price: 35000,
+    price: 40000,
     stock: "En stock",
     category: "computers",
     subcategory: "Ordinateurs de bureau",
@@ -999,6 +999,68 @@ export const PRODUCTS: Product[] = [
             "Prêt a l'emploi: Windows 10 pro, office, antivirus, adobe etc.\n" +
             "Tous nos produits sont garantis.",
     },
+    {
+        id: "p-102",
+        name: "GAMER +24 POUCES.16go.2go graphique\n",
+        price: 200000,
+        stock: "En stock",
+        category: "computers",
+        subcategory: "Ordinateurs de bureau",
+        brand: "Dell",
+        tags: ["desktop", "dell", "windows"],
+        image: "./images/ordinateurDELL/dell8.webp",
+        details: [
+            "Réconditionné",
+            "Noir",
+            "Dell",
+            "500Go",
+            "16Go",
+            "Intel XEON"
+        ],
+        desc: "DIPONIBLE EN Dell ET HP Z400,Z420\n" +
+            "Processeur :Intel XEON Mémoire Vive : 16Go\n" +
+            "Disque dur : (1 x 500 Go) ou (1xssd 256go).\n" +
+            "Carte graphique Nvidia (2 go dedié) graveur DVDRW.+ Ecran 24 pouces",
+    },
+    {
+        id: "p-104",
+        name: "Dell Wyse 5470 ALL IN ONE.24 POUCES FHD",
+        price: 90000,
+        stock: "En stock",
+        category: "computers",
+        subcategory: "Ordinateurs de bureau",
+        brand: "Dell",
+        tags: ["All in one", "desktop", "dell", "windows"],
+        image: "./images/ordinateurDELL/dell9.webp",
+        details:["D'occasion","NOIR","dell","128 SSD","8GO","intel J4005",],
+        desc:"Modèle : Dell Wyse 5470 ALL IN ONE\n" +
+            "Ecran de 24 Pouces Full HD Resolution 1920 x 1080\n" +
+            "Processeur : intel J4005 CPU de 2.0 à 2.7 Ghz (supérieur au Core I3 de 3 ème génération )\n" +
+            "Mémoire RAM : 08 Go extensible à 16Go\n"+
+            "Disque dur : SSD M2 de 128 go extensible 256 Go\n"+
+            "Système d'exploitation : Windows 10 ou 11 Professionnel 64\n" +
+            "Microsoft Office 2019\n"+
+            "Tous les utilitaires Acrobat etc\n" +
+            "Clavier + souris\n" +
+            "A PARTIR DU PRIX INDIQUE"
+    },
+    {
+        id: "p-106",
+        name: "Ordinateur Core i3",
+        price: 45000,
+        stock: "En stock",
+        category: "computers",
+        subcategory: "Ordinateurs de bureau",
+        brand: "Acer",
+        tags: ["desktop", "acer", "windows"],
+        image: "./images/acer/acer1.jpg",
+        details:["D'occasion","NOIR","acer","250 Go","4GO","Core i3",],
+        desc:"Ensembles complets Lenovo, HP ou Acer en desktop\n" +
+            "Core i3 - Processeur 3.10ghz/Mémoire RAM 4go/ Disque 250Go/Écran (19\")\n" +
+            "DVDRW - Option Wifi\n" +
+            "Prêt a l'emploi: Windows 10 pro, office, antivirus, adobe etc\n"+
+            "Tous nos produits sont garantis."
+    },
 
 
   // Infrastructure - 6 produits
@@ -1051,6 +1113,7 @@ export const PRODUCTS: Product[] = [
     
       "Réconditionné", 
         "Blanc",
+        "HP"
     ]
   },
    {
@@ -1157,7 +1220,7 @@ export const PRODUCTS: Product[] = [
  {
     id: "p-48",
     name: "ECRAN DELL P2422H HDMI",
-    price: 25000,
+    price: 150000,
     stock: "En stock",
     category: "peripherals",
     subcategory: "Écrans",
@@ -1181,7 +1244,7 @@ export const PRODUCTS: Product[] = [
   },
   {
    id: "p-50",
-    name: "ONDEULEUR JC TECH.MERCURY 850VA",
+    name: "ONDULEUR JC TECH.MERCURY 850VA",
     price: 30000,
     stock: "En stock",
     category: "peripherals",
@@ -1370,6 +1433,28 @@ export const PRODUCTS: Product[] = [
       "Réconditionné", 
     ]
   },
+    {
+        id: "p-96",
+        name: "BOITE D'ALIMENTATION HX520W",
+        price: 30000,
+        stock: "En stock",
+        category: "peripherals",
+        subcategory: "BOITE D'ALIMENTATION PC",
+        brand: "CORSAIR",
+        tags: ["laser", "canon", "multifonction", "couleur", "imprimante", "photocopieur","ricoh","xerox"],
+        image: "./images/peripheriques/ba2.webp",
+        desc: "HX 520W, affiche une puissance de 480W pour le +12V réparti en 3 rails de 18A l'un.\n"
+            + "La modularité est assurée par 2 prises destinées à 2 câbles PCI-Express\n"
+            + "6/8 broches, suivies de 5 prises pour : 1 câble à 2 Molex, 2 câbles à 3 Molex, 2 câbles à 2 SATA.\n"
+            + "Sont également fournis un adaptateur Molex vers 2 Molex,\n"
+            + "pour les ventilateurs (+12V seulement) et un adaptateur Molex vers 2 Floppy.\n" +
+            "\n",
+
+        details: [
+            "Réconditionné",
+            "Noir"
+        ]
+    },
    {
     id: "p-66",
     name: "A+B SUBWOOFER YG-USB11",
@@ -1510,11 +1595,143 @@ export const PRODUCTS: Product[] = [
    
     ]
   },
+    {
+        id: "p-94",
+        name: "IMPRIMANTE HP RE CONDITIONNÉE",
+        price: 50000,
+        stock: "En stock",
+        category: "peripherals",
+        subcategory: "Imprimantes",
+        brand: "HP",
+        tags: ["imprimante", "hp", "reconditionnée", "impression", "bureau", "pmc", "a4", "usb", "150 feuilles", "100 feuilles", "8 000 pages"],
+        image: "./images/peripheriques/imprimante-hp-reconditionnee.jpg",
+        desc: "IMPRIMANTE hp \n"
+            + "Idéale pour le bureau à domicile et les PME\n"
+            + "Fonction : impression\n"
+            + "Formats : A4 ; A5 ; A6 ; Enveloppes (C5, DL) ; Personnalisé\n"
+            + "Port USB 2.0 haut débit\n"
+            + "Cycle d'utilisation (mensuel - A4) : jusqu'à 8 000 pages\n"
+            + "Capacité d'alimentation de 150 feuilles, capacité de sortie de 100 feuilles",
+        details: [
+
+            "Réconditionné",
+            "Noir, Blanc",
+
+        ]
+    },
+    {
+        id: "p-98",
+        name: "ECRAN HP DELL 19\" CARRE ET RECTANGLE\n",
+        price: 15000,
+        stock: "En stock",
+        category: "peripherals",
+        subcategory: "Écrans",
+        brand: "Dell",
+        tags: ["écran", "dell", "19 pouces", "monitor",  "affichage",  "video",  "resolution", "bureau", "desktop",  "ordinateur fixe",  "windows"],
+        image: "./images/peripheriques/ecrandell3.webp",
+        desc: "NOUS VENDONS DES ECRANS 19 POUCES CARRES ET RECTANGLLES\n"
+            + "DISPONIBLE EN HP LENOVO ACER DELL SELON STOCKS.",
+        details: [
+            "D'occasion",
+            "Gris, Noir",
+
+        ]
+    },
+    {
+        id: "p-100",
+        name: "ECRAN 19 POUCES ,20\",22\", 24 DELL ou HP",
+        price: 15000,
+        stock: "En stock",
+        category: "peripherals",
+        subcategory: "Écrans",
+        brand: "HP",
+        tags: ["écran", "hp", "22 pouces", "24 pouces", "hdmi", "monitor",  "affichage",  "video",  "resolution", "bureau", "desktop",  "ordinateur fixe",  "windows"],
+        image: "./images/peripheriques/ecranhp2.webp",
+        desc: "NOUS VENDONS DES ÉCRANS de 19 POUCES RECTANGLES(LARGE)\n"
+            + "DISPONIBLES AUSSI EN 20\"22\" 24\" DELL OU HP SELON STOCKS\n"
+            + "A PARTIR DU PRIX INDIQUE",
+        details: [
+
+            "D'occasion",
+            "Noir Gris",
+            "hp",
+        ]
+    },
+    {
+        id: "p-108",
+        name: "Régulateur 1kva\n",
+        price: 20000,
+        stock: "En stock",
+        category: "peripherals",
+        subcategory: "Régulateurs",
+        brand: "LIGHTWAVE",
+        tags: ["régulateur", "stabilisateur", "lightwave", "jc tech", "mercury"],
+        image: "./images/peripheriques/regulateur1.webp",
+        desc: "CARACTÉRISTIQUES:" +
+            "Entrée: 140 ~ 260 Vac\n"
+            + "Sortie: 220/110 Vac\n"
+            + "Fréquence: 50/60 Hz\n"
+            + "Affichage: électrique Puissance: 1000 VA\n"
+            + "Délai: 3 ~ 5 secondes / 2 ~ 3 minutes\n"
+            + "Type: régulateur de tension automatique\n" +
+            "Régulateur automatique de tension 1KVA Light Wave\n",
+
+
+        details: [
+            "Neuf",
+            "Noir",
+            "HP, Dell, Lenovo"
+        ]
+    },
+    {
+        id: "p-110",
+        name: "Régulateur 2kva\n",
+        price: 20000,
+        stock: "En stock",
+        category: "peripherals",
+        subcategory: "Régulateurs",
+        brand: "LIGHTWAVE",
+        tags: ["régulateur", "stabilisateur", "lightwave", "jc tech", "mercury"],
+        image: "./images/peripheriques/regulateur2.jpg",
+        desc: "CARACTÉRISTIQUES:" +
+            "Entrée: 140 ~ 260 Vac\n"
+            + "Sortie: 220/110 Vac\n"
+            + "Fréquence: 50/60 Hz\n"
+            + "Affichage: électrique Puissance: 2000 VA\n"
+            + "Délai: 3 ~ 5 secondes / 2 ~ 3 minutes\n"
+            + "Type: régulateur de tension automatique\n" +
+            "Régulateur automatique de tension 2KVA Light Wave\n",
+
+
+        details: [
+            "Neuf",
+            "Noir",
+            "HP, Dell, Lenovo"
+        ]
+    },
+    {
+        id: "p-112",
+        name: "TONER CANON CEXV 21\n",
+        price: 25000,
+        stock: "En stock",
+        category: "peripherals",
+        subcategory: "Accessoires",
+        brand: "CANON",
+        tags: ["toner", "canon", "imprimante", "accessoire", "photocopieur","ricoh","xerox"],
+        image: "./images/peripheriques/toner-cannon.webp",
+        desc: "Fabricant:Toner Canon CEXV 21 disponibles en Noir et toutes les couleurs.\n"
+            + "Référence:image RUNNER- C2550/ C 2550 I/C 2880/C2880 I/C 3080/C3080 I/C 3380/C3380 I/ C 3480/C 3480 I. IR-C 2380 I/ C2550/ C2550 I/C 2880/C2880 I/C 3080/C 3080 I/ C3380/ C 3380 I/ C 3480/C 3480 I/C 3580/C3580 I.\n" +
+            "\n",
+
+        details: [
+            "Neuf",
+        ]
+    },
   // Storage - 6 produits
   {
     id: "p-78",
     name: "DISQUE DUR INTERNE 1TERA",
-    price: 59000,
+    price: 75000,
     stock: "En stock",
     category: "storage",
     subcategory: "SSD",
@@ -1559,7 +1776,7 @@ export const PRODUCTS: Product[] = [
       "Vert",
     ],
     desc: "Nous vendons des barrettes portables\n"
-         + "d8 go DDR4 2666MHZ à 15000 fcfa\n"
+         + "8 go DDR4 2666MHZ à 15000 fcfa\n"
          + "8 go DDR4 2666MHZ à 60.000 fcfa\n"
           + "8 go DDR4 2666MHZ à 30000 fcfa\n",
   },
@@ -1568,9 +1785,9 @@ export const PRODUCTS: Product[] = [
     name: "ADAPTATEUR APHA 11en1",
     price: 20000,
     stock: "En stock",
-    category: "storage",
-    subcategory: "Adaptateur",
-    brand: "Crucial",
+    category: "peripherals",
+    subcategory: "Accessoires",
+    brand: "WIWU",
     tags: ["ram", "8go", "16go", "32go", "ddr4", "memory", "storage",  "pc", "ordinateur", "fixe",  "portable",  "laptop", "windows",  "mac",  "linux",  "data", "backup", "save", "fast", "reliable", "high performance", "durable",  "efficient",  "storage solution", "ram module",  "ddr4 ram",  "computer memory", "data storage", "file storage",  "system memory",  "gaming ram",  "professional memory",  "workstation memory",  "enterprise memory"],
     image: "./images/stockage/adaptateur.jpg",
     details: [
@@ -1585,8 +1802,8 @@ export const PRODUCTS: Product[] = [
     name: "CARTE GRAPHIQUE 2GO",
     price: 20000,
     stock: "En stock",
-    category: "storage",
-    subcategory: "Cartes graphiques",
+    category: "peripherals",
+    subcategory: "Accessoires",
     brand: "RoHS",
     tags: ["ram", "8go", "16go", "32go", "ddr4", "memory", "storage",  "pc", "ordinateur", "fixe",  "portable",  "laptop", "windows",  "mac",  "linux",  "data", "backup", "save", "fast", "reliable", "high performance", "durable",  "efficient",  "storage solution", "ram module",  "ddr4 ram",  "computer memory", "data storage", "file storage",  "system memory",  "gaming ram",  "professional memory",  "workstation memory",  "enterprise memory"],
     image: "./images/stockage/graphique.webp",
@@ -1594,8 +1811,7 @@ export const PRODUCTS: Product[] = [
       "Réconditionné",
       "Noir",
     ],
-    desc: "Adaptateur Multi Fonction:\n"
-          + " Mémoire vive de la carte graphique 2 Go\n"
+    desc: "Mémoire vive de la carte graphique 2 Go\n"
            + " Type de mémoire vive (carte graphique) GDDR 5\n"
             + "PCI Express. Nombre de ports VGA ou DISPLAY\n",
   },
