@@ -39,7 +39,6 @@ export const CATEGORIES: CategoryMeta[] = [
     subcategories: [
       "Ordinateurs de bureau",
       "Laptops",
-      "Stations de travail",
       "Mini PC",
     ],
   },
@@ -48,7 +47,7 @@ export const CATEGORIES: CategoryMeta[] = [
     label: "Serveurs & Infra",
     icon: Server,
     colorClass: "text-green-600",
-    subcategories: ["Serveurs tour", "Serveurs rack", "Switches", "Routeurs"],
+    subcategories: ["Routeurs", "Switches", "Serveurs tour", "Serveurs rack"],
   },
   {
     key: "peripherals",

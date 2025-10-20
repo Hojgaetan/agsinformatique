@@ -109,41 +109,55 @@ export const ProductsAll: React.FC = () => {
         <>
           {/* --- CATEGORIES --- */}
           {view === "categories" && (
-            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-              {CATEGORIES.map((cat) => {
-                const productsInCat = PRODUCTS.filter(
-                  (p) => p.category === cat.key
-                );
-                return (
-                  <div
-                    key={cat.key}
-                    className="relative border rounded-lg overflow-hidden shadow-lg hover:shadow-2xl transition-shadow duration-300"
-                  >
-                    <sup className="absolute top-3 left-3 bg-white text-base sm:text-lg px-4 py-2 rounded-full z-20 shadow-md backdrop-blur-md text-black font-bold tracking-wide">
-                      {cat.label}
-                    </sup>
+         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+  {CATEGORIES.map((cat) => {
+    const productsInCat = PRODUCTS.filter(
+      (p) => p.category === cat.key
+    );
 
-                    <div className="relative h-48 bg-black">
-                      <img
-                        src={productsInCat[0]?.image ?? ""}
-                        alt={cat.label}
-                        className="w-full h-full object-contain object-center"
-                      />
-                      <div className="absolute inset-0 bg-black bg-opacity-40 flex items-center justify-center"></div>
-                    </div>
+    // Prendre seulement les 3 premières sous-catégories
+    const firstThreeSubcategories = cat.subcategories.slice(0, 3);
 
-                    <div className="p-4 flex justify-center">
-                      <Button
-                        onClick={() => handleCategoryClick(cat)}
-                        className="w-full hover:bg-blue-700"
-                      >
-                        Voir les produits
-                      </Button>
-                    </div>
-                  </div>
-                );
-              })}
-            </div>
+    return (
+      <div
+        key={cat.key}
+        className="relative border rounded-lg overflow-hidden shadow-lg hover:shadow-2xl transition-shadow duration-300"
+      >
+        <sup className="absolute top-3 left-3 bg-white text-base sm:text-lg px-4 py-2 rounded-full z-20 shadow-md backdrop-blur-md text-black font-bold tracking-wide">
+          {cat.label}
+        </sup>
+
+        <div className="relative h-48 bg-black">
+          <img
+            src={productsInCat[0]?.image ?? ""}
+            alt={cat.label}
+            className="w-full h-full object-contain object-center"
+          />
+          <div className="absolute inset-0 bg-black bg-opacity-40 flex items-center justify-center"></div>
+        </div>
+
+        {/* Liste à puce avec les 3 premières sous-catégories */}
+        <div className="p-4 bg-white">
+          <ul className="space-y-3 mb-4">
+            {firstThreeSubcategories.map((subcategory, index) => (
+              <li key={index} className="flex items-start text-base sm:text-lg text-gray-800">
+                <span className="text-blue-600 mr-3 text-lg font-bold">•</span>
+                <span className="leading-relaxed">{subcategory}</span>
+              </li>
+            ))}
+          </ul>
+          
+          <Button
+            onClick={() => handleCategoryClick(cat)}
+            className="w-full hover:bg-blue-700 mt-3 text-base sm:text-lg py-3"
+          >
+            Voir les produits
+          </Button>
+        </div>
+      </div>
+    );
+  })}
+</div>
           )}
 
           {/* --- PRODUITS --- */}
