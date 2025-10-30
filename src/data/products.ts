@@ -537,15 +537,15 @@ export const PRODUCTS: Product[] = [
             "TOUS NOS PRODUITS SONT GARANTIS.\n",
             
     },
- {
+     {
         id: "p-59",
-        name: "HP Core I5+19 NEUF",
+       name: "HP Core I5+19 NEUF",
         price: 250000,
         stock: "En stock",
         category: "computers",
         subcategory: "Ordinateurs de bureau",
         brand: "HP",
-        tags: ["hp", "windows", "core i5", "8go", "256ssd", "19 pouces", "desktop"],
+       tags: ["hp", "windows", "core i5", "8go", "256ssd", "19 pouces", "desktop"],
         image: "./images/HP/hp22.webp",
         details: [
             "Neuf",
@@ -560,7 +560,10 @@ export const PRODUCTS: Product[] = [
             "Disque dur 500 go. Disponible aussi avec 1000go . Graveur dvd .\n" +
             "Windows 10 professionnel 64 bits -office-antivirus et tous les utilitaires( acrobat reader etc,,,) \n" +
             "Prêt à l'emploi et garanti. \n",
+            
     },
+    
+
  {
         id: "p-61",
         name: "HP Core I7 neuf + 19 pouces",
@@ -646,7 +649,7 @@ export const PRODUCTS: Product[] = [
         subcategory: "Ordinateurs de bureau",
         brand: "HP",
         tags: ["desktop", "hp", "windows"],
-        image: "https://i.roamcdn.net/hz/ed/listing-gallery-main-844w/06c4ccfebc3b4e45155a40f82820210f/-/horizon-files-prod/ed/picture/q9m8nrv8/943f4ca4de3939073649839db923a11ccd08c472.jpg",
+        image: "./images/ordinateurDELL/dell10.jpg",
         details: [
             "D'Occasion",
             " Gris Noir",
@@ -721,7 +724,7 @@ export const PRODUCTS: Product[] = [
         subcategory: "Laptops",
         brand: "HP",
         tags: ["laptop", "hp", "windows"],
-        image: "https://i.roamcdn.net/hz/ed/listing-gallery-full-1920w/505a9d8949a4cb52125afde0e0f72232/-/horizon-files-prod/ed/picture/q9m8455v/499cf4efb1d688c4d6f433de81e28ac61af72609.jpg",
+        image: "./images/HP/hp23.webp",
         details: [
             "Réconditionné",
             "Gris Noir",
@@ -746,7 +749,7 @@ export const PRODUCTS: Product[] = [
         subcategory: "Laptops",
         brand: "HP",
         tags: ["laptop", "hp", "windows"],
-        image: "https://i.roamcdn.net/hz/ed/listing-gallery-full-1920w/81c80e4a8b22f0f96c8749929553a8c0/-/horizon-files-prod/ed/picture/q44dvvq4/75d658816d72e39637333271203956f0effe8be2.jpg",
+        image: "./images/ordinateurDELL/dell11.webp",
         details: [       
             "Réconditionné",
             "Rouge, NOir, Jaune, Grise, Bleu.....",
@@ -794,7 +797,7 @@ export const PRODUCTS: Product[] = [
         subcategory: "Laptops",
         brand: "HP",
         tags: ["laptop", "hp", "windows"],
-        image: "https://i.roamcdn.net/hz/ed/listing-gallery-full-1920w/7da1ecf3347aae6842fcd41571473a9c/-/horizon-files-prod/ed/picture/q2jr75w2/0e723cec34f13e3785ea841d18f0a2941a1be91e.jpg",
+        image: "./images/ordinateurDELL/dell12.webp",
         details: [
             "Processeur Intel i3",
             "RAM 4 Go",
@@ -1199,25 +1202,12 @@ export const PRODUCTS: Product[] = [
     subcategory: "Routeurs",
     brand: "TP-Link",
     tags: ["modem", "router", "access point"],
-    image: "https://i.roamcdn.net/hz/ed/listing-gallery-full-1920w/77f291f26954f173498ee697828ab132/-/horizon-files-prod/ed/picture/migrated/q59gr27/75187642cfcf97820551e6b1decfb4138d498837.png",
+            image: "./images/routeur/tplink.webp",
+
       details:["Neuf", "Blanc", "TP-Link"],
     desc: "TP LINK 150Mbps wireless N ADSL2+ Modem Router\n" +
         "APARTIR DU PRIX INDIQUER CI DESSUS",
   },
-    {
-        id: "p-45",
-        name: "Access Point TP-Link",
-        price: 18000,
-        stock: "En stock",
-        category: "infrastructure",
-        subcategory: "Routeurs",
-        brand: "TP-Link",
-        tags: ["modem", "access point"],
-        image: "https://i.roamcdn.net/hz/ed/listing-gallery-full-1920w/bf25168d75fe82c11f40346ce2f956c5/-/horizon-files-prod/ed/picture/migrated/q59gr27/320fcbd5c72a9e4e4bd38b4220320056ac25ce54.png",
-        details:["Neuf", "Blanc", "TP-Link"],
-        desc: "TP LINK 300Mps wireless Access Point TL-WA801ND\n" +
-            "APARTIR DU PRIX INDIQUER CI DESSUS",
-    },
   // Peripherals - 7 produits
   {
     id: "p-36",
