@@ -165,7 +165,8 @@ export function Footer() {
 
             <div className="flex gap-6 text-sm text-gray-400">
               <a
-                href="#"
+                href="https://web.facebook.com/profile"
+                target="_blank"
                 className="bg-gray-800 p-2 rounded-lg hover:bg-blue-600 transition-colors"
                 style={{ backgroundColor: "#0866FF" }}
               >
@@ -176,7 +177,8 @@ export function Footer() {
                 />
               </a>
               <a
-                href="#"
+                href="https://www.instagram.com/agsinformatique/"
+                target="_blank"
                 className="bg-gray-800 p-2 rounded-lg hover:bg-blue-400 transition-colors"
                 style={{ backgroundColor: "#FF0069" }}
               >
@@ -187,7 +189,8 @@ export function Footer() {
                 />
               </a>
               <a
-                href="#"
+                href="https://www.tiktok.com/@ags.informatique"
+                target="_blank"
                 className="bg-gray-800 p-2 rounded-lg hover:bg-blue-700 transition-colors"
                 style={{ backgroundColor: "#fff" }}
               >
