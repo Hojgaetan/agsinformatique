@@ -98,7 +98,7 @@ export function Footer() {
                 onClick={() => setSelectedItem(null)}
                 className="absolute top-4 right-4 text-gray-800 hover:text-red-500 text-2xl font-bold bg-gray"
               >
-                FERMER
+                 X
               </button>
 
               {selectedItem.type === "image" ? (
