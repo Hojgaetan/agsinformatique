@@ -164,7 +164,7 @@ export const PRODUCTS: Product[] = [
     brand: "Lenovo",
     tags: ["all-in-one", "écran", "bureau"],
     image: "./images/lenovo/allinon.webp",
-    details:["reconditionné","NOIR","Lenovo","256 GO SSD","8GO","CORE I5 6ème"],
+    details:["Réconditionné","NOIR","Lenovo","256 GO SSD","8GO","CORE I5 6ème"],
 
     desc:"ThinkCentre M900z All-in-One\n"+ "Ecran tactile 60,45 cm (23,8)\n" +
 "Core™ i5 6 ème génération\n" +
@@ -182,7 +182,7 @@ export const PRODUCTS: Product[] = [
     brand: "Dell",
     tags: ["portable", "laptop"],
     image: "./images/ordinateurDELL/dell.webp",
-    details:["reconditionné","NOIR","dell","256SSD","8GO","CORE I7"],
+    details:["Réconditionné","NOIR","dell","256SSD","8GO","CORE I7"],
     desc:"DELL LATITUDE 5470 Core I7 6 ème Gen .8Go.SSD 256 Go.14 POUCES Full HD.carte graphique Radeon R7 M360 2 Go\n" +
 "Webcam .HDMI\n" +
 "(RECONDITIONNE USINE AVEC CARTON D'ORIGINE)\n" +
@@ -523,7 +523,7 @@ export const PRODUCTS: Product[] = [
         tags: ["hp", "windows", "elitebook", "i7", "16go", "512ssd", "14 pouces", "portable"],
         image: "./images/HP/hp15.webp",
         details: [
-            "D'Occasion",
+            "D'occasion",
             "Gris Noir",
             "HP",
             "160",
@@ -651,7 +651,7 @@ export const PRODUCTS: Product[] = [
         tags: ["desktop", "hp", "windows"],
         image: "./images/ordinateurDELL/dell10.jpg",
         details: [
-            "D'Occasion",
+            "D'occasion",
             " Gris Noir",
               " HP",
                 "250 à 500 Go SATA OU 128 à 256 SSD",
@@ -702,7 +702,7 @@ export const PRODUCTS: Product[] = [
         tags: ["desktop", "hp", "windows", "ssd", "core i5", "écran 19 à 22 pouces"],
         image: "./images/HP/hp6.webp",
         details: [
-            "D'Occasion",
+            "D'occasion",
             "Gris Noir",
              " HP",
              "250 à 500 Go SATA OU 128 à 256 SSD",
@@ -774,7 +774,7 @@ export const PRODUCTS: Product[] = [
         tags: ["laptop", "hp", "windows"," elitebook", "i7", "16go", "512ssd", "14 pouces", "portable"],
         image: "./images/HP/hp8.webp",
         details: [
-            "Reconditionné",
+            "Réconditionné",
             "Gris, Noir",
             "HP",
              "512 SSD",
@@ -794,17 +794,19 @@ export const PRODUCTS: Product[] = [
         price: 45000,
         stock: "En stock",
         category: "computers",
-        subcategory: "Laptops",
+        subcategory: "Ordinateurs de bureau",
         brand: "HP",
         tags: ["laptop", "hp", "windows"],
         image: "./images/ordinateurDELL/dell12.webp",
         details: [
-            "Processeur Intel i3",
-            "RAM 4 Go",
-            "Stockage 250GO SATA ou 128 GO SSD",
-            "Marque HP",
-            "Etat d'occasion",
-            "Couleur : Gris, Noir"
+           "D'occasion",
+            "Gris, Noir",
+             "HP",
+            " 250GO SATA ou 128 GO SSD",
+            " 4 Go",
+            " Intel core i3",
+           
+           
         ],
         desc: "NOUS VENDONS DES CORE I3 HP EN TOUR OU DESKTOPS\n" +
             "SELON STOCK DISPONIBLES + ÉCRAN 19 POUCES.\n" +
@@ -878,11 +880,12 @@ export const PRODUCTS: Product[] = [
         tags: ["laptop", "hp", "windows"," probook", "i5", "8go", "256ssd", "15.6 pouces", "portable"],
         image: "./images/HP/hp11.webp",
         details: [
-            "HP",
+            
             "Réconditionné",
             "Noir",
+            "HP",
+            "8Go",
              "256GO",
-              "8Go",
             "Intel Core i5",
 
         ],
@@ -913,7 +916,7 @@ export const PRODUCTS: Product[] = [
         tags: ["laptop", "hp", "windows"," elitebook", "i7", "8go", "256ssd", "14 pouces", "portable"],
         image: "./images/HP/hp12.webp",
         details: [       
-            "Reconditionné",
+            "Réconditionné",
             "Gris",
             " HP",
             " 256 SSD",
@@ -967,12 +970,12 @@ export const PRODUCTS: Product[] = [
         tags: ["laptop", "hp", "windows"," elitebook", "i5", "8go", "256ssd", "14 pouces", "portable"],
         image: "./images/HP/hp14.webp",
         details: [
-            " Reconditionné",
-            " Gris",
-            " HP",
-            " 256 SSD",
-            " 08 Go",
-            " Intel i5",
+            "Réconditionné",
+            "Gris",
+            "HP",
+            "256 SSD",
+            "08 Go",
+            "Intel i5",
         ],
         desc: "HP ELITEBOOK 840 G8\n" +
             "Processeur Intel Core i5-1135G7 (Quad-Core 0.9 GHz - 2.4 GHz / 4.2 GHz Turbo - 8 Threads - Cache 8 Mo)\n" +
@@ -991,7 +994,7 @@ export const PRODUCTS: Product[] = [
         tags: ["laptop", "hp", "windows"," zbook", "i5", "16go", "512ssd", "14 pouces", "portable"],
         image: "./images/HP/hp16.webp",
         details: [
-            "Reconditionné",
+            "Réconditionné",
             "Gris",
              "HP",
             " 512 SSD",
@@ -1066,7 +1069,7 @@ export const PRODUCTS: Product[] = [
         tags: ["Ordinateur de bureau", "hp", "windows"," core 2 duo", "4go", "250go", "19 pouces", "desktop"],
         image: "./images/HP/hp19.webp",
         details: [
-            "D'Occasion",
+            "D'occasion",
             "Noir",
             " HP",
             " 250Go",
