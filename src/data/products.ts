@@ -700,7 +700,7 @@ export const PRODUCTS: Product[] = [
         subcategory: "Ordinateurs de bureau",
         brand: "HP",
         tags: ["desktop", "hp", "windows", "ssd", "core i5", "écran 19 à 22 pouces"],
-        image: "./IMG/CORE I3  I5 I7 AVEC ECRAN 19 à 22 pouces/1.jpg",
+        image: "./IMG/ecran/CORE I3  I5 I7 AVEC ECRAN 19 à 22 pouces/3.jpg",
         details: [
             "D'Occasion",
             "Gris Noir",
@@ -1745,7 +1745,7 @@ export const PRODUCTS: Product[] = [
         subcategory: "Écrans",
         brand: "Dell",
         tags: ["écran", "dell", "19 pouces", "monitor",  "affichage",  "video",  "resolution", "bureau", "desktop",  "ordinateur fixe",  "windows"],
-        image: "./images/peripheriques/ecrandell3.webp",
+        image: "./IMG/ecran/ECRAN HP DELL 19 CARRE ET RECTANGLE 1/ECRAN HP DELL 19 CARRE ET RECTANGLE 2.jpg",
         desc: "NOUS VENDONS DES ECRANS 19 POUCES CARRES ET RECTANGLLES\n"
             + "DISPONIBLE EN HP LENOVO ACER DELL SELON STOCKS.",
         details: [
@@ -1763,7 +1763,7 @@ export const PRODUCTS: Product[] = [
         subcategory: "Écrans",
         brand: "HP",
         tags: ["écran", "hp", "22 pouces", "24 pouces", "hdmi", "monitor",  "affichage",  "video",  "resolution", "bureau", "desktop",  "ordinateur fixe",  "windows"],
-        image: "./images/peripheriques/ecranhp2.webp",
+        image: "./IMG/ecran/ECRAN 19 POUCES 20 22 24 DELL ou HP/1.jpg",
         desc: "NOUS VENDONS DES ÉCRANS de 19 POUCES RECTANGLES(LARGE)\n"
             + "DISPONIBLES AUSSI EN 20\"22\" 24\" DELL OU HP SELON STOCKS\n"
             + "A PARTIR DU PRIX INDIQUE",
