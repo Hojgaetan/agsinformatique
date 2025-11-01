@@ -84,7 +84,7 @@ export const PRODUCTS: Product[] = [
  
   {
     id: "p-2",
-    name: "DELL X360  TACTILE",
+    name: "DELL X360  TACTILE", // A revoir
     price: 75000,
     stock: "En stock",
     category: "computers",
@@ -105,7 +105,7 @@ export const PRODUCTS: Product[] = [
     subcategory: "Laptops",
     brand: "Lenovo",
     tags: ["portable", "bureau"],
-    image: "./images/lenovo/LENOVOT14TACTILE.jpg",
+    image: "./IMG/LENOVO T14.Core I7 11 ou 12 éme gen.14 pouces FHD ou TACTILE/1.jfif",
     desc: "ORDINATEUR PORTABLE LENOVO T14\n"+ "PROCESSEUR: CORE I7 11éme à 12-ème génération\n"+
     "RAM: 16 GO EXTENSIBLE A 32 GO\n"+ "DISQUE: SSD512 EXTENSIBLE 1TERA\n"+ "ECRAN 14 POUCES FHD OU TACTILE\n"+ "A PARTIR DU PRIX INDIQUE",
     details: ["Réconditionné","NOIR","Lenovo","512 SSD","16GO","CORE I7"]
@@ -119,7 +119,7 @@ export const PRODUCTS: Product[] = [
     subcategory: "Laptops",
     brand: "Lenovo",
     tags: ["portable", "bureau", "tactile"],
-    image: "./images/lenovo/lonovoYOGA.webp",
+    image: "./IMG/Lenovo L380 YOGA X360.i5.8GO.256GOSSD.13.3tactile+Stylet/1.jfif",
     details:["Réconditionné","NOIR","Lenovo","256SSD","8GO","i5, 8250 U de 8ème generation"],
     desc: "Lenovo Thinkpad L380 YOGA X360\n"+ "Core i5 (8e gén) - 8GO\n"+ "256GO SSD\n"+ 
     "Ecran 13.3 pouces tactile pliable\n"+ "Lenovo Thinkpad L380 (mince et très leger)\n"+ 
@@ -135,14 +135,14 @@ export const PRODUCTS: Product[] = [
   },
   {
     id: "p-8",
-    name: "ORDINATEUR CORE I5 I7 AVEC ECRAN DE 19 à 24 POUCES",
+    name: "ORDINATEUR CORE I5 I7 AVEC ECRAN DE 19 à 24 POUCES",// A revoir
     price: 50000,
     stock: "En stock",
     category: "computers",
     subcategory: "Ordinateurs de bureau",
     brand: "Lenovo",
     tags: ["all-in-one", "écran", "bureau", "portable", "Laptops"],
-    image: "./images/lenovo/ORDINATEURfixe.webp",
+    image: "./IMG/Ordinateur Core i5 ou I7 Ecran 19 à 22 pouces/1.jfif",
     details:["D'occasion","NOIR","Lenovo","250 à 500go ou SSD 128 à 256 Go","4GO","i5 ou I7 de 2ème à la 8ème génération"],
     desc:"Ordinateurs complets avec écran 19 à 24\n"+ "disponibles Lenovo, HP,ACER et DELL selon stock\n" +
 "Core i5 ou i7(de la 2 -ème à la 8 -ème génération)\n" +
@@ -163,8 +163,8 @@ export const PRODUCTS: Product[] = [
     subcategory: "Ordinateurs de bureau",
     brand: "Lenovo",
     tags: ["all-in-one", "écran", "bureau"],
-    image: "./images/lenovo/allinon.webp",
-    details:["Réconditionné","NOIR","Lenovo","256 GO SSD","8GO","CORE I5 6ème"],
+    image: "./IMG/ALL IN ONE TACTILE 24/1.jpg",
+    details:["reconditionné","NOIR","Lenovo","256 GO SSD","8GO","CORE I5 6ème"],
 
     desc:"ThinkCentre M900z All-in-One\n"+ "Ecran tactile 60,45 cm (23,8)\n" +
 "Core™ i5 6 ème génération\n" +
@@ -181,8 +181,8 @@ export const PRODUCTS: Product[] = [
     subcategory: "Laptops",
     brand: "Dell",
     tags: ["portable", "laptop"],
-    image: "./images/ordinateurDELL/dell.webp",
-    details:["Réconditionné","NOIR","dell","256SSD","8GO","CORE I7"],
+    image: "./IMG/DELL 5470 .I7 6ème Gen.8Go.SSD 256 2GO GRAPHIQUE/1.jpg",
+    details:["reconditionné","NOIR","dell","256SSD","8GO","CORE I7"],
     desc:"DELL LATITUDE 5470 Core I7 6 ème Gen .8Go.SSD 256 Go.14 POUCES Full HD.carte graphique Radeon R7 M360 2 Go\n" +
 "Webcam .HDMI\n" +
 "(RECONDITIONNE USINE AVEC CARTON D'ORIGINE)\n" +
@@ -212,7 +212,7 @@ export const PRODUCTS: Product[] = [
     subcategory: "Laptops",
     brand: "Lenovo",
     tags: ["portable", "laptop"],
-    image: "./images/lenovo/lonovo.webp",
+    image: "./IMG/Lenovo Thinkpad T460 Core I5 6 eme.8Go.SSD 256 Go/1.jfif",
     details:["Réconditionné","NOIR","Lenovo","256 SSD","8GO","CORE I5"],
     desc:"Lenovo Thinkpad T460 Ultrabook (mince et très léger) avec 2 batteries. Très bonne autonomie\n" +
 "Processeur : Intel Core i5-6300U (6e génération, jusqu'à 3,0 GHz)\n" +
@@ -234,7 +234,7 @@ export const PRODUCTS: Product[] = [
     subcategory: "Laptops",
     brand: "Lenovo",
     tags: ["portable", "laptop"],
-    image: "./images/lenovo/lenovo.webp",
+    image: "./IMG/Lenovo ThinkPad 13 Core i5-7 eme Gen.8Go.256 Go SSD/2.jfif",
     details:["Réconditionné","NOIR","Lenovo","256 SSD","8GO","CORE I5"],
     desc:"Lenovo ThinkPad 13 Intel Core i5-7200U 8Go de RAM 256 Go SSD\n" +
 "Processeur : Intel Core i5 7 -ème\n" +
@@ -256,7 +256,7 @@ export const PRODUCTS: Product[] = [
     subcategory: "Laptops",
     brand: "Dell",
     tags: ["portable", "laptop"],
-    image: "./images/ordinateurDELL/dell1.webp",
+    image: "./IMG/DELL LATITUDE E5550 I5 15.6 TACTILE +PAVE/1.jpg",
     details:["Réconditionné","NOIR","dell","256 SSD","8GO","CORE I5"],
     desc:"Ordinateur portable DELL LATITUDE 5550\n" +
 "ECRAN 15.6 POUCES TACTILE\n" +
@@ -294,7 +294,7 @@ export const PRODUCTS: Product[] = [
     subcategory: "Laptops",
     brand: "Lenovo",
     tags: ["portable", "laptop"],
-    image: "./images/lenovo/lenovoyoga.webp",
+    image: "./IMG/Lenovo yoga 11e 4go 128go 11,6''/1.jpg",
     details:["Réconditionné","NOIR","Lenovo","128 SSD","4GO","intel"],
     desc:"Ordinateur portable Lenovo Thinkpad Yoga 11e 11.6 pouces\n" +
 "Processeur 1,6 GHz INTEL\n" +
@@ -314,7 +314,7 @@ export const PRODUCTS: Product[] = [
     subcategory: "Laptops",
     brand: "Dell",
     tags: ["portable", "laptop"],
-    image: "./images/ordinateurDELL/dell2.webp",
+    image: "./IMG/DELL E5530 CORE I7 15'' PAVE/1.jpg",
     details:["D'occasion","NOIR","dell","256 SSD","16GO","CORE I7",],
     desc:"DELL LATITUDE E5530 CORE I7 3éme GENERATION\n" +
 "Processeur Intel Core i7 3 eme generation\n" +
@@ -333,7 +333,7 @@ export const PRODUCTS: Product[] = [
     subcategory: "Ordinateurs de bureau",
     brand: "Dell",
     tags: ["bureau", "desktop", "ordinateur fixe", "dell", "windows"],
-    image: "./images/ordinateurDELL/dell2.webp",
+    image: "./IMG/Core I5 Écran 22 WIFI/1.jpg",
     details:["Réconditionné","Gris","dell","500GO","4GO","3.20Ghz"],
     desc:"Ordinateurs Complets avec écran 22 pouces\n" +
 "Disponible en acer desktop selon stock : \n" +
@@ -353,7 +353,7 @@ export const PRODUCTS: Product[] = [
     subcategory: "Laptops",
     brand: "Dell",
     tags: ["portable", "laptop", "dell", "windows"," core i7","16go","1to", "15.6"],
-    image: "./images/ordinateurDELL/dell5.webp",
+    image: "./IMG/Dell I7 16go 1to 15.6/1.jpg",
     details:["D'occasion","Noir","dell","1000Go (1To)","16GO","CORE I7"],
     desc:"Je vends mon Dell LATITUDE E6530 avec les caractéritiques principales: \n" +
 "Processeur Intel Core i7-3.à 3.7ghz\n" +
@@ -376,7 +376,7 @@ export const PRODUCTS: Product[] = [
     subcategory: "Ordinateurs de bureau",
     brand: "Acer",
     tags: ["bureau", "desktop", "ordinateur fixe", "acer", "windows"],
-    image: "./images/acer/acer.webp",
+    image: "./IMG/Ordinateur Core i3/1.jpg",
     details:["D'occasion","Noir","acer","250GO","4GO","3.10Ghz"],
     desc:"Ensembles complets Lenovo, HP ou Acer en desktop\n" +
 ".Core i3\n" +
@@ -398,7 +398,7 @@ export const PRODUCTS: Product[] = [
     subcategory: "Ordinateurs de bureau",
     brand: "Dell",
     tags: ["bureau", "desktop", "ordinateur fixe", "dell", "windows"],
-    image: "./images/ordinateurDELL/dell4.webp",
+    image: "./IMG/ORDINATEUR COMPLET/1.jpg",
     details:["Réconditionné","Noir","dell","80GO","4GO","2.6Ghz"],
     desc:"Ordinateurs complets en HP, Dell et LENOVO, selon stock\n" +
 "Pentium DUAL CORE 2,6ghz à 3ghz ,\n" +
@@ -421,7 +421,7 @@ export const PRODUCTS: Product[] = [
     subcategory: "Laptops",
     brand: "Dell",
     tags: ["portable", "laptop", "dell", "windows"," core i7",],
-    image: "./images/ordinateurDELL/dell6.webp",
+    image: "./IMG/Portable Dell Core I7/1.jpg",
     details:["D'occasion","Noir","dell","500Go","8GO","CORE I7"],
     desc:"Je vends mon DELL E6510 avec les caractéritiques principales: \n" +
 " Processeur Intel Core i7-3.33ghz\n" +
@@ -444,7 +444,7 @@ export const PRODUCTS: Product[] = [
     subcategory: "Ordinateurs de bureau",
     brand: "Dell",
     tags: ["bureau", "desktop", "ordinateur fixe", "dell", "windows"],
-    image: "./images/ordinateurDELL/dell7.webp",
+    image: "./IMG/Core2.250go.19.Ordinateur Complet/2.jpg",
     details:["D'occasion","Noir","dell","250GO","4GO","Core 2 duo"],
     desc:"Nous vendons des ordinateurs complets avec \n" +
 "écran 19 en Dell, Lenovo et HP selon stock :\n" +
@@ -472,7 +472,7 @@ export const PRODUCTS: Product[] = [
         subcategory: "Ordinateurs de bureau",
         brand: "HP",
         tags: ["desktop", "hp", "windows", "all-in-one", "tactile", "i7", "12ème", "27 pouces", "32go", "1tera ssd"],
-        image: "./images/HP/hp1.jpg",
+        image: "./IMG/ALL IN ONE 27 POUCES TACTILE I7 12ème/1.jpg",
         details: [
             "Neuf",
             "Noir",
@@ -493,7 +493,7 @@ export const PRODUCTS: Product[] = [
         subcategory: "Ordinateurs de bureau",
         brand: "HP",
         tags: ["desktop", "hp", "windows", "all-in-one", "tactile", "i5", "24 pouces", "16go", "512 ssd"],
-        image: "./images/HP/hp2.webp",
+        image: "./IMG/ALL IN ONE.Core I524Tactile/1.jpg",
         details: [
             "Neuf",
             "Noir/blanc",
@@ -521,9 +521,9 @@ export const PRODUCTS: Product[] = [
         subcategory: "Ordinateurs de bureau",
         brand: "HP",
         tags: ["hp", "windows", "elitebook", "i7", "16go", "512ssd", "14 pouces", "portable"],
-        image: "./images/HP/hp15.webp",
+        image: "./IMG/HP core 2 duo + 19 pouces/1.jfif",
         details: [
-            "D'occasion",
+            "D'Occasion",
             "Gris Noir",
             "HP",
             "160",
@@ -546,7 +546,7 @@ export const PRODUCTS: Product[] = [
         subcategory: "Ordinateurs de bureau",
         brand: "HP",
        tags: ["hp", "windows", "core i5", "8go", "256ssd", "19 pouces", "desktop"],
-        image: "./images/HP/hp22.webp",
+        image: "./IMG/HP Core I5+19 NEUF/2.jfif",
         details: [
             "Neuf",
             "Noir",
@@ -573,7 +573,7 @@ export const PRODUCTS: Product[] = [
         subcategory: "Ordinateurs de bureau",
         brand: "HP",
         tags: ["hp", "windows", "core i7", "8go", "512ssd", "19 pouces", "desktop"],
-        image: "./images/HP/hp18.webp",
+        image: "./IMG/HP Core I7 neuf + 19/2.jfif",
         details: [
             "Neuf",
             "Noir",
@@ -589,7 +589,7 @@ export const PRODUCTS: Product[] = [
     },
     {
         id: "p-1",
-        name: "Desktop Pro 14\" i7/16Go/1To",
+        name: "Desktop Pro 14\" i7/16Go/1To",// A revoir
         price: 790000,
         stock: "En stock",
         category: "computers",
@@ -615,7 +615,7 @@ export const PRODUCTS: Product[] = [
     },
     {
         id: "p-3",
-        name: "Core I5 et I7.Ram 8GO\" Ecran 19 à 24\"+wifi",
+        name: "Core I5 et I7.Ram 8GO\" Ecran 19 à 24\"+wifi",// A revoir
         price: 50000,
         stock: "En stock",
         category: "computers",
@@ -649,9 +649,9 @@ export const PRODUCTS: Product[] = [
         subcategory: "Ordinateurs de bureau",
         brand: "HP",
         tags: ["desktop", "hp", "windows"],
-        image: "./images/ordinateurDELL/dell10.jpg",
+        image: "./IMG/CORE I3  I5 I7 AVEC ECRAN 19 à 22 pouces/1.jpg",
         details: [
-            "D'occasion",
+            "D'Occasion",
             " Gris Noir",
               " HP",
                 "250 à 500 Go SATA OU 128 à 256 SSD",
@@ -675,7 +675,7 @@ export const PRODUCTS: Product[] = [
         subcategory: "Ordinateurs de bureau",
         brand: "HP",
         tags: ["desktop", "hp", "windows"],
-        image: "./images/HP/hp5.webp",
+        image: "./IMG/ALL IN ONE 27 POUCES TACTILE CORE I7 13EME 32 GO 1TERA SSD/1.jpg",
         details: [
             "Neuf",
             "Noir",
@@ -700,9 +700,9 @@ export const PRODUCTS: Product[] = [
         subcategory: "Ordinateurs de bureau",
         brand: "HP",
         tags: ["desktop", "hp", "windows", "ssd", "core i5", "écran 19 à 22 pouces"],
-        image: "./images/HP/hp6.webp",
+        image: "./IMG/CORE I3  I5 I7 AVEC ECRAN 19 à 22 pouces/1.jpg",
         details: [
-            "D'occasion",
+            "D'Occasion",
             "Gris Noir",
              " HP",
              "250 à 500 Go SATA OU 128 à 256 SSD",
@@ -724,7 +724,7 @@ export const PRODUCTS: Product[] = [
         subcategory: "Laptops",
         brand: "HP",
         tags: ["laptop", "hp", "windows"],
-        image: "./images/HP/hp23.webp",
+        image: "./IMG/HP ELITEBOOK 830 840 G6 I7 16Go512SSD/1.jpg",
         details: [
             "Réconditionné",
             "Gris Noir",
@@ -741,7 +741,7 @@ export const PRODUCTS: Product[] = [
             "ECRAN 13.3 ou 14 POUCES FHD ou TACTILE"
     },
     {
-        id: "p-13",
+        id: "p-13",// A revoir
         name: "HP X360 DELL TACTILE",
         price: 75000,
         stock: "En stock",
@@ -749,7 +749,7 @@ export const PRODUCTS: Product[] = [
         subcategory: "Laptops",
         brand: "HP",
         tags: ["laptop", "hp", "windows"],
-        image: "./images/ordinateurDELL/dell11.webp",
+        image: "./IMG/HP X360 DELL TACTILE/1.webp",
         details: [       
             "Réconditionné",
             "Rouge, NOir, Jaune, Grise, Bleu.....",
@@ -772,9 +772,9 @@ export const PRODUCTS: Product[] = [
         subcategory: "Laptops",
         brand: "HP",
         tags: ["laptop", "hp", "windows"," elitebook", "i7", "16go", "512ssd", "14 pouces", "portable"],
-        image: "./images/HP/hp8.webp",
+        image: "./IMG/HP ELITEBOOK 840G6 I7/3.jfif",
         details: [
-            "Réconditionné",
+            "Reconditionné",
             "Gris, Noir",
             "HP",
              "512 SSD",
@@ -794,19 +794,17 @@ export const PRODUCTS: Product[] = [
         price: 45000,
         stock: "En stock",
         category: "computers",
-        subcategory: "Ordinateurs de bureau",
+        subcategory: "Laptops",
         brand: "HP",
         tags: ["laptop", "hp", "windows"],
-        image: "./images/ordinateurDELL/dell12.webp",
+        image: "./IMG/CORE I3 AVEC ECRAN 19 à 22 POUCES/1.jpg",
         details: [
-           "D'occasion",
-            "Gris, Noir",
-             "HP",
-            " 250GO SATA ou 128 GO SSD",
-            " 4 Go",
-            " Intel core i3",
-           
-           
+            "Processeur Intel i3",
+            "RAM 4 Go",
+            "Stockage 250GO SATA ou 128 GO SSD",
+            "Marque HP",
+            "Etat d'occasion",
+            "Couleur : Gris, Noir"
         ],
         desc: "NOUS VENDONS DES CORE I3 HP EN TOUR OU DESKTOPS\n" +
             "SELON STOCK DISPONIBLES + ÉCRAN 19 POUCES.\n" +
@@ -824,7 +822,7 @@ export const PRODUCTS: Product[] = [
         subcategory: "Ordinateurs de bureau",
         brand: "HP",
         tags: ["laptop", "hp", "windows"],
-        image: "./images/HP/hp9.webp",
+        image: "./IMG/Ordinateur Core i5 ou I7 Ecran 19 à 22 pouces/1.jfif",
         details: [
            
          
@@ -856,7 +854,7 @@ export const PRODUCTS: Product[] = [
         subcategory: "Ordinateurs de bureau",
         brand: "HP",
         tags: ["desktop", "hp", "windows", "all-in-one", "i3", "12ème", "23.8 pouces", "8go", "256 ssd"],
-        image: "./images/HP/hp10.jpg",
+        image: "./IMG/ALL IN ONE HP NEUF 23.8 I3 12éme/1.jpg",
         details: [
             "Neuf",
             "Noir",
@@ -878,14 +876,13 @@ export const PRODUCTS: Product[] = [
         subcategory: "Laptops",
         brand: "HP",
         tags: ["laptop", "hp", "windows"," probook", "i5", "8go", "256ssd", "15.6 pouces", "portable"],
-        image: "./images/HP/hp11.webp",
+        image: "./IMG/Hp Probook 650 G3.i5 .8go.SSD 256go.Ecran 15.6 TACTILE/2.jfif",
         details: [
-            
+            "HP",
             "Réconditionné",
             "Noir",
-            "HP",
-            "8Go",
              "256GO",
+              "8Go",
             "Intel Core i5",
 
         ],
@@ -914,9 +911,9 @@ export const PRODUCTS: Product[] = [
         subcategory: "Laptops",
         brand: "HP",
         tags: ["laptop", "hp", "windows"," elitebook", "i7", "8go", "256ssd", "14 pouces", "portable"],
-        image: "./images/HP/hp12.webp",
+        image: "./IMG/PROMO 🔥🔥 HP ELITEBOOK 840 G3 I7 14'' TACTILE/1.jfif",
         details: [       
-            "Réconditionné",
+            "Reconditionné",
             "Gris",
             " HP",
             " 256 SSD",
@@ -940,7 +937,7 @@ export const PRODUCTS: Product[] = [
         subcategory: "Laptops",
         brand: "HP",
         tags: ["laptop", "hp", "windows"," elitebook", "i5", "8go", "256ssd", "14 pouces", "portable"],
-        image: "./images/HP/hp13.jpg",
+        image: "./IMG/ORDINATEURS PORTABLE HP ELITEBOOK 840 G3 (PROMO🔥🔥🔥)/4.jfif",
         details: [
             "Réconditionné",
             "Gris",
@@ -968,14 +965,14 @@ export const PRODUCTS: Product[] = [
         subcategory: "Laptops",
         brand: "HP",
         tags: ["laptop", "hp", "windows"," elitebook", "i5", "8go", "256ssd", "14 pouces", "portable"],
-        image: "./images/HP/hp14.webp",
+        image: "./IMG/HP ELITEBOOK.840G8.I5/2.jpg",
         details: [
-            "Réconditionné",
-            "Gris",
-            "HP",
-            "256 SSD",
-            "08 Go",
-            "Intel i5",
+            " Reconditionné",
+            " Gris",
+            " HP",
+            " 256 SSD",
+            " 08 Go",
+            " Intel i5",
         ],
         desc: "HP ELITEBOOK 840 G8\n" +
             "Processeur Intel Core i5-1135G7 (Quad-Core 0.9 GHz - 2.4 GHz / 4.2 GHz Turbo - 8 Threads - Cache 8 Mo)\n" +
@@ -992,9 +989,9 @@ export const PRODUCTS: Product[] = [
         subcategory: "Laptops",
         brand: "HP",
         tags: ["laptop", "hp", "windows"," zbook", "i5", "16go", "512ssd", "14 pouces", "portable"],
-        image: "./images/HP/hp16.webp",
+        image: "./IMG/GAMER HP ZBOOK 14U G6 I5/1.jpg",
         details: [
-            "Réconditionné",
+            "Reconditionné",
             "Gris",
              "HP",
             " 512 SSD",
@@ -1017,7 +1014,7 @@ export const PRODUCTS: Product[] = [
         subcategory: "Laptops",
         brand: "HP",
         tags: ["laptop", "hp", "windows"],
-        image: "./images/HP/",
+        image: "./IMG/HP Core I5+19 NEUF/1.jfif",
         details: [
             " Neuf",
             " Noir",
@@ -1042,7 +1039,7 @@ export const PRODUCTS: Product[] = [
         subcategory: "Laptops",
         brand: "HP",
         tags: ["laptop", "hp", "windows"],
-        image: "./images/HP/hp18.webp",
+        image: "./IMG/HP Core I7 neuf + 19/1.jfif",
         details: [
             " Neuf",
             "Noir",
@@ -1067,9 +1064,9 @@ export const PRODUCTS: Product[] = [
         subcategory: "Ordinateurs de bureau",
         brand: "HP",
         tags: ["Ordinateur de bureau", "hp", "windows"," core 2 duo", "4go", "250go", "19 pouces", "desktop"],
-        image: "./images/HP/hp19.webp",
+        image: "./IMG/Core 2.dual.+19/1.jpg",
         details: [
-            "D'occasion",
+            "D'Occasion",
             "Noir",
             " HP",
             " 250Go",
@@ -1092,7 +1089,7 @@ export const PRODUCTS: Product[] = [
         subcategory: "Ordinateurs de bureau",
         brand: "HP",
         tags: ["Ordinateur de bureau", "hp", "windows"," core i5", "4go", "500go", "19 pouces", "desktop"],
-        image: "./images/HP/hp20.webp",
+        image: "./IMG/Ordinateur Core I5/1.jfif",
         details: [
             "D'occasion",
             "Noir",
@@ -1117,7 +1114,7 @@ export const PRODUCTS: Product[] = [
         subcategory: "Ordinateurs de bureau",
         brand: "HP",
         tags: ["Ordinateur de bureau", "hp", "windows"," core i3", "4go", "250go", "19 pouces", "desktop"],
-        image: "./images/HP/hp21.webp",
+        image: "./IMG/HP Core I3 ordinateur complet/1.jpg",
         details: [
             "D'occasion",
             "Noir",
@@ -1140,7 +1137,7 @@ export const PRODUCTS: Product[] = [
         subcategory: "Ordinateurs de bureau",
         brand: "Dell",
         tags: ["desktop", "dell", "windows"],
-        image: "./images/ordinateurDELL/dell8.webp",
+        image: "./IMG/GAMER +24 POUCES.16go.2go graphique/1.jpg",
         details: [
             "Réconditionné",
             "Noir",
@@ -1163,7 +1160,8 @@ export const PRODUCTS: Product[] = [
         subcategory: "Ordinateurs de bureau",
         brand: "Dell",
         tags: ["All in one", "desktop", "dell", "windows"],
-        image: "./images/ordinateurDELL/dell9.webp",
+        image: "./IMG/Dell Wyse 5470 ALL IN ONE.24 POUCES FHD/3" +
+            ".jpg",
         details:["D'occasion","NOIR","dell","128 SSD","8GO","intel J4005",],
         desc:"Modèle : Dell Wyse 5470 ALL IN ONE\n" +
             "Ecran de 24 Pouces Full HD Resolution 1920 x 1080\n" +
@@ -1185,7 +1183,7 @@ export const PRODUCTS: Product[] = [
         subcategory: "Ordinateurs de bureau",
         brand: "Acer",
         tags: ["desktop", "acer", "windows"],
-        image: "./images/acer/acer1.jpg",
+        image: "./IMG/Ordinateur Core i3/1.jpg",
         details:["D'occasion","NOIR","acer","250 Go","4GO","Core i3",],
         desc:"Ensembles complets Lenovo, HP ou Acer en desktop\n" +
             "Core i3 - Processeur 3.10ghz/Mémoire RAM 4go/ Disque 250Go/Écran (19\")\n" +
@@ -1195,7 +1193,7 @@ export const PRODUCTS: Product[] = [
     },
 
 
-  // Infrastructure - 6 produits
+  // Infrastructure - 1 produit
   {
     id: "p-43",
     name: "Modem Router TP-Link",
@@ -1205,13 +1203,13 @@ export const PRODUCTS: Product[] = [
     subcategory: "Routeurs",
     brand: "TP-Link",
     tags: ["modem", "router", "access point"],
-            image: "./images/routeur/tplink.webp",
+            image: "./IMG/Modem Router et Access point/1.jfif",
 
       details:["Neuf", "Blanc", "TP-Link"],
     desc: "TP LINK 150Mbps wireless N ADSL2+ Modem Router\n" +
         "APARTIR DU PRIX INDIQUER CI DESSUS",
   },
-  // Peripherals - 7 produits
+  // Peripherals - 28 produits
   {
     id: "p-36",
     name: "HP COLOR LASER JET MFP 277",
@@ -1221,7 +1219,7 @@ export const PRODUCTS: Product[] = [
     subcategory: "Imprimantes",
     brand: "HP",
     tags: ["laser", "HP", "multifonction", "couleur", "imprimante"],
-    image: "./images/peripheriques/imprimante.webp",
+    image: "./IMG/HP COLOR LASER JET MFP 277/1.jpg",
     desc: "Nous vendons des imprimantes avec les spécifications suivantes :\n"
          + "Marque HP séries Laserjet PRO M 277  n,\n"
          + "dn ou dw Couleur Blanche\n"
@@ -1244,7 +1242,7 @@ export const PRODUCTS: Product[] = [
     subcategory: "Imprimantes",
     brand: "Canon",
     tags: ["laser", "canon", "multifonction", "couleur", "imprimante", "photocopieur","ricoh","xerox"],
-    image: "./images/peripheriques/imprimante2.webp",
+    image: "./IMG/PHOTOCOPIEURS CANON RICOH XEROX/1.webp",
     desc: "PHOTOCOPIEURS MULTIFONCTIONS LASER NOIR\n"
          + "CANON IRC ADAVANCE 400 NOIR ET BLANC,\n"
          + "dn ou dw Couleur Blanche\n"
@@ -1265,14 +1263,14 @@ export const PRODUCTS: Product[] = [
   },
     {
     id: "p-40",
-    name: "Imprimante laser monochrome",
+    name: "Imprimante laser monochrome",// a REVOIR
     price: 70000,
     stock: "En stock",
     category: "peripherals",
     subcategory: "Imprimantes",
     brand: "Canon",
     tags: ["laser", "canon", "multifonction", "couleur", "imprimante", "photocopieur","ricoh","xerox"],
-    image: "./images/peripheriques/imprimante3.webp",
+    image: "./IMG/Imprimante laser monochrome/1.webp",
     desc: "Vitesse d'impression (noir, A4) 40 ppm\n"
          + "Format de papier A4,\n"
          + "Recto/verso automatique\n"
@@ -1297,7 +1295,7 @@ export const PRODUCTS: Product[] = [
     subcategory: "Écrans",
     brand: "Dell",
     tags: ["écran", "dell", "22 pouces", "24 pouces", "hdmi", "monitor",  "affichage",  "video",  "resolution", "bureau", "desktop",  "ordinateur fixe",  "windows"],
-    image: "./images/peripheriques/ecrandell.webp",
+    image: "./IMG/ECRAN DELL DE 22 à 24 pouces  AVEC POSSIBILITE HDMI/1.webp",
     desc: "NOUS VENDONS DES ECRAN DE 22 à 24 POUCES EN DELL\n"
          + "AVEC PORT VGA ET DVI\n"
          + " POSSIBILITÉ DE LE METTRE SOUS HDMI AVEC ADAPTATEUR \n"
@@ -1320,7 +1318,7 @@ export const PRODUCTS: Product[] = [
     subcategory: "Accessoires",
     brand: "Dell",
     tags: ["chargeur", "dell", "hp", "lenovo", "ordinateur portable", "accessoire",],
-    image: "./images/peripheriques/chargeur.webp",
+    image: "./IMG/CHARGEUR HP DELL LENOVO ORDINATEUR PORTABLE/3.jpg",
     desc: "NOUS VENDONS DES CHARGEURS\n"
          + " POUR TOUS TYPES ORDINATEURS PORTABLES :\n"
          + " DELL 19.5V 4.62 ORIGINAL DELL ETC...\n"
@@ -1345,7 +1343,7 @@ export const PRODUCTS: Product[] = [
     subcategory: "Écrans",
     brand: "Dell",
     tags: ["écran", "dell", "22 pouces", "24 pouces", "hdmi", "monitor",  "affichage",  "video",  "resolution", "bureau", "desktop",  "ordinateur fixe",  "windows"],
-    image: "./images/peripheriques/ecrandell2.webp",
+    image: "./IMG/ECRAN DELL P2422H HDMI/1.jpg",
     desc: "ECRAN DELL P2422H\n"
          + "Écran LCD à rétroéclairage LED 24\n"
          + "Full HD (1080p) 1920 x 1080 à 60 Hz\n"
@@ -1370,7 +1368,7 @@ export const PRODUCTS: Product[] = [
     subcategory: "onduleurs",
     brand: "Mercury",
     tags: ["onduleur", "ups", "jc tech", "mercury"],
-    image: "./images/peripheriques/onduleur.webp",
+    image: "./IMG/ONDEULEUR JC TECH.MERCURY 850VA/3.jfif",
     desc: "Caractéristiques techniques 850 VA\n"+
          + "MARQUES DISPONIBLES: JC TECH.MERCURY LIGHTWAVE SELON STOCK\n"+
          + "Type: interactive;\n"
@@ -1407,7 +1405,7 @@ export const PRODUCTS: Product[] = [
     subcategory: "Écrans",
     brand: "Asus",
     tags: ["écran", "asus", "22 pouces", "24 pouces", "hdmi", "monitor",  "affichage",  "video",  "resolution", "bureau", "desktop",  "ordinateur fixe",  "windows"],
-    image: "./images/peripheriques/ecranasus.webp",
+    image: "./IMG/ECRAN HDMI 24 POUCES/2.jpg",
     desc: "ECRAN ASUS VS247HR\n"
          + "Diagonale : 23.6 (60 cm)\n"
          + "Écran LCD à rétroéclairage LED\n"
@@ -1451,7 +1449,7 @@ export const PRODUCTS: Product[] = [
     subcategory: "Écrans",
     brand: "HP",
     tags: ["écran", "HP", "22 pouces", "hdmi", "monitor",  "affichage",  "video",  "resolution", "bureau", "desktop",  "ordinateur fixe",  "windows"],
-    image: "./images/peripheriques/ecranhp.webp",
+    image: "./IMG/ECRAN HP 22 POUCES Full HD HDMI/1.jpg",
     desc: "NOUS VENDONS DES ÉCRANS HP 22 POUCES HDMI FULL HD.\n",
     details: [
       "Neuf",
@@ -1469,7 +1467,7 @@ export const PRODUCTS: Product[] = [
     subcategory: "Imprimantes",
     brand: "HP",
     tags: ["laser", "canon", "multifonction", "couleur", "imprimante", "photocopieur","ricoh","xerox"],
-    image: "./images/peripheriques/imprimante4.webp",
+    image: "./IMG/IMPRIMANTE LASER COULEUR HP MFP M480/1.jfif",
     desc: "Technologie d'impression:Laser\n"
          + "Impression:Impression couleur,\n"
          + "Résolution maximale:600 x 600 DPI\n"
@@ -1500,7 +1498,7 @@ export const PRODUCTS: Product[] = [
     subcategory: "Imprimantes",
     brand: "HP",
     tags: ["laser", "canon", "multifonction", "couleur", "imprimante", "photocopieur","ricoh","xerox"],
-    image: "./images/peripheriques/imprimante5.jpg",
+    image: "./IMG/Imprimante HP laser 1102/1.jpg",
     desc: "IMPRIMANTE LASER 1102\n"
          + "Imprimante laser monochrome A4 - 600 x 600 ppp,\n"
          + "18 ppm - 2 Mo de RAM\n"
@@ -1525,7 +1523,7 @@ export const PRODUCTS: Product[] = [
     subcategory: "Unité centrale",
     brand: "HP",
     tags: ["laser", "canon", "multifonction", "couleur", "imprimante", "photocopieur","ricoh","xerox"],
-    image: "./images/peripheriques/unite.jpg",
+    image: "./IMG/UNITE CENTRALE HP DELL/1.jfif",
     desc: "Nous vendons des UC : \n"
          + "HP DESKTOP OU DELL TOUR (selon stock):\n"
          + "INTEL ,DUAL CORE OU CORE 2. 4 go de mémoire Ram , disque dur 250Go",
@@ -1543,7 +1541,7 @@ export const PRODUCTS: Product[] = [
     subcategory: "BOITE D'ALIMENTATION PC",
     brand: "HP",
     tags: ["laser", "canon", "multifonction", "couleur", "imprimante", "photocopieur","ricoh","xerox"],
-    image: "./images/peripheriques/ba.webp",
+    image: "./IMG/BOITE D'ALIMENTATION PC/1.jpg",
     desc: "Vente de Boite D'alimentation modèle: \n"
          + "HP, DELL, LENOVO, IBM etc...\n"
          + "A partir du prix indiqué dessus (standard ou spécifique)",
@@ -1561,7 +1559,7 @@ export const PRODUCTS: Product[] = [
         subcategory: "BOITE D'ALIMENTATION PC",
         brand: "CORSAIR",
         tags: ["laser", "canon", "multifonction", "couleur", "imprimante", "photocopieur","ricoh","xerox"],
-        image: "./images/peripheriques/ba2.webp",
+        image: "./IMG/BOITE D'ALIMENTATION PC/6.jpg",
         desc: "HX 520W, affiche une puissance de 480W pour le +12V réparti en 3 rails de 18A l'un.\n"
             + "La modularité est assurée par 2 prises destinées à 2 câbles PCI-Express\n"
             + "6/8 broches, suivies de 5 prises pour : 1 câble à 2 Molex, 2 câbles à 3 Molex, 2 câbles à 2 SATA.\n"
@@ -1583,7 +1581,7 @@ export const PRODUCTS: Product[] = [
     subcategory: "Accessoires",
     brand: "YG-USB11",
     tags: ["laser", "canon", "multifonction", "couleur", "imprimante", "photocopieur","ricoh","xerox"],
-    image: "./images/peripheriques/audio.jpg",
+    image: "./IMG/A+B SUBWOOFER YG-USB11/1.jpg",
     desc: "A+B YG-USB est un centre de musique autonome,  \n"
          + " il peut être lire des fichiers depuis un lecteur flash USB,\n"
          + "depuis une carte mémoire SD et possède un tuner FM intégré il ya une télécommande aussi, "
@@ -1607,7 +1605,7 @@ export const PRODUCTS: Product[] = [
     subcategory: "Accessoires",
     brand: "HP",
     tags: ["laser", "canon", "multifonction", "couleur", "imprimante", "photocopieur","ricoh","xerox"],
-    image: "./images/peripheriques/sourisetclavier.webp",
+    image: "./IMG/Clavier et Souris sans fil/1.jpg",
     desc: "Je vend des Claviers et souris sans fil marque :   \n"
          + "HP, WIRELESS etc...\n"
           + "A partir du prix indiqué dessus \n",
@@ -1624,7 +1622,7 @@ export const PRODUCTS: Product[] = [
     subcategory: "Projecteurs",
     brand: "HP",
     tags: ["laser", "canon", "multifonction", "couleur", "imprimante", "photocopieur","ricoh","xerox"],
-    image: "./images/peripheriques/projecteur.webp",
+    image: "./IMG/VIDEO PROJECTEUR EPSON/1.jpg",
     desc: " Vivez l'expérience du grand écran:    \n"
          + "Des décors aux présentations professionnelles, captez l'attention de tous.\n"
          +  "Des images lumineuses même dans des conditions de lumière ambiante.\n"
@@ -1645,7 +1643,7 @@ export const PRODUCTS: Product[] = [
     subcategory: "Imprimantes",
     brand: "HP",
     tags: ["laser", "canon", "multifonction", "couleur", "imprimante", "photocopieur","ricoh","xerox"],
-    image: "./images/peripheriques/laser.webp",
+    image: "./IMG/HP Color LaserJet Pro MFP M283fdw/1.jfif",
     desc: "HP Color LaserJet Pro M283fdw Imprimante laser couleur \n"
          + " multifonction format A4, vitesse d'impression jusqu'à 21 pages par minute,\n"
          +  "résolution d'impression de 600 x 600 dpi, impression recto/verso automatique, résolution en Scan de 1200 dpi,\n"
@@ -1664,7 +1662,7 @@ export const PRODUCTS: Product[] = [
     subcategory: "onduleurs",
     brand: "Lightwave",
     tags: ["onduleur", "ups", "jc tech", "mercury", "lightwave"],
-    image: "./images/peripheriques/onduleur2.webp",
+    image: "./IMG/Onduleur LW UPS 1000VA/1.jpg",
     desc: "Ligth Wave UPS 1000VA LCD 230V \n"+
          + "Capacité de l'alimentation de sortie 670 Watts / 1000 VA\n"+
          + "Puissance configurable max 670 Watts / 1000 VA\n"
@@ -1687,7 +1685,7 @@ export const PRODUCTS: Product[] = [
     subcategory: "Accessoires",
     brand: "HyperX",
     tags: ["casque", "gamer", "hyperx", "audio", "headset", "pc", "ordinateur", "gaming", "jeu", "multimedia", "son", "microphone", "confort", "durable", "high performance", "surround sound", "noise cancelling", "wired headset", "over ear", "gaming accessories"],
-    image: "./images/peripheriques/casque.webp",
+    image: "./IMG/CASQUE POUR GAMER/1.jpg",
     desc: "HYPERX CLOUD ALPHA OU STINGER \n"+
          + "Technologie de connectivité Filaire\n"+
          + "Technologie de communication sans fil Sans-fil\n"
@@ -1723,7 +1721,7 @@ export const PRODUCTS: Product[] = [
         subcategory: "Imprimantes",
         brand: "HP",
         tags: ["imprimante", "hp", "reconditionnée", "impression", "bureau", "pmc", "a4", "usb", "150 feuilles", "100 feuilles", "8 000 pages"],
-        image: "./images/peripheriques/imprimante-hp-reconditionnee.jpg",
+        image: "./IMG/IMPRIMANTE HP RE CONDITIONNÉE/img.jpg",
         desc: "IMPRIMANTE hp \n"
             + "Idéale pour le bureau à domicile et les PME\n"
             + "Fonction : impression\n"
@@ -1740,7 +1738,7 @@ export const PRODUCTS: Product[] = [
     },
     {
         id: "p-98",
-        name: "ECRAN HP DELL 19\" CARRE ET RECTANGLE\n",
+        name: "ECRAN HP DELL 19\" CARRE ET RECTANGLE\n",// A REVOIR
         price: 15000,
         stock: "En stock",
         category: "peripherals",
@@ -1758,7 +1756,7 @@ export const PRODUCTS: Product[] = [
     },
     {
         id: "p-100",
-        name: "ECRAN 19 POUCES ,20\",22\", 24 DELL ou HP",
+        name: "ECRAN 19 POUCES ,20\",22\", 24 DELL ou HP",// A REVOIR
         price: 15000,
         stock: "En stock",
         category: "peripherals",
@@ -1785,7 +1783,7 @@ export const PRODUCTS: Product[] = [
         subcategory: "Régulateurs",
         brand: "LIGHTWAVE",
         tags: ["régulateur", "stabilisateur", "lightwave", "jc tech", "mercury"],
-        image: "./images/peripheriques/regulateur1.webp",
+        image: "./IMG/Régulateur 1 et 2kva/1.jfif",
         desc: "CARACTÉRISTIQUES:" +
             "Entrée: 140 ~ 260 Vac\n"
             + "Sortie: 220/110 Vac\n"
@@ -1811,7 +1809,7 @@ export const PRODUCTS: Product[] = [
         subcategory: "Régulateurs",
         brand: "LIGHTWAVE",
         tags: ["régulateur", "stabilisateur", "lightwave", "jc tech", "mercury"],
-        image: "./images/peripheriques/regulateur2.jpg",
+        image: "./IMG/Régulateur 1 et 2kva/2.jfif",
         desc: "CARACTÉRISTIQUES:" +
             "Entrée: 140 ~ 260 Vac\n"
             + "Sortie: 220/110 Vac\n"
@@ -1837,7 +1835,7 @@ export const PRODUCTS: Product[] = [
         subcategory: "Accessoires",
         brand: "CANON",
         tags: ["toner", "canon", "imprimante", "accessoire", "photocopieur","ricoh","xerox"],
-        image: "./images/peripheriques/toner-cannon.webp",
+        image: "./IMG/TONER CANON CEXV 21/1.jfif",
         desc: "Fabricant:Toner Canon CEXV 21 disponibles en Noir et toutes les couleurs.\n"
             + "Référence:image RUNNER- C2550/ C 2550 I/C 2880/C2880 I/C 3080/C3080 I/C 3380/C3380 I/ C 3480/C 3480 I. IR-C 2380 I/ C2550/ C2550 I/C 2880/C2880 I/C 3080/C 3080 I/ C3380/ C 3380 I/ C 3480/C 3480 I/C 3580/C3580 I.\n" +
             "\n",
@@ -1856,7 +1854,7 @@ export const PRODUCTS: Product[] = [
     subcategory: "SSD",
     brand: "XLR8",
     tags: ["ssd", "1tera", "interne", "m2", "boitier",  "disque dur", "storage",  "pc", "ordinateur", "fixe",  "portable",  "laptop", "windows",  "mac",  "linux",  "data", "backup", "save", "fast", "reliable", "high performance", "durable",  "efficient",  "storage solution", "internal storage",  "m.2 ssd",  "hard drive",  "computer storage", "data storage", "file storage",  "system drive",  "gaming ssd",  "professional storage",  "workstation storage",  "enterprise storage"],
-    image: "./images/stockage/disk.webp",
+    image: "./IMG/DISQUE DUR INTERNE 1TERA/1.jpg",
     details: [
       "Neuf",
       "Noir",
@@ -1889,7 +1887,7 @@ export const PRODUCTS: Product[] = [
     subcategory: "RAM",
     brand: "Crucial",
     tags: ["ram", "8go", "16go", "32go", "ddr4", "memory", "storage",  "pc", "ordinateur", "fixe",  "portable",  "laptop", "windows",  "mac",  "linux",  "data", "backup", "save", "fast", "reliable", "high performance", "durable",  "efficient",  "storage solution", "ram module",  "ddr4 ram",  "computer memory", "data storage", "file storage",  "system memory",  "gaming ram",  "professional memory",  "workstation memory",  "enterprise memory"],
-    image: "./images/stockage/ram.jpg",
+    image: "./IMG/BARRETTE PORTABLE8, 16 et 32GO DDR4/1.jpg",
     details: [
       "Neuf",
       "Vert",
@@ -1908,7 +1906,7 @@ export const PRODUCTS: Product[] = [
     subcategory: "Accessoires",
     brand: "WIWU",
     tags: ["ram", "8go", "16go", "32go", "ddr4", "memory", "storage",  "pc", "ordinateur", "fixe",  "portable",  "laptop", "windows",  "mac",  "linux",  "data", "backup", "save", "fast", "reliable", "high performance", "durable",  "efficient",  "storage solution", "ram module",  "ddr4 ram",  "computer memory", "data storage", "file storage",  "system memory",  "gaming ram",  "professional memory",  "workstation memory",  "enterprise memory"],
-    image: "./images/stockage/adaptateur.jpg",
+    image: "./IMG/ADAPTATEUR APHA 11en1/1.jpg",
     details: [
       "Neuf",
       "Noir",
@@ -1925,7 +1923,7 @@ export const PRODUCTS: Product[] = [
     subcategory: "Accessoires",
     brand: "RoHS",
     tags: ["ram", "8go", "16go", "32go", "ddr4", "memory", "storage",  "pc", "ordinateur", "fixe",  "portable",  "laptop", "windows",  "mac",  "linux",  "data", "backup", "save", "fast", "reliable", "high performance", "durable",  "efficient",  "storage solution", "ram module",  "ddr4 ram",  "computer memory", "data storage", "file storage",  "system memory",  "gaming ram",  "professional memory",  "workstation memory",  "enterprise memory"],
-    image: "./images/stockage/graphique.webp",
+    image: "./IMG/CARTE GRAPHIQUE 2GO/1.jpg",
     details: [
       "Réconditionné",
       "Noir",
@@ -1943,7 +1941,7 @@ export const PRODUCTS: Product[] = [
     subcategory: "Disques internes",
     brand: "GX2",
     tags: ["ssd", "sata", "disque dur", "storage",  "pc", "ordinateur", "fixe",  "portable",  "laptop", "windows",  "mac",  "linux",  "data", "backup", "save", "fast", "reliable", "high performance", "durable",  "efficient",  "storage solution", "internal ssd",  "sata hdd",  "hard drive",  "computer storage", "data storage", "file storage",  "system drive",  "gaming ssd",  "professional storage",  "workstation storage",  "enterprise storage"],
-    image: "./images/stockage/sata.webp",
+    image: "./IMG/Disque SSD Interne et Sata Interne/1.jpg",
     details: [
       "Réconditionné",
       "Noir",
@@ -1961,7 +1959,7 @@ export const PRODUCTS: Product[] = [
     subcategory: "Clé USB",
     brand: "MicroSD Cards",
     tags: ["ssd", "sata", "disque dur", "storage",  "pc", "ordinateur", "fixe",  "portable",  "laptop", "windows",  "mac",  "linux",  "data", "backup", "save", "fast", "reliable", "high performance", "durable",  "efficient",  "storage solution", "internal ssd",  "sata hdd",  "hard drive",  "computer storage", "data storage", "file storage",  "system drive",  "gaming ssd",  "professional storage",  "workstation storage",  "enterprise storage"],
-    image: "./images/stockage/cle.jpg",
+    image: "./IMG/CLES USB ET CARTE MEMOIRE MICRO SD DE 2GO A 32 GIGA/1.jpg",
     details: [
       "Réconditionné",
       "Noir",
@@ -1981,7 +1979,7 @@ export const PRODUCTS: Product[] = [
     subcategory: "Sécurite",
     brand: "cable",
     tags: ["cable","Sécurité","ordinateur"],
-    image: "./images/network/cable.webp",
+    image: "./IMG/CABLE DE SECURITE POUR ORDINATEUR PORTABLE/1.jpg",
     desc:"Câble de sécurité antivol pour ordinateur plusieurs types de portables\n"
   +"Il existe désormais un câble antivol à combinaison qui fait tout. \n"+
   " Le verrou universel pour ordinateur portable à combinaison 3 en 1 \n"+
@@ -2006,7 +2004,7 @@ export const PRODUCTS: Product[] = [
       subcategory: "Office 19 actif",
       brand: "Microsoft",
       tags: ["windows", "licence", "office", "word", "excel", "powerpoint"],
-      image: "./images/licences/l1.webp",
+      image: "./IMG/LICENECE MICROSOFT OFFICE 2019/2.jfif",
       details: ["Neuf", "Gris", "Microsoft"],
       desc: "NOUS VENDONS DES LICENCES MICROSOFT OFFICE 2019 (1)POSTE\n"
           + "AU DELÀ DE CINQ (5) RÉDUCTION POSSIBLE."
@@ -2020,7 +2018,7 @@ export const PRODUCTS: Product[] = [
     subcategory: "Windows 11 pro",
     brand: "Microsoft",
     tags: ["windows", "licence"],
-    image: "./images/licences/l3.jpg",
+    image: "./IMG/Windows 11 Pro Licence activation À Vie/1.jfif",
       details: ["Neuf", "Gris, Noir", "Microsoft"],
       desc: "Produit Windows 11 Pro officiel\n"
          + "Microsoft Online Update.\n"
@@ -2038,7 +2036,7 @@ export const PRODUCTS: Product[] = [
         subcategory: "Windows 10 pro",
         brand: "Microsoft",
         tags: ["windows", "licence"],
-        image: "./images/licences/l2.webp",
+        image: "./IMG/LICENCE WINDOWS 10 PROFESSIONNEL/1.jfif",
         details: ["Neuf", "Gris", "Microsoft"],
         desc: "NOUS VENDONS DES LICENCES WINDOWS 10 PROFESSIONNEL POUR UN (1) POSTE.\n"
             + "AU DELÀ DE CINQ (5) RÉDUCTION POSSIBLE."
