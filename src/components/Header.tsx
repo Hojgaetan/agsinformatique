@@ -38,28 +38,41 @@ export function Header() {
 
           {/* Desktop Navigation */}
           <nav className="hidden md:flex items-center space-x-6">
-            <Button asChild>
-              <a
-                href="https://wa.me/221773870030"
-                target="_blank"
-                rel="noopener noreferrer"
-                aria-label="Contactez-nous sur WhatsApp"
-                // Fallback inline styles to guarantee visible green background
-                style={{
-                  backgroundColor: "#25D366",
-                  color: "#fff",
-                  display: "inline-flex",
-                  alignItems: "center",
-                  gap: "0.5rem",
-                  padding: "0.5rem 1rem",
-                  borderRadius: "0.375rem",
-              }}
-                className="text-white"
-              >
-                <FaWhatsapp size={16} />
-                <span>WhatsApp</span>
-              </a>
-            </Button>
+            <style>
+{`
+@keyframes wiggle {
+  0%, 100% { transform: translateX(0); }
+  25% { transform: translateX(-5px); }
+  75% { transform: translateX(5px); }
+}
+.wiggle {
+  animation: wiggle 1s ease-in-out infinite;
+}
+`}
+</style>
+
+          <Button asChild>
+  <a
+    href="https://wa.me/221773870030"
+    target="_blank"
+    rel="noopener noreferrer"
+    aria-label="Contactez-nous sur WhatsApp"
+    style={{
+      backgroundColor: "#25D366",
+      color: "#fff",
+      display: "inline-flex",
+      alignItems: "center",
+      gap: "0.5rem",
+      padding: "0.5rem 1rem",
+      borderRadius: "0.375rem",
+    }}
+    className="text-white wiggle"
+  >
+    <FaWhatsapp size={16} />
+    <span>WhatsApp</span>
+  </a>
+</Button>
+
           </nav>
 
           {/* Mobile menu button */}
