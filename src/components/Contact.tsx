@@ -7,26 +7,28 @@ export function Contact() {
     {
       icon: <MapPin className="h-6 w-6 text-blue-600" />,
       title: "Adresse",
-      content: "54x65 Geule Tapée Résidence Cheikh Bamba NDIONGUE ",
-      description: "Siège social"
+      content: "Axe immeuble Diez (M. DelaFosse) vers rue 6 prolongée \n" +
+          "54x65 Gueule Tapée Résidence Cheikh Bamba NDIONGUE ",
+      description: "Bureaux"
     },
     {
       icon: <Phone className="h-6 w-6 text-green-600" />,
       title: "Téléphone",
-      content: "+221 77 387 00 30\n 33 822 63 67",
-      description: "Support 24h/6j"
+      content: "+221 77 387 00 30\n +221 33 822 63 67\n" +
+          "+221 77 671 96 95\n +221 76 835 74 43",
+      description: "Numéros d'urgence",
     },
     {
       icon: <Mail className="h-6 w-6 text-purple-600" />,
       title: "Email",
-      content: "contact@africasglobalservices.sn",
+      content: "contact@agsinformatique.sn",
       description: "Réponse sous 24h"
     },
     {
       icon: <Clock className="h-6 w-6 text-orange-600" />,
       title: "Horaires",
-      content: "Lun - Ven: 8h00 - 18h00\nSam: 8h00 - 13h00",
-      description: "Fermé les dimanches"
+      content: "Lun - Ven: 10h00 - 18h00\nSam: 12h00 - 17h00",
+      description: "Fermé les dimanches et jours fériés"
     }
   ];
 
@@ -75,7 +77,7 @@ export function Contact() {
             {/* Actions rapides */}
 <div className="mt-12 text-center">
   <h4 className="text-lg md:text-xl font-semibold text-gray-900 mb-6">
-    Discuter avec nos experts
+    Discuter avec nous
   </h4>
 
   <div className="flex flex-col sm:flex-row justify-center items-center gap-4 md:gap-6">
