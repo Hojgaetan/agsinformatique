@@ -151,7 +151,7 @@ export function Footer() {
         <div className="flex flex-col md:flex-row justify-between items-center gap-6">
           <div className="text-gray-400 text-sm">
          © 2025 Africa’s Global Services.<br></br> Tous droits réservés.
-        Fournusseur de solutions numériques.
+        Fournisseur de solutions numériques.
           </div>
 
           {/* Légal Links */}
