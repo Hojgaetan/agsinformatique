@@ -9,7 +9,7 @@
 
 > Site web professionnel pour Africa's Global Services - Votre partenaire de confiance pour tous vos besoins informatiques à Dakar.
 
-![Aperçu du site](/public/images/imagebanniere.png)
+![Aperçu du site AGS Informatique](/public/images/imagebanniere.png)
 
 ## But et objectifs du site
 
