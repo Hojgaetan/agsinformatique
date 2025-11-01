@@ -92,7 +92,7 @@ export const PRODUCTS: Product[] = [
     brand: "Dell",
     details: ["Réconditionné","ROUGE, NOIR, JAUNE, GRISE, BLEU,...", "Dell","128GO", "4GO", "Intel"],
     tags: ["bureau","portable","tactile"],
-    image: "/images/ordinateurDELL/X360 DELL TACTILE.png",
+    image: "./IMG//HP X360 DELL TACTILE/2.jpg",
     desc: " Dell 3190\n"+
     "Disque dur 128 giga ssd\n"+ "Mémoire Ram 4giga\n"+ "Ecran 11.6 Pouces convertible x360\n"+ "Dell 3190 disponible avec 8go 256 ssd\n"+ "Port type C,2usb, Rj45, support carte mémoire,hdmi,2port usb...\n"+ "Tablette avec écran tactile en même temps\n"+ "très léger pour étudiants et professionnels"
   },
@@ -749,7 +749,7 @@ export const PRODUCTS: Product[] = [
         subcategory: "Laptops",
         brand: "HP",
         tags: ["laptop", "hp", "windows"],
-        image: "./IMG/HP X360 DELL TACTILE/1.webp",
+         image: "./IMG//HP X360 DELL TACTILE/1.jpg",
         details: [       
             "Réconditionné",
             "Rouge, NOir, Jaune, Grise, Bleu.....",
