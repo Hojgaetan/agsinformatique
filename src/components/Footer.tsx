@@ -165,7 +165,7 @@ export function Footer() {
 
             <div className="flex gap-6 text-sm text-gray-400">
               <a
-                href="https://web.facebook.com/profile"
+                href="https://www.facebook.com/profile.php?id=61551308024960&locale=fr_FR"
                 target="_blank"
                 className="bg-gray-800 p-2 rounded-lg hover:bg-blue-600 transition-colors"
                 style={{ backgroundColor: "#0866FF" }}
