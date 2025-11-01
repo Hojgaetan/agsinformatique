@@ -1,6 +1,7 @@
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "./ui/card";
 import { ImageWithFallback } from "./figma/ImageWithFallback";
 import { ShoppingCart, Wrench, Network, Settings, Headphones, Laptop } from "lucide-react";
+import { motion, Variants, Transition, easeInOut } from "framer-motion";
 
 export function Services() {
   const services = [
@@ -22,7 +23,7 @@ export function Services() {
       icon: <Network className="h-8 w-8 text-purple-600" />,
       title: "Réseaux & Câblage",
       description: "Conception, installation et maintenance de réseaux informatiques et infrastructure de câblage.",
-      image: "https://images.unsplash.com/photo-1629837093109-11325d6e7afd?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxuZXR3b3JrJTIwY2FibGVzJTIwc2VydmVyJTIwcm9vbXxlbnwxfHx8fDE3NTkyNDY4MjZ8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
+      image: "/images/Réseaux.png",
       features: ["Câblage structuré", "Configuration de routeurs", "Réseaux Wi-Fi", "Sécurité réseau"]
     },
     {
@@ -48,6 +49,25 @@ export function Services() {
     }
   ];
 
+  // Variants pour l'animation des cartes
+  const cardVariants = (index: number): Variants => ({
+    hidden: {
+      opacity: 0,
+      x: index % 3 === 0 ? -50 : index % 3 === 1 ? 50 : 0,
+      y: index % 3 === 2 ? 50 : 0
+    },
+    visible: {
+      opacity: 1,
+      x: 0,
+      y: 0,
+      transition: {
+        duration: 0.6,
+        delay: index * 0.15,
+        ease: easeInOut
+      }
+    }
+  });
+
   return (
     <section id="services" className="py-20 bg-gray-50">
       <div className="container mx-auto px-4">
@@ -63,36 +83,44 @@ export function Services() {
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {services.map((service, index) => (
-            <Card key={index} className="group hover:shadow-xl transition-all duration-300 overflow-hidden">
-              <div className="relative h-48 overflow-hidden">
-                <ImageWithFallback
-                  src={service.image}
-                  alt={service.title}
-                  className="w-full h-full object-contain group-hover:scale-110 transition-transform duration-300"
-                />
-                <div className="absolute top-4 left-4 bg-white p-3 rounded-full shadow-lg">
-                  {service.icon}
+            <motion.div
+              key={index}
+              initial="hidden"
+              whileInView="visible"
+              viewport={{ once: true, amount: 0.3 }}
+              variants={cardVariants(index)}
+            >
+              <Card className="group hover:shadow-xl transition-all duration-300 overflow-hidden">
+                <div className="relative h-48 overflow-hidden">
+                  <ImageWithFallback
+                    src={service.image}
+                    alt={service.title}
+                    className="w-full h-full object-contain group-hover:scale-110 transition-transform duration-300"
+                  />
+                  <div className="absolute top-4 left-4 bg-white p-3 rounded-full shadow-lg">
+                    {service.icon}
+                  </div>
                 </div>
-              </div>
-              
-              <CardHeader>
-                <CardTitle className="text-xl">{service.title}</CardTitle>
-                <CardDescription className="text-gray-600">
-                  {service.description}
-                </CardDescription>
-              </CardHeader>
-              
-              <CardContent>
-                <ul className="space-y-2">
-                  {service.features.map((feature, featureIndex) => (
-                    <li key={featureIndex} className="flex items-center text-sm text-gray-600">
-                      <div className="w-2 h-2 bg-blue-600 rounded-full mr-3 flex-shrink-0"></div>
-                      {feature}
-                    </li>
-                  ))}
-                </ul>
-              </CardContent>
-            </Card>
+                
+                <CardHeader>
+                  <CardTitle className="text-xl">{service.title}</CardTitle>
+                  <CardDescription className="text-gray-600">
+                    {service.description}
+                  </CardDescription>
+                </CardHeader>
+                
+                <CardContent>
+                  <ul className="space-y-2">
+                    {service.features.map((feature, featureIndex) => (
+                      <li key={featureIndex} className="flex items-center text-sm text-gray-600">
+                        <div className="w-2 h-2 bg-blue-600 rounded-full mr-3 flex-shrink-0"></div>
+                        {feature}
+                      </li>
+                    ))}
+                  </ul>
+                </CardContent>
+              </Card>
+            </motion.div>
           ))}
         </div>
       </div>
