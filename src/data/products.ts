@@ -794,7 +794,7 @@ export const PRODUCTS: Product[] = [
         price: 45000,
         stock: "En stock",
         category: "computers",
-        subcategory: "Laptops",
+        subcategory: "Ordinateurs de bureau",
         brand: "HP",
         tags: ["laptop", "hp", "windows"],
         image: "./IMG/CORE I3 AVEC ECRAN 19 à 22 POUCES/1.jpg",
