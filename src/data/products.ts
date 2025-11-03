@@ -622,7 +622,7 @@ export const PRODUCTS: Product[] = [
         subcategory: "Ordinateurs de bureau",
         brand: "HP",
         tags: ["desktop", "hp", "windows", "all-in-one", "écran", "bureau", "portable"],
-        image: "./images/HP/hp4.webp",
+        image: "./IMG/Ordinateur Core i5 ou I7 Ecran 19 à 22 pouces/1.jfif",
         details: [
             "Réconditionné",
             "Noir",
@@ -700,7 +700,7 @@ export const PRODUCTS: Product[] = [
         subcategory: "Ordinateurs de bureau",
         brand: "HP",
         tags: ["desktop", "hp", "windows", "ssd", "core i5", "écran 19 à 22 pouces"],
-        image: "./IMG/ecran/CORE I3  I5 I7 AVEC ECRAN 19 à 22 pouces/3.jpg",
+        image: "./IMG/CORE I3  I5 I7 AVEC ECRAN 19 à 22 pouces/1.jpg",
         details: [
             "D'Occasion",
             "Gris Noir",
